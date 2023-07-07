@@ -17,7 +17,7 @@ graph.parse(source=ontology_file, format="ttl")
 namespace = Namespace("http://www.ontology/ns/foo/1.1#")
 namespace1 = Namespace("http://www.w3.org/ns/sosa/")
 
-# ... (RML mapping code)
+# RML mapping code
 # Iterate over the CSV file and map the data to RDF triples
 with open(csv_file, 'r') as file:
     # Skip the header row if present
