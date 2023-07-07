@@ -14,17 +14,13 @@
 
 map:map_person_000 rml:logicalSource map:source_000 ;
 	rdf:type rr:TriplesMap ;
-	rdfs:label "person" ;
+	rdfs:label "Observation" ;
 	rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003, map:pom_004, map:pom_005, map:pom_006, map:pom_007, map:pom_008, map:pom_009, map:pom_010, map:pom_011, map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016 ;
 	rr:subjectMap map:s_000 .
 
 map:om_000 rdf:type rr:ObjectMap ;
 	rr:constant "http://www.w3.org/ns/sosa/Observation" ;
 	rr:termType rr:IRI .
-
-map:om_001 rml:reference "Site" ;
-	rdf:type rr:ObjectMap ;
-	rr:termType rr:Literal .
 
 map:om_002 rml:reference "Site" ;
 	rdf:type rr:ObjectMap ;
@@ -35,10 +31,6 @@ map:om_003 rml:reference "Land_Use" ;
 	rr:termType rr:Literal .
 
 map:om_004 rml:reference "Plot_Name" ;
-	rdf:type rr:ObjectMap ;
-	rr:termType rr:Literal .
-
-map:om_005 rml:reference "Plot_Name" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
