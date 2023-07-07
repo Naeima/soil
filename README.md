@@ -1,26 +1,29 @@
-# Soil Sensor Data
+## Soil Sensor Data
 The data consist of soil characteristics and nutrients for tropical forests in Sabah, Malaysia, both unlogged and logged. Soil properties (ID, Site, LandUse, PlotName, Subplot, Horizon, pH, TotalC, TotalN, TotalP, inorganicP, C-N, Sand, Silt, Clay) extracted from buried ion exchange membranes and soil nutrients (Identifier, Site, LandUse, PlotName, Subplot, NO3N, NH4N, TotalN, Ca, Mg, K, P, Fe, Mn Cu, Zn, B This data is a contribution from the BALI collaboration, which is financed by the UK’s Natural Environment Research Council (NERC). Modelled datasets in this study can be found at (https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/Soil-Data-v1.0.0).
 The knowledge graph was created using RML as shown below. 
 '''python from rdflib import Graph, plugin
 from rdflib.parser import Parser
 from rdflib import URIRef, Literal, Graph, RDF, Namespace
 
-% Set the paths to your CSV file and the ontology file
-csv_file = "SoilNu.csv"  # Replace with the data source 
-ontology_file = "foo.ttl" # Replace with the ontology
+#Set the paths to your CSV file and the ontology file.
 
-% Create an RDF graph
+csv_file = "SoilNu.csv"  # Replace with the data source.
+
+ontology_file = "foo.ttl" # Replace with the ontology.
+
+
+# Create an RDF graph
 graph = Graph()
 
-% Load the ontology into the graph
+# Load the ontology into the graph
 graph.parse(source=ontology_file, format="ttl")
 
-% Set the namespace for your ontology
+# Set the namespace for your ontology
 namespace = Namespace("http://www.ontology/ns/foo/1.1#")
 namespace1 = Namespace("http://www.w3.org/ns/sosa/")
 
-% (RML mapping code)
-% Iterate over the CSV file and map the data to RDF triples
+# (RML mapping code)
+# Iterate over the CSV file and map the data to RDF triples.
 with open(csv_file, 'r') as file:
     % Skip the header row if present
     next(file)
@@ -52,10 +55,10 @@ with open(csv_file, 'r') as file:
         column20 = columns[19]
         column21 = columns[20]
 
-        % Create subject URI
+        # Create subject URI
         subject_uri = URIRef(namespace + column1)
 
-        % Add triples to the graph
+        # Add triples to the graph
         graph.add((subject_uri, RDF.type, namespace1.Observation))  # Replace with the appropriate class from your ontology
         graph.add((subject_uri, namespace.Site, Literal(column2)))  # Replace with the appropriate predicate from your ontology
         graph.add((subject_uri, namespace.Land_Use, Literal(column3)))
@@ -78,6 +81,6 @@ with open(csv_file, 'r') as file:
         graph.add((subject_uri, namespace.AI, Literal(column20)))
         graph.add((subject_uri, namespace.Cd, Literal(column21)))
 
-% Save the resulting knowledge graph to a file
+# Save the resulting knowledge graph to a file
 output_file = "SoilKG.rdf"
 graph.serialize(destination=output_file, format="ttl")'''
