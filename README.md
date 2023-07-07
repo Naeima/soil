@@ -5,32 +5,31 @@ The knowledge graph was created using RML as shown below.
 from rdflib.parser import Parser
 from rdflib import URIRef, Literal, Graph, RDF, Namespace
 
-
-# Set the paths to your CSV file and the ontology file
+% Set the paths to your CSV file and the ontology file
 csv_file = "SoilNu.csv"  # Replace with the data source 
 ontology_file = "foo.ttl" # Replace with the ontology
 
-# Create an RDF graph
+% Create an RDF graph
 graph = Graph()
 
-# Load the ontology into the graph
+% Load the ontology into the graph
 graph.parse(source=ontology_file, format="ttl")
 
-# Set the namespace for your ontology
+% Set the namespace for your ontology
 namespace = Namespace("http://www.ontology/ns/foo/1.1#")
 namespace1 = Namespace("http://www.w3.org/ns/sosa/")
 
-# ... (RML mapping code)
-# Iterate over the CSV file and map the data to RDF triples
+% (RML mapping code)
+% Iterate over the CSV file and map the data to RDF triples
 with open(csv_file, 'r') as file:
-    # Skip the header row if present
+    % Skip the header row if present
     next(file)
 
     for line in file:
-        # Split the CSV line into columns
+        % Split the CSV line into columns
         columns = line.strip().split(',')
 
-        # Extract column values (modify as per your CSV structure)
+        % Extract column values (modify as per your CSV structure)
         column1 = columns[0]
         column2 = columns[1]
         column3 = columns[2]
@@ -53,10 +52,10 @@ with open(csv_file, 'r') as file:
         column20 = columns[19]
         column21 = columns[20]
 
-        # Create subject URI
+        % Create subject URI
         subject_uri = URIRef(namespace + column1)
 
-        # Add triples to the graph
+        % Add triples to the graph
         graph.add((subject_uri, RDF.type, namespace1.Observation))  # Replace with the appropriate class from your ontology
         graph.add((subject_uri, namespace.Site, Literal(column2)))  # Replace with the appropriate predicate from your ontology
         graph.add((subject_uri, namespace.Land_Use, Literal(column3)))
@@ -79,6 +78,6 @@ with open(csv_file, 'r') as file:
         graph.add((subject_uri, namespace.AI, Literal(column20)))
         graph.add((subject_uri, namespace.Cd, Literal(column21)))
 
-# Save the resulting knowledge graph to a file
+% Save the resulting knowledge graph to a file
 output_file = "SoilKG.rdf"
 graph.serialize(destination=output_file, format="ttl")'''
