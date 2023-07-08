@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns/graphml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/graphml http://www.yworks.com/xml/schema/graphml/1.0/ygraphml.xsd">
+   <key for="node" id="d0" yfiles.type="nodegraphics" />
+   <key attr.name="description" attr.type="string" for="node" id="d1" />
+   <key for="edge" id="d2" yfiles.type="edgegraphics" />
+   <key attr.name="description" attr.type="string" for="edge" id="d3" />
+   <key for="graphml" id="d4" yfiles.type="resources" />
+   <graph edgedefault="directed" id="G" parse.edges="42" parse.nodes="44" parse.order="free">
+      <node id="nid_:Platform">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="90.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Platform</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_owl:Thing">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="90.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">owl:Thing</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf0" source="nid_:Platform" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Image">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="60.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Image</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf1" source="nid_:Image" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Elephantidae">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="130.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Elephantidae</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_:Family">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="70.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Family</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf2" source="nid_:Elephantidae" target="nid_:Family">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Kingdom">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="80.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Kingdom</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_:TaxonRank">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="100.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:TaxonRank</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf3" source="nid_:Kingdom" target="nid_:TaxonRank">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Mammalia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="90.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Mammalia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_:Class">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="60.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Class</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf4" source="nid_:Mammalia" target="nid_:Class">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Viverridae">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="110.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Viverridae</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf5" source="nid_:Viverridae" target="nid_:Family">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Reptilia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="90.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Reptilia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf6" source="nid_:Reptilia" target="nid_:Class">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Point">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="60.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Point</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_:SpatialThing">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="130.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:SpatialThing</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf7" source="nid_:Point" target="nid_:SpatialThing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://web.resource.org/cc/Prohibition">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="380.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://web.resource.org/cc/Prohibition</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf8" source="nid_http://web.resource.org/cc/Prohibition" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Policy">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="70.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Policy</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf9" source="nid_:Policy" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:FreshwaterHabitat">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="180.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:FreshwaterHabitat</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_:Habitat">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="80.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Habitat</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf10" source="nid_:FreshwaterHabitat" target="nid_:Habitat">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Frequency">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="100.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Frequency</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf11" source="nid_:Frequency" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://purl.org/ontology/wo/TaxonName/Civettictis">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="490.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://purl.org/ontology/wo/TaxonName/Civettictis</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_:TaxonName">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="100.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:TaxonName</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf12" source="nid_http://purl.org/ontology/wo/TaxonName/Civettictis" target="nid_:TaxonName">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://web.resource.org/cc/Requirement">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="380.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://web.resource.org/cc/Requirement</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf13" source="nid_http://web.resource.org/cc/Requirement" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://purl.org/ontology/wo/Kingdom/Animalia">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="440.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://purl.org/ontology/wo/Kingdom/Animalia</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf14" source="nid_http://purl.org/ontology/wo/Kingdom/Animalia" target="nid_:Kingdom">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Species">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="80.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Species</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf15" source="nid_:Species" target="nid_:TaxonRank">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:TerrestrialHabitat">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="190.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:TerrestrialHabitat</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf16" source="nid_:TerrestrialHabitat" target="nid_:Habitat">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://web.resource.org/cc/Work">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="310.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://web.resource.org/cc/Work</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf17" source="nid_http://web.resource.org/cc/Work" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Sensor">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="70.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Sensor</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf18" source="nid_:Sensor" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Phylum">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="70.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Phylum</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf19" source="nid_:Phylum" target="nid_:TaxonRank">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:MarineHabitat">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="140.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:MarineHabitat</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf20" source="nid_:MarineHabitat" target="nid_:Habitat">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf21" source="nid_:SpatialThing" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:PhysicalResource">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="170.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:PhysicalResource</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf22" source="nid_:PhysicalResource" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Order">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="60.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Order</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf23" source="nid_:Order" target="nid_:TaxonRank">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://web.resource.org/cc/License">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="340.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://web.resource.org/cc/License</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_:LicenseDocument">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="160.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:LicenseDocument</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf24" source="nid_http://web.resource.org/cc/License" target="nid_:LicenseDocument">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:ProvenanceStatement">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="200.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:ProvenanceStatement</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf25" source="nid_:ProvenanceStatement" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf26" source="nid_:Class" target="nid_:TaxonRank">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Observation">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="120.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Observation</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf27" source="nid_:Observation" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf28" source="nid_:Family" target="nid_:TaxonRank">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Person">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="70.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Person</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf29" source="nid_:Person" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Chordata">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="90.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Chordata</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf30" source="nid_:Chordata" target="nid_:Phylum">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Carnivora">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="100.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Carnivora</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf31" source="nid_:Carnivora" target="nid_:Order">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:FeatureOfInterest">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="180.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:FeatureOfInterest</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf32" source="nid_:FeatureOfInterest" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf33" source="nid_:Habitat" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf34" source="nid_:TaxonName" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Squamata">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="90.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Squamata</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf35" source="nid_:Squamata" target="nid_:Order">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf36" source="nid_:TaxonRank" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:ObservableProperty">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="190.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:ObservableProperty</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf37" source="nid_:ObservableProperty" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Proboscidea">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="120.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Proboscidea</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf38" source="nid_:Proboscidea" target="nid_:Order">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://www.w3.org/2001/XMLSchema-datatypes#date">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="470.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.w3.org/2001/XMLSchema-datatypes#date</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf39" source="nid_http://www.w3.org/2001/XMLSchema-datatypes#date" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://purl.org/ontology/wo/TaxonName/Loxodonta">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="470.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://purl.org/ontology/wo/TaxonName/Loxodonta</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf40" source="nid_http://purl.org/ontology/wo/TaxonName/Loxodonta" target="nid_:TaxonName">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_:Genus">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="60.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Genus</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf41" source="nid_:Genus" target="nid_:TaxonRank">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+   </graph>
+</graphml>
