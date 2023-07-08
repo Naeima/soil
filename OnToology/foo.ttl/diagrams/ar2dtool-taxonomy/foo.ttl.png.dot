@@ -1,0 +1,48 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; ":FeatureOfInterest" "http://web.resource.org/cc/Prohibition" ":Mammalia" "http://web.resource.org/cc/License" ":PhysicalResource" ":LicenseDocument" ":Phylum" ":Order" ":Family" "http://web.resource.org/cc/Work" ":Person" ":Habitat" "http://purl.org/ontology/wo/Kingdom/Animalia" ":Proboscidea" ":Policy" ":Platform" ":Reptilia" ":Carnivora" ":SpatialThing" ":MarineHabitat" ":Observation" "http://www.w3.org/2001/XMLSchema-datatypes#date" ":Chordata" ":ProvenanceStatement" ":TaxonName" ":ObservableProperty" "http://web.resource.org/cc/Requirement" ":Squamata" ":Elephantidae" ":Species" ":Sensor" ":Image" ":Viverridae" ":TaxonRank" ":Genus" ":Frequency" "http://purl.org/ontology/wo/TaxonName/Civettictis" ":TerrestrialHabitat" ":Class" ":Point" ":Kingdom" "http://purl.org/ontology/wo/TaxonName/Loxodonta" ":FreshwaterHabitat" ; /*classes style*/
+	":Platform" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":Image" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":Elephantidae" -> ":Family" [ label = "rdfs:subClassOf" ];
+	":Kingdom" -> ":TaxonRank" [ label = "rdfs:subClassOf" ];
+	":Mammalia" -> ":Class" [ label = "rdfs:subClassOf" ];
+	":Viverridae" -> ":Family" [ label = "rdfs:subClassOf" ];
+	":Reptilia" -> ":Class" [ label = "rdfs:subClassOf" ];
+	":Point" -> ":SpatialThing" [ label = "rdfs:subClassOf" ];
+	"http://web.resource.org/cc/Prohibition" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":Policy" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":FreshwaterHabitat" -> ":Habitat" [ label = "rdfs:subClassOf" ];
+	":Frequency" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"http://purl.org/ontology/wo/TaxonName/Civettictis" -> ":TaxonName" [ label = "rdfs:subClassOf" ];
+	"http://web.resource.org/cc/Requirement" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"http://purl.org/ontology/wo/Kingdom/Animalia" -> ":Kingdom" [ label = "rdfs:subClassOf" ];
+	":Species" -> ":TaxonRank" [ label = "rdfs:subClassOf" ];
+	":TerrestrialHabitat" -> ":Habitat" [ label = "rdfs:subClassOf" ];
+	"http://web.resource.org/cc/Work" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":Sensor" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":Phylum" -> ":TaxonRank" [ label = "rdfs:subClassOf" ];
+	":MarineHabitat" -> ":Habitat" [ label = "rdfs:subClassOf" ];
+	":SpatialThing" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":PhysicalResource" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":Order" -> ":TaxonRank" [ label = "rdfs:subClassOf" ];
+	"http://web.resource.org/cc/License" -> ":LicenseDocument" [ label = "rdfs:subClassOf" ];
+	":ProvenanceStatement" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":Class" -> ":TaxonRank" [ label = "rdfs:subClassOf" ];
+	":Observation" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":Family" -> ":TaxonRank" [ label = "rdfs:subClassOf" ];
+	":Person" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":Chordata" -> ":Phylum" [ label = "rdfs:subClassOf" ];
+	":Carnivora" -> ":Order" [ label = "rdfs:subClassOf" ];
+	":FeatureOfInterest" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":Habitat" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":TaxonName" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":Squamata" -> ":Order" [ label = "rdfs:subClassOf" ];
+	":TaxonRank" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":ObservableProperty" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	":Proboscidea" -> ":Order" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/2001/XMLSchema-datatypes#date" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"http://purl.org/ontology/wo/TaxonName/Loxodonta" -> ":TaxonName" [ label = "rdfs:subClassOf" ];
+	":Genus" -> ":TaxonRank" [ label = "rdfs:subClassOf" ];
+
+}
