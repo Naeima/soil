@@ -1,16 +1,20 @@
-@prefix : <http://www.ontology/ns/foo#> .
-@prefix foo: <http://www.ontology/ns/foo/1.1#> .
-@prefix iot-lite: <http://purl.oclc.org/NET/UNIS/fiware/iot-lite#> .
-@prefix metadata: <http://data.bioontology.org/metadata/> .
+@prefix foo: <https://w3id.org/def/foo#> .
 @prefix ns: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix wo: <https://www.bbc.co.uk/ontologies/wildlife-ontology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix terms: <http://purl.org/dc/terms/> .
-@prefix wo: <https://www.bbc.co.uk/ontologies/wildlife-ontology/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix iot-lite: <http://purl.oclc.org/NET/UNIS/fiware/iot-lite#> .
+@prefix metadata: <http://data.bioontology.org/metadata/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@base <https://w3id.org/def/foo#> .
 
 metadata:prefixIRI a owl:AnnotationProperty .
 
@@ -71,7 +75,7 @@ schema:rangeIncludes a owl:AnnotationProperty .
 : a owl:Ontology ;
     owl:versionIRI foo: .
 
-<http://www.ontology/ns/foo/1.1#C:P> a owl:DatatypeProperty,
+<https://w3id.org/def/foo#C:P> a owl:DatatypeProperty,
         owl:NamedIndividual,
         sosa:ObservableProperty ;
     rdfs:domain sosa:ObservableProperty ;
@@ -1946,8 +1950,8 @@ foo:Soil_Sensor a owl:NamedIndividual,
 The data is a contribution from the BALI collaboration, which is financed by the UK's Natural Environment Research Council (NERC).""" ;
     sosa:hasFeatureOfInterest foo:Soil ;
     sosa:observedProperty foo:Bulk_Density,
-        <http://www.ontology/ns/foo/1.1#C:N>,
-        <http://www.ontology/ns/foo/1.1#C_:P>,
+        <https://w3id.org/def/foo#C:N>,
+        <https://w3id.org/def/foo#C_:P>,
         foo:Horizon,
         foo:Horizon_Depth,
         foo:Land_Use,
@@ -2158,13 +2162,13 @@ foo:timestamp a owl:NamedIndividual,
     sosa:resultTime "2014-04-12T13:20:00"^^xsd:dateTime .
 
 <http://www.schema.org/dgfc/Civets> a owl:NamedIndividual,
-        <https://www.bbc.co.uk/ontologies/wildlife-ontology/Family/Viverridae>,
-        <https://www.bbc.co.uk/ontologies/wildlife-ontology/Order/Carnivora>,
-        <https://www.bbc.co.uk/ontologies/wildlife-ontology/Phylum/Chordata> .
+        <https://www.bbc.co.uk/ontologies/wildlife-ontology#Family/Viverridae>,
+        <https://www.bbc.co.uk/ontologies/wildlife-ontology#Order/Carnivora>,
+        <https://www.bbc.co.uk/ontologies/wildlife-ontology#Phylum/Chordata> .
 
 <http://www.schema.org/dgfc/Otter> a owl:NamedIndividual,
-        <https://www.bbc.co.uk/ontologies/wildlife-ontology/Order/Carnivora>,
-        <https://www.bbc.co.uk/ontologies/wildlife-ontology/Phylum/Chordata> ;
+        <https://www.bbc.co.uk/ontologies/wildlife-ontology#Order/Carnivora>,
+        <https://www.bbc.co.uk/ontologies/wildlife-ontology#Phylum/Chordata> ;
     rdfs:comment "Otter is a carnivorous mammal." .
 
 <http://www.schema.org/dgfc/elephant#ABAW> a owl:NamedIndividual,
@@ -2651,12 +2655,12 @@ sosa:resultTime a owl:DatatypeProperty ;
 <http://xmlns.com/foaf/0.1/Person> a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
-<https://www.bbc.co.uk/ontologies/wildlife-ontology/Class/Mammalia> a owl:Class ;
+<https://www.bbc.co.uk/ontologies/wildlife-ontology#Class/Mammalia> a owl:Class ;
     rdfs:comment """The highest class of the subphylum Vertebrata comprising humans and all other animals that nourish their young with milk secreted by mammary glands.\r
 https://www.merriam-webster.com/dictionary/Elephantidae""" ;
     rdfs:subClassOf wo:Class .
 
-<https://www.bbc.co.uk/ontologies/wildlife-ontology/Family/Elephantidae> a owl:Class ;
+<https://www.bbc.co.uk/ontologies/wildlife-ontology#Family/Elephantidae> a owl:Class ;
     rdfs:comment """ELEPHANTIDAE is a family of bulky mammals (order Proboscidea) comprising the recent elephants and related extinct forms.\r
 Source: https://www.merriam-webster.com/dictionary/Elephantidae""" ;
     rdfs:subClassOf wo:Family .
@@ -2669,7 +2673,7 @@ wo:FreshwaterHabitat a owl:Class ;
     rdfs:subClassOf wo:Habitat ;
     ns:term_status "testing" .
 
-<https://www.bbc.co.uk/ontologies/wildlife-ontology/Kingdom/Animalia> a owl:Class ;
+<https://www.bbc.co.uk/ontologies/wildlife-ontology#Kingdom/Animalia> a owl:Class ;
     rdfs:comment """Animalia is the scientific grouping that includes all animals. Scientists, historians, and others classify similar things together, using a taxonomy.\r
 \r
 All members of the kingdom Animalia share three key traits. They are multicellular organisms, and they are all eukaryotic, meaning their cells have membrane-enclosed organelles and a nucleus. All animals are heterotrophic and must feed on other organisms to survive.\r
@@ -2684,15 +2688,15 @@ wo:MarineHabitat a owl:Class ;
     rdfs:subClassOf wo:Habitat ;
     ns:term_status "testing" .
 
-<https://www.bbc.co.uk/ontologies/wildlife-ontology/Order/Proboscidea> a owl:Class ;
+<https://www.bbc.co.uk/ontologies/wildlife-ontology#Order/Proboscidea> a owl:Class ;
     rdfs:comment """Any of an order (Proboscidea) of large mammals comprising the elephants and extinct related forms.\r
 https://www.merriam-webster.com/dictionary/proboscidean""" ;
     rdfs:subClassOf wo:Order .
 
-<https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonName/Civettictis> a owl:Class ;
+<https://www.bbc.co.uk/ontologies/wildlife-ontology#TaxonName/Civettictis> a owl:Class ;
     rdfs:subClassOf wo:TaxonName .
 
-<https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonName/Loxodonta> a owl:Class ;
+<https://www.bbc.co.uk/ontologies/wildlife-ontology#TaxonName/Loxodonta> a owl:Class ;
     rdfs:subClassOf wo:TaxonName .
 
 wo:TerrestrialHabitat a owl:Class ;
@@ -2921,11 +2925,11 @@ sosa:observes a owl:ObjectProperty ;
     rdfs:range sosa:FeatureOfInterest ;
     ns:term_status "testing" .
 
-<https://www.bbc.co.uk/ontologies/wildlife-ontology/Class/Reptilia> a owl:Class ;
+<https://www.bbc.co.uk/ontologies/wildlife-ontology#Class/Reptilia> a owl:Class ;
     rdfs:comment "Reptilia is a vertebrate animal of a class that includes snakes, lizards, crocodiles, turtles, and tortoises. They are distinguished by having a dry scaly skin and typically laying soft-shelled eggs on land." ;
     rdfs:subClassOf wo:Class .
 
-<https://www.bbc.co.uk/ontologies/wildlife-ontology/Family/Viverridae> a owl:Class ;
+<https://www.bbc.co.uk/ontologies/wildlife-ontology#Family/Viverridae> a owl:Class ;
     rdfs:isDefinedBy "Viverridae is a family of small to medium-sized, feliform mammals. The viverrids comprise 33 species placed in 14 genera. This family was named and first described by John Edward Gray in 1821. Viverrids occur all over Africa, southern Europe, and South and Southeast Asia, across the Wallace Line",
         "https://en.wikipedia.org/wiki/Viverridae" ;
     rdfs:subClassOf wo:Family .
@@ -2940,7 +2944,7 @@ wo:Genus a owl:Class ;
     rdfs:subClassOf wo:TaxonRank ;
     ns:term_status "testing" .
 
-<https://www.bbc.co.uk/ontologies/wildlife-ontology/Order/Squamata> a owl:Class ;
+<https://www.bbc.co.uk/ontologies/wildlife-ontology#Order/Squamata> a owl:Class ;
     rdfs:subClassOf wo:Order .
 
 wo:Species a owl:Class ;
@@ -2973,11 +2977,11 @@ foo:image a owl:NamedIndividual,
 
 <http://www.schema.org/dgfc/python> a owl:NamedIndividual,
         sosa:FeatureOfInterest,
-        <https://www.bbc.co.uk/ontologies/wildlife-ontology/Class/Reptilia>,
-        <https://www.bbc.co.uk/ontologies/wildlife-ontology/Order/Squamata>,
-        <https://www.bbc.co.uk/ontologies/wildlife-ontology/Phylum/Chordata> .
+        <https://www.bbc.co.uk/ontologies/wildlife-ontology#Class/Reptilia>,
+        <https://www.bbc.co.uk/ontologies/wildlife-ontology#Order/Squamata>,
+        <https://www.bbc.co.uk/ontologies/wildlife-ontology#Phylum/Chordata> .
 
-<https://www.bbc.co.uk/ontologies/wildlife-ontology/Order/Carnivora> a owl:Class ;
+<https://www.bbc.co.uk/ontologies/wildlife-ontology#Order/Carnivora> a owl:Class ;
     rdfs:comment "Carnivora is a monophyletic order of placental mammals consisting of the most recent common ancestor of all cats and dogs, and all descendants of that ancestor. Members of this group are formally referred to as carnivorans, and have evolved to specialize in eating flesh." ;
     rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Carnivora" ;
     rdfs:subClassOf wo:Order .
@@ -3045,7 +3049,7 @@ wo:Order a owl:Class ;
     rdfs:subClassOf wo:TaxonRank ;
     ns:term_status "testing" .
 
-<https://www.bbc.co.uk/ontologies/wildlife-ontology/Phylum/Chordata> a owl:Class ;
+<https://www.bbc.co.uk/ontologies/wildlife-ontology#Phylum/Chordata> a owl:Class ;
     rdfs:comment """A large phylum of animals that includes the vertebrates together with the sea squirts and lancelets. They are distinguished by the possession of a notochord at some stage during their development.\r
 Source: google.com""" ;
     rdfs:subClassOf wo:Phylum .
