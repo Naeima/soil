@@ -1,5 +1,5 @@
 prefixes:
- foo: "http://www.ontology/ns/foo/1.1#/"
+ foo: "https://w3id.org/def/foo#"
  rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
  xsd: "http://www.w3.org/2001/XMLSchema#"
  sosa: "http://www.w3.org/ns/sosa/"
@@ -10,7 +10,7 @@ mappings:
   Observation:
     sources:
       - ['soil.csv~csv']
-    s: http://www.ontology/ns/foo/1.1#/$(Identifier)
+    s: https://w3id.org/def/foo#$(Identifier)
     po:
       - [a, sosa:Observation]
       - [foo:Site, $(Site)]
