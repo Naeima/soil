@@ -1,10 +1,10 @@
 # Soil Knowledge Graph 
 
-Welcome to the Soil Knowledge Graph repository! We are excited to present our work on constructing a comprehensive knowledge graph for soil-related information. Our knowledge graph ((https://naeima.github.io/soil/) or for graph parsing (https://naeima.github.io/soil/SoilKG.xml)) is built with the Forest Observatory Ontology (FOO) https://w3id.org/def/foo/, which serves as the foundation for organising and representing soil data. We used YARRRML's Matey (https://rml.io/yarrrml/matey/) to construct the Soil Knowledge Graph.
+Welcome to the Soil Knowledge Graph repository! We are excited to present our work on constructing a comprehensive knowledge graph for soil-related information. Our knowledge graph (https://w3id.org/def/soil) or for graph parsing (https://naeima.github.io/soil/SoilKG.xml)) is built with the Forest Observatory Ontology (FOO) https://w3id.org/def/foo/, which serves as the foundation for organising and representing soil data. We used YARRRML's Matey (https://rml.io/yarrrml/matey/) to construct the Soil Knowledge Graph.
 
-The Soil Knowledge Graph aims to provide a deep understanding of soil by interconnecting various aspects such as soil properties, composition, classification, and ecological relationships. By leveraging the power of the Forest Observatory Ontology, we ensure that complex relationships are captured, and different sources of soil data can be integrated seamlessly.
+The Soil Knowledge Graph aims to provide a deep understanding of soil by interconnecting various aspects such as soil properties, composition, classification, and ecological relationships. By leveraging the power of the Forest Observatory Ontology, we ensure that complex relationships are captured and different sources of soil data can be integrated seamlessly.
 
-Our primary objective is to enhance data interoperability, foster knowledge sharing, and enable advanced analyses in the field of soil science. The Soil Knowledge Graph acts as a valuable resource for researchers, practitioners, and stakeholders, allowing them to explore and uncover valuable insights about soil health, ecosystem dynamics, and effective land management practices.
+Our primary objective is to enhance data interoperability, foster knowledge sharing, and enable advanced analyses in soil science. The Soil Knowledge Graph is valuable for researchers, practitioners, and stakeholders. It allows them to explore and uncover valuable insights about soil health, ecosystem dynamics, and effective land management practices.
 
 We invite you to dive into our repository, contribute to developing the Soil Knowledge Graph, and use it as a powerful tool to expand our understanding of soils and their crucial role in ecological systems. 
 
@@ -29,10 +29,10 @@ pip install rdflib
 
 ## Usage
  Prepare Your Data and Ontology Files
-Ensure you have your CSV data file (SoilNu.csv) and the Turtle file (foo.ttl) containing your ontology in the root directory of the project.
+Ensure you have your CSV data file (SoilNu.csv) and the Turtle file (foo.ttl) containing your ontology in the project's root directory.
 
 ## Customize the Script
-Review the script to ensure the column mappings and the namespace URIs match your CSV structure and ontology.
+Please look over the script to make sure the column mappings and the namespace URIs match your CSV structure and ontology.
 
 ## Run the Script
 Execute the script with Python. It reads the CSV data, converts it into RDF triples based on the mappings and the ontology provided, and saves the output as an RDF XML file (SoilKG.rdf).
@@ -45,7 +45,7 @@ Ensure your CSV file matches the structure expected by the script, or adjust the
 The script contains placeholders for namespaces and ontology terms. You should adjust these to fit your ontology:
 
 namespace and namespace1 are placeholders for the ontology namespaces. Replace them with the actual namespaces used in your ontology.
-The predicates like namespace.Site, namespace.Land_Use, etc., should be replaced with the actual predicates from your ontology that correspond to your data columns.
+Predicates like namespace, site, namespace, Land_Use, etc., should be replaced with the actual predicates from your ontology that correspond to your data columns.
 Output
 
 The script generates an RDF XML file (SoilKG.xml) containing the RDF representation of your CSV data according to the mappings defined in the script and structured by your ontology.
