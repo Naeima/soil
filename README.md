@@ -1,6 +1,6 @@
 # Soil Knowledge Graph 
 
-Welcome to the Soil Knowledge Graph repository! We are excited to present our work on constructing a comprehensive knowledge graph for soil-related information. Our knowledge graph (https://w3id.org/def/soil) or for graph parsing (https://naeima.github.io/soil/SoilKG.xml) is built with the Forest Observatory Ontology (FOO) (https://w3id.org/def/foo/), which serves as the foundation for organising and representing soil data. We used YARRRML's Matey (https://rml.io/yarrrml/matey/) to construct the Soil Knowledge Graph.
+Welcome to the Soil Knowledge Graph repository! We are excited to present our work on constructing a comprehensive knowledge graph for soil-related information. Our knowledge graph (https://w3id.org/def/soil) or for graph parsing (https://naeima.github.io/soil/index.ttl) is built with the Forest Observatory Ontology (FOO) (https://w3id.org/def/foo/), which serves as the foundation for organising and representing soil data. We used YARRRML's Matey (https://rml.io/yarrrml/matey/) to construct the Soil Knowledge Graph.
 
 The Soil Knowledge Graph aims to provide a deep understanding of soil by interconnecting various aspects such as soil properties, composition, classification, and ecological relationships. By leveraging the power of the Forest Observatory Ontology, we ensure that complex relationships are captured and different sources of soil data can be integrated seamlessly.
 
