@@ -26,11 +26,12 @@ Ensure you have Python installed on your system. You can install `rdflib` using 
 
 ```bash
 pip install rdflib
-Usage
-Prepare Your Data and Ontology Files
+
+## Usage
+ Prepare Your Data and Ontology Files
 Ensure you have your CSV data file (SoilNu.csv) and the Turtle file (foo.ttl) containing your ontology in the root directory of the project.
 
-Customize the Script
+## Customize the Script
 Review the script to ensure the column mappings and the namespace URIs match your CSV structure and ontology.
 
 ## Run the Script
