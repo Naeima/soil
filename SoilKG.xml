@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:foo="http://www.ontology/ns/foo/1.1#"
+   xmlns:foo="http://w3id.org/def/foo#"
    xmlns:iot-lite="http://purl.oclc.org/NET/UNIS/fiware/iot-lite#"
    xmlns:metadata="http://data.bioontology.org/metadata/"
    xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
@@ -12,7 +12,7 @@
    xmlns:terms="http://purl.org/dc/terms/"
    xmlns:wo="https://www.bbc.co.uk/ontologies/wildlife-ontology/"
 >
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#C:P">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#C:P">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
@@ -21,7 +21,7 @@
     <sosa:hasSimpleResult rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.12</sosa:hasSimpleResult>
     <skos:definition>carbon to inorganic phosphorus ratio of the soil sample</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV1243">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV1243">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -51,14 +51,14 @@
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Liun">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#DateTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#PDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#DateTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#PDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A female asian elephant called Liun, here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MS141">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MS141">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -86,17 +86,17 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
     <owl:sameAs rdf:resource="http://www.schema.org/dgfc/python"/>
     <sosa:hasFeatureOfInterest rdf:resource="http://www.schema.org/dgfc/python"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#DateTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#DateTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
     <rdfs:comment>A python (snake) called Juling- with tracking device called Juling</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasSpeed">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasSpeed">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBN253">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBN253">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -119,7 +119,7 @@
     <foo:AI>25.59</foo:AI>
     <foo:Cd>0.16</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SOP82">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SOP82">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Oil Palm</foo:Land_Use>
@@ -142,7 +142,7 @@
     <foo:AI>64.7</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MB221">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MB221">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -165,17 +165,17 @@
     <foo:AI>26.76</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasDistance">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasDistance">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasSite_plot_code">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasSite_plot_code">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV281">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV281">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -198,7 +198,7 @@
     <foo:AI>5.11</foo:AI>
     <foo:Cd>0.04</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV2232">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV2232">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -221,7 +221,7 @@
     <foo:AI>4.84</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SE122">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SE122">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -244,7 +244,7 @@
     <foo:AI>66.03</foo:AI>
     <foo:Cd>0.02</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV171">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV171">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -267,7 +267,7 @@
     <foo:AI>10.75</foo:AI>
     <foo:Cd>0.01</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MS252">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MS252">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -290,7 +290,7 @@
     <foo:AI>29.03</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV192">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV192">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -313,7 +313,7 @@
     <foo:AI>8.85</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SOP91">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SOP91">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Oil Palm</foo:Land_Use>
@@ -351,7 +351,7 @@
     <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
     <owl:propertyDisjointWith rdf:resource="http://www.w3.org/ns/sosa/observes"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV1242">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV1242">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -383,7 +383,7 @@
     <rdfs:label xml:lang="en-gb">class</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Disturbance">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Disturbance">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasDisturbance>logged</foo:hasDisturbance>
@@ -398,7 +398,7 @@
     <rdfs:label>based near</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV172">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV172">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -421,7 +421,7 @@
     <foo:AI>8.68</foo:AI>
     <foo:Cd>0.02</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MB41">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MB41">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -444,7 +444,7 @@
     <foo:AI>11.99</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBN251">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBN251">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -480,19 +480,19 @@
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Umas2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#ExtTemp"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A male asian elephant called Umas2, here, the GPS collar (sensor) is named after him.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV1241">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV1241">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -515,7 +515,7 @@
     <foo:AI>6.63</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV283">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV283">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -541,18 +541,18 @@
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Bikang1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A female asian elephant called Bikang1, here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SE32">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SE32">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -575,7 +575,7 @@
     <foo:AI>22.58</foo:AI>
     <foo:Cd>0.02</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV2241">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV2241">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -601,15 +601,15 @@
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Bikang2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A female asian elephant called Bikang2, here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/genus">
@@ -631,7 +631,7 @@
     <skos:definition xml:lang="en">Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms.</skos:definition>
     <skos:example xml:lang="en">Accelerometers, gyroscopes, barometers, magnetometers, and so forth are Sensors that are typically mounted on a modern smart phone (which acts as Platform). Other examples of sensors include the human eyes.</skos:example>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#dgfc_ID">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#dgfc_ID">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:hasResult>ID</sosa:hasResult>
@@ -640,19 +640,19 @@
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Puteri">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#ExtTemp"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A female asian elephant called Puteri here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBN223">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBN223">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -675,7 +675,7 @@
     <foo:AI>10.46</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MB182">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MB182">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -698,7 +698,7 @@
     <foo:AI>14.44</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MS142">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MS142">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -721,7 +721,7 @@
     <foo:AI>21.27</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SE121">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SE121">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -748,7 +748,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonName"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SLF71">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SLF71">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -780,19 +780,19 @@
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Kasih">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#ExtTemp"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A female asian elephant called Kasih, here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBS61">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBS61">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -815,13 +815,13 @@
     <foo:AI>30.31</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#localDate">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#localDate">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-12T13:20:00-05:00</sosa:resultTime>
     <skos:definition>The current local date in Sabah, Malaysia when the image collects its readings.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Site_plot_code">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Site_plot_code">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasSite_plot_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</foo:hasSite_plot_code>
@@ -830,16 +830,16 @@
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Guli">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#ExtTemp"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A male asian elephant called Guli, here, the GPS collar (sensor) is named after him.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Observation">
@@ -855,21 +855,21 @@
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#ABAW">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#ExtTemp"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <sosa:hasResult></sosa:hasResult>
     <rdfs:comment>A female asian elephant called  Abaw, here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Years_since_frag">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Years_since_frag">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasYears_since_frag>2017</foo:hasYears_since_frag>
     <skos:definition>Years since fragmentation at time of data collection. i.e., 2017 "First_planting_nearest_OP" (fragmented sites only)</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBN221">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBN221">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -892,7 +892,7 @@
     <foo:AI>9.59</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MB222">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MB222">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -915,7 +915,7 @@
     <foo:AI>14.82</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SLF41">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SLF41">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -938,7 +938,7 @@
     <foo:AI>5.31</foo:AI>
     <foo:Cd>0.02</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SOP92">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SOP92">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Oil Palm</foo:Land_Use>
@@ -961,23 +961,23 @@
     <foo:AI>179.74</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#CameraTrap">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#CameraTrap">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:hasFeatureOfInterest rdf:resource="http://www.ontology/ns/foo/1.1#image"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Name"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Path"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#localDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#localTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#make"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#model"/>
+    <sosa:hasFeatureOfInterest rdf:resource="http://w3id.org/def/foo#image"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Name"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Path"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#localDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#localTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#make"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#model"/>
     <foo:hasMake>"make"</foo:hasMake>
     <foo:hasModel>model</foo:hasModel>
     <foo:hasPath rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">dfgcimage.org</foo:hasPath>
     <sosa:hasResult>Image</sosa:hasResult>
     <rdfs:comment>Wildlife cameras with embeded sensors to capture moving objects.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBN182">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBN182">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -1000,7 +1000,7 @@
     <foo:AI>31.62</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBS191">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBS191">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -1023,7 +1023,7 @@
     <foo:AI>17.55</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasMake">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasMake">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1032,13 +1032,13 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Survey_date">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Survey_date">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasLocalDate></foo:hasLocalDate>
     <skos:definition>date of field data collection at the plot, in the plot, in the format dd/mm/yyyy. Note that in some cases measurements were taken on more than one date for a single plot; see the dates provided in the seperate vegetation datasets for the precise date of particular vegetation data collection.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBS192">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBS192">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -1072,15 +1072,15 @@
     <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/nature/order"/>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Identifier">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Identifier">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
-    <sosa:hasFeatureOfInterest rdf:resource="http://www.ontology/ns/foo/1.1#image"/>
+    <sosa:hasFeatureOfInterest rdf:resource="http://w3id.org/def/foo#image"/>
     <sosa:hasResult>dgfc_</sosa:hasResult>
     <skos:definition>Unique Soil Sample Identifier</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SOP83">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SOP83">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Oil Palm</foo:Land_Use>
@@ -1112,13 +1112,13 @@
     <skos:definition>"A Platform is an entity that hosts other entities, particularly Sensors, Actuators, Samplers, and other Platforms."@en ;</skos:definition>
     <skos:example>"A post, buoy, vehicle, ship, aircraft, satellite, cell-phone, human or animal may act as platforms for (technical or biological) sensors or actuators."@en ;</skos:example>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#image">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#image">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
-    <sosa:isFeatureOfInterestOf rdf:resource="http://www.ontology/ns/foo/1.1#Identifier"/>
+    <sosa:isFeatureOfInterestOf rdf:resource="http://w3id.org/def/foo#Identifier"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV2231">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV2231">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -1141,7 +1141,7 @@
     <foo:AI>5.68</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV2233">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV2233">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -1164,7 +1164,7 @@
     <foo:AI>9.24</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBN183">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBN183">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -1187,12 +1187,12 @@
     <foo:AI>45.19</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasMoisture">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasMoisture">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SLF42">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SLF42">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -1215,13 +1215,13 @@
     <foo:AI>3.55</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#GMTDate">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#GMTDate">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-12T13:20:00</sosa:resultTime>
     <skos:definition>The GMT date in Sabah, Malaysia when the GPS collar collected  its readings.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SLF123">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SLF123">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -1244,13 +1244,13 @@
     <foo:AI>21.01</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Distance">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Distance">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2</foo:hasDistance>
     <rdfs:comment>Distance (m) travelled from the previous data collection instant to the present.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SOP61">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SOP61">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Oil Palm</foo:Land_Use>
@@ -1276,19 +1276,19 @@
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Ita">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#ExtTemp"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A female asian elephant called Ita, here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MS143">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MS143">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -1321,7 +1321,7 @@
     <skos:definition xml:lang="en">The thing whose property is being estimated or calculated in the course of an Observation to arrive at a Result or whose property is being manipulated by an Actuator, or which is being sampled or transformed in an act of Sampling.</skos:definition>
     <skos:example xml:lang="en">When measuring the height of a tree, the height is the observed ObservableProperty, 20m may be the Result of the Observation, and the tree is the FeatureOfInterest. A window is a FeatureOfInterest for an automatic window control Actuator.</skos:example>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SLF72">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SLF72">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -1344,7 +1344,7 @@
     <foo:AI>4.39</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV191">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV191">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -1367,7 +1367,7 @@
     <foo:AI>7.96</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBS63">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBS63">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -1393,19 +1393,19 @@
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Aqeela">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#LocalDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#LocalTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#PDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#LocalDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#LocalTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#PDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment></rdfs:comment>
     <rdfs:comment>A female asian elephant called  Aqeela, here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Bulk_Density">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Bulk_Density">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</foo:hasValue>
@@ -1419,7 +1419,7 @@
     <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
     <rdfs:label xml:lang="en">Physical Resource</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MB181">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MB181">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -1451,19 +1451,19 @@
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Merotai">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#ExtTemp"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A male asian elephant called Merotai, here, the GPS collar (sensor) is named after him.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBS182">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBS182">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -1486,11 +1486,11 @@
     <foo:AI>20.48</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Vegetation">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Vegetation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SE123">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SE123">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -1513,7 +1513,7 @@
     <foo:AI>38.75</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Direction">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Direction">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasDirection rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4</foo:hasDirection>
@@ -1526,12 +1526,12 @@
     <rdf:type rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Phylum/Chordata"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasSubplot">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasSubplot">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBN181">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBN181">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -1554,7 +1554,7 @@
     <foo:AI>26.42</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBS62">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBS62">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -1577,7 +1577,7 @@
     <foo:AI>26.14</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MB223">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MB223">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -1609,23 +1609,23 @@ Source: google.com</rdfs:comment>
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Tulid">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#ExtTemp"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A female asian elephant called Tulid, here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Long">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Long">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
     <rdfs:comment>The geographical longitude of a sensor observation location</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SE31">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SE31">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -1648,7 +1648,7 @@ Source: google.com</rdfs:comment>
     <foo:AI>40.5</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasModel">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasModel">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1672,34 +1672,34 @@ Source: google.com</rdfs:comment>
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Dara">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#ExtTemp"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A female asian elephant called Dara, here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Sandi">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#ExtTemp"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A female asian elephant called Sandi, here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasReplanting_nearest_OP">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasReplanting_nearest_OP">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1709,7 +1709,7 @@ Source: google.com</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MS32">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MS32">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -1743,7 +1743,7 @@ Source: google.com</rdfs:comment>
     <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/nature/habitats"/>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SLF122">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SLF122">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -1769,16 +1769,16 @@ Source: google.com</rdfs:comment>
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Maliau">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#ExtTemp"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A male asian elephant called Maliau, here, the GPS collar (sensor) is named after him.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
@@ -1789,18 +1789,18 @@ Source: google.com</rdfs:comment>
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Putut">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A female asian elephant called Putut, here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MS33">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MS33">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -1823,7 +1823,7 @@ Source: google.com</rdfs:comment>
     <foo:AI>17.36</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SOP81">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SOP81">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Oil Palm</foo:Land_Use>
@@ -1846,41 +1846,41 @@ Source: google.com</rdfs:comment>
     <foo:AI>102.79</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#inorganic_P">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#inorganic_P">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:hasSimpleResult rdf:datatype="http://www.w3.org/2001/XMLSchema#float">36.65</sosa:hasSimpleResult>
     <skos:definition>inorganic/soluble phosphorus concentration of the soil sample</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Land_Use">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Land_Use">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasLand_Use>plants</foo:hasLand_Use>
     <sosa:hasSimpleResult>Unlogged</sosa:hasSimpleResult>
     <skos:definition>Land use of the study plots: Unlogged tropical forest, Logged tropical forest or Oil palm plantation</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Soil_Sensor">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Soil_Sensor">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:hasFeatureOfInterest rdf:resource="http://www.ontology/ns/foo/1.1#Soil"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#C_:P"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Bulk_Density"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Horizon"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Horizon_Depth"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Land_Use"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Plot_Name"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Site"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Soil_Moisture"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Soil_pH"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Subplot"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#inorganic_P"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#total_C"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#total_N"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#C:N"/>
+    <sosa:hasFeatureOfInterest rdf:resource="http://w3id.org/def/foo#Soil"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#C_:P"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Bulk_Density"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Horizon"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Horizon_Depth"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Land_Use"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Plot_Name"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Site"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Soil_Moisture"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Soil_pH"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Subplot"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#inorganic_P"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#total_C"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#total_N"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#C:N"/>
     <rdfs:comment>Soil sensor data consist of soil properties tropical forests in Sabah, Malaysia. &#13;
 The data is a contribution from the BALI collaboration, which is financed by the UK's Natural Environment Research Council (NERC).</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SOP62">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SOP62">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Oil Palm</foo:Land_Use>
@@ -1906,24 +1906,24 @@ The data is a contribution from the BALI collaboration, which is financed by the
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Kuma">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#ExtTemp"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A male asian elephant called Kuma, here, the GPS collar (sensor) is named after him.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasCount">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasCount">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MB42">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MB42">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -1946,7 +1946,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <foo:AI>10.04</foo:AI>
     <foo:Cd>0.05</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MB43">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MB43">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -1978,7 +1978,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <rdfs:label xml:lang="en-gb">Marine Habitat</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SE242">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SE242">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -2011,7 +2011,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Taxonomic_rank"/>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SE243">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SE243">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -2045,7 +2045,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <rdfs:isDefinedBy>Viverridae is a family of small to medium-sized, feliform mammals. The viverrids comprise 33 species placed in 14 genera. This family was named and first described by John Edward Gray in 1821. Viverrids occur all over Africa, southern Europe, and South and Southeast Asia, across the Wallace Line</rdfs:isDefinedBy>
     <rdfs:isDefinedBy>https://en.wikipedia.org/wiki/Viverridae</rdfs:isDefinedBy>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV2243">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV2243">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -2068,25 +2068,25 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <foo:AI>9.23</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#ExtTemp">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#ExtTemp">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasTemp rdf:datatype="http://www.w3.org/2001/XMLSchema#double">27.0</foo:hasTemp>
     <rdfs:comment>External Temperature of the elephant at data collection instant</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#total_C">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#total_C">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasTotal_C rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.23</foo:hasTotal_C>
     <skos:definition>total carbon content of the soil sample</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Replanting_nearest_OP">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Replanting_nearest_OP">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasReplanting_nearest_OP>2008</foo:hasReplanting_nearest_OP>
     <skos:definition>Year of any replanting of oil palm adjacent to the forest site (fragmented sites where adjacent oil palm had undergone a second round of planting)</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBS181">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBS181">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -2109,10 +2109,10 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <foo:AI>16.34</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Silt">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Silt">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV2242">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV2242">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -2135,7 +2135,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <foo:AI>15.4</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SE241">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SE241">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -2158,7 +2158,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <foo:AI>17.99</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Lat">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Lat">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
     <rdfs:comment>The geographical latitude of the observation location</rdfs:comment>
@@ -2168,7 +2168,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
     <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBN252">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBN252">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -2191,7 +2191,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <foo:AI>28.63</foo:AI>
     <foo:Cd>0.03</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV282">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV282">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -2214,13 +2214,13 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <foo:AI>6.04</foo:AI>
     <foo:Cd>0.01</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DateTime">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DateTime">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-06T21:03:17</sosa:resultTime>
     <rdfs:comment>The date and time of the GPS collar observation</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MS251">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MS251">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -2243,13 +2243,13 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <foo:AI>43.29</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Horizon_Depth">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Horizon_Depth">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:hasSimpleResult rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</sosa:hasSimpleResult>
     <skos:definition>Depth of the organic soil horizon sampled</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBS193">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBS193">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -2272,7 +2272,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <foo:AI>13.77</foo:AI>
     <foo:Cd>0.02</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MS31">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MS31">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -2297,36 +2297,36 @@ The data is a contribution from the BALI collaboration, which is financed by the
   </rdf:Description>
   <rdf:Description rdf:nodeID="n8524d2db847c44b1b4c6cb3d7ef46873b2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.ontology/ns/foo/1.1#hasValue"/>
+    <owl:onProperty rdf:resource="http://w3id.org/def/foo#hasValue"/>
     <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Sejati">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A male asian elephant called Sejati, here, the GPS collar (sensor) is named after him.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#localTime">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#localTime">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-12T13:20:00</sosa:resultTime>
     <skos:definition>The current local time in Sabah, Malaysia when the image collects its readings.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasPath">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasPath">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SLF73">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SLF73">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -2355,7 +2355,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <rdfs:comment>The highest class of the subphylum Vertebrata comprising humans and all other animals that nourish their young with milk secreted by mammary glands.&#13;
 https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SLF121">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SLF121">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -2407,19 +2407,19 @@ https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Jasper">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#ExtTemp"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A male asian elephant called Jasper here, the GPS collar (sensor) is named after him.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#model">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#model">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasModel>"model"</foo:hasModel>
@@ -2441,39 +2441,39 @@ https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
     <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/nature/phylum"/>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasSilt">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasSilt">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasSubplot_radius_m">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasSubplot_radius_m">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Forest_type">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Forest_type">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:hasSimpleResult>HCV High Conservation Value</sosa:hasSimpleResult>
     <skos:definition>type of forest site, one of "Continous primary", "Continous logged", "HCV" (i.e., High Conservation Value; fragmented sites in oil palm plantations)</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasInorganic_P">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasInorganic_P">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Site">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Site">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
     <sosa:hasSimpleResult>"Valley"</sosa:hasSimpleResult>
     <skos:definition>Geographical area/site which samples were taken from</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasTotal_N">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasTotal_N">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SOP93">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SOP93">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Oil Palm</foo:Land_Use>
@@ -2496,7 +2496,7 @@ https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
     <foo:AI>137.47</foo:AI>
     <foo:Cd>0.04</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Soil_Moisture">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Soil_Moisture">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasMoisture rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">225</foo:hasMoisture>
@@ -2505,24 +2505,24 @@ https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Tunglap">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#ExtTemp"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A female asian elephant called Tunglap, here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:nodeID="n8524d2db847c44b1b4c6cb3d7ef46873b1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.ontology/ns/foo/1.1#hasValue"/>
+    <owl:onProperty rdf:resource="http://w3id.org/def/foo#hasValue"/>
     <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#GMTTime">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#GMTTime">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-12T13:20:00</sosa:resultTime>
@@ -2537,7 +2537,7 @@ https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
     <rdfs:label xml:lang="en-gb">habitat</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MB183">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MB183">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -2568,13 +2568,13 @@ https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
     <rdfs:label xml:lang="en">Provenance Statement</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#make">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#make">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasMake>Reckno</foo:hasMake>
     <skos:definition>The make of the trail camera used to capture the image</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBS183">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBS183">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -2597,7 +2597,7 @@ https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
     <foo:AI>17.45</foo:AI>
     <foo:Cd>0.02</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasLiana_dbh_cm">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasLiana_dbh_cm">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
@@ -2605,19 +2605,19 @@ https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Seri">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#ExtTemp"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#ExtTemp"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A female asian elephant called Seri, here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#MS253">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#MS253">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Maliau Basin Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -2679,7 +2679,7 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     <rdfs:comment>Any of an order (Proboscidea) of large mammals comprising the elephants and extinct related forms.&#13;
 https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasHDOP">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasHDOP">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -2695,7 +2695,7 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
     <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/nature/family"/>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#PDOP">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#PDOP">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
@@ -2704,7 +2704,7 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
     <foo:PDOP rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</foo:PDOP>
     <rdfs:comment>Positional Dilution of Precision (DDOP) describes the error caused by the relative position of the GPS satellites. The more signals a GPS reciever can "see" (speard vs near each other), the more precise it can be.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SOP63">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SOP63">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Oil Palm</foo:Land_Use>
@@ -2739,13 +2739,13 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
     <rdfs:label xml:lang="en-gb">kingdom</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Name">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Name">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasName>Imahe_name</foo:hasName>
     <skos:definition>The named assigned to an image at collection time</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV173">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV173">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -2768,7 +2768,7 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
     <foo:AI>5.73</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#DV193">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#DV193">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>Danum Valley Conservation Area</foo:Site>
     <foo:Land_Use>Unlogged Forest</foo:Land_Use>
@@ -2791,12 +2791,12 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
     <foo:AI>11.68</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasElevation_masi">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasElevation_masi">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasDirection">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasDirection">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
@@ -2837,7 +2837,7 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SBN222">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SBN222">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -2864,12 +2864,12 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasFirst_planning_nearest_OP">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasFirst_planning_nearest_OP">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#ElephasMaximus">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#ElephasMaximus">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
   </rdf:Description>
@@ -2887,36 +2887,36 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Temperature">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Temperature">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.0</foo:hasTemperature>
     <rdfs:comment>Estimate temperature of the elephant in Celsius at data collection instant.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#HDOP">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#HDOP">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:hasSimpleResult rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sosa:hasSimpleResult>
     <rdfs:comment>Horizontal Dilution of Precision (HDOP) measures GPS accuracy in Latitude and Longitude. The lower value the better precision.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Count">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Count">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</foo:hasCount>
     <rdfs:comment>GPS collar dataset's observation count per dataset</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Cov">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Cov">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasCov rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</foo:hasCov>
     <rdfs:comment>GPS collar dataset: satellite coverage, the higher number the stronger coverage.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasTree_height_m">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasTree_height_m">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasSand">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasSand">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
@@ -2932,7 +2932,7 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
     <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/nature/species"/>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SE33">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SE33">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -2955,7 +2955,7 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
     <foo:AI>47.35</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#SLF43">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#SLF43">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <foo:Site>SAFE Project - Kalabakan Forest Reserve</foo:Site>
     <foo:Land_Use>Logged Forest</foo:Land_Use>
@@ -2980,14 +2980,14 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.ontology/ns/foo#">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <owl:versionIRI rdf:resource="http://www.ontology/ns/foo/1.1#"/>
+    <owl:versionIRI rdf:resource="http://w3id.org/def/foo#"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasTotal_C">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasTotal_C">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasName">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasName">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -3090,10 +3090,10 @@ basic geo vocab&#13;
     <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/nature/kingdom"/>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Mustelidae">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Mustelidae">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
-    <wo:family rdf:resource="http://www.ontology/ns/foo/1.1#Mustelidae"/>
+    <wo:family rdf:resource="http://w3id.org/def/foo#Mustelidae"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/ns/sosa/ObservableProperty">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -3105,7 +3105,7 @@ basic geo vocab&#13;
     <skos:definition xml:lang="en">An observable quality (property, characteristic) of a FeatureOfInterest.</skos:definition>
     <skos:example xml:lang="en">The height of a tree, the depth of a water body, or the temperature of a surface are examples of observable properties, while the value of a classic car is not (directly) observable but asserted.</skos:example>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Source_of_dates">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Source_of_dates">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
@@ -3114,27 +3114,27 @@ basic geo vocab&#13;
     <foo:Source_of_dates>string</foo:Source_of_dates>
     <skos:definition>source of "First_planting_nearest_OP"</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#ID">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#ID">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <sosa:hasResult>"foo_"</sosa:hasResult>
   </rdf:Description>
   <rdf:Description rdf:nodeID="n8524d2db847c44b1b4c6cb3d7ef46873b3">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.ontology/ns/foo/1.1#hasValue"/>
+    <owl:onProperty rdf:resource="http://w3id.org/def/foo#hasValue"/>
     <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasTree_ID">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasTree_ID">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasCov">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasCov">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasSoil_pH">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasSoil_pH">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
@@ -3152,18 +3152,18 @@ basic geo vocab&#13;
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Jasmin">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Count"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Cov"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Direction"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Distance"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTDate"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#GMTTime"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#HDOP"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Speed"/>
-    <sosa:observedProperty rdf:resource="http://www.ontology/ns/foo/1.1#Temperature"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Count"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Cov"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Direction"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Distance"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTDate"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#GMTTime"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#HDOP"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Speed"/>
+    <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A female asian elephant called Jasmin, here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasYears_since_frag">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasYears_since_frag">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -3173,23 +3173,23 @@ basic geo vocab&#13;
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Elevation_masl">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Elevation_masl">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasElevation_masi rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.2</foo:hasElevation_masi>
     <rdfs:comment>Elevation at the plot centre, in metres above sea level</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasLocalDate">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasLocalDate">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasValue">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasValue">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasClay">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasClay">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
@@ -3211,23 +3211,23 @@ basic geo vocab&#13;
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#First_planting_nearest_OP">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#First_planting_nearest_OP">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <foo:hasFirst_planning_nearest_OP>2005</foo:hasFirst_planning_nearest_OP>
     <skos:definition>Year palm adjacent to the forest site</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#timestamp">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#timestamp">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-12T13:20:00</sosa:resultTime>
     <rdfs:comment>The time of the sensor observation.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasTree_notes">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasTree_notes">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Soil_pH">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Soil_pH">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasSoil_pH rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.87</foo:hasSoil_pH>
@@ -3239,14 +3239,14 @@ basic geo vocab&#13;
     <rdfs:comment>Carnivora is a monophyletic order of placental mammals consisting of the most recent common ancestor of all cats and dogs, and all descendants of that ancestor. Members of this group are formally referred to as carnivorans, and have evolved to specialize in eating flesh.</rdfs:comment>
     <rdfs:isDefinedBy>https://en.wikipedia.org/wiki/Carnivora</rdfs:isDefinedBy>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#LocalTime">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#LocalTime">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-12T12:05:05</sosa:resultTime>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
     <metadata:prefixIRI>owl:Thing</metadata:prefixIRI>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Horizon">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Horizon">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:hasSimpleResult>Sample_Name</sosa:hasSimpleResult>
@@ -3257,7 +3257,7 @@ basic geo vocab&#13;
     <rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
     <rdfs:range rdf:nodeID="n8524d2db847c44b1b4c6cb3d7ef46873b2"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasSite_name">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasSite_name">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -3269,24 +3269,24 @@ basic geo vocab&#13;
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Site_code">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Site_code">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:hasSimpleResult rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</sosa:hasSimpleResult>
     <skos:definition>code for the study site, in the format Fa (where a can be 1-18)</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#total_N">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#total_N">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasTotal_N rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.65</foo:hasTotal_N>
     <skos:definition>total nitrogen content of the soil sample</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasTree_individual_no">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasTree_individual_no">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasHorizon">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasHorizon">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -3294,7 +3294,7 @@ basic geo vocab&#13;
   <rdf:Description rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Clay">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Clay">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasClay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3</foo:hasClay>
@@ -3311,17 +3311,17 @@ basic geo vocab&#13;
     <rdfs:label xml:lang="en-gb">phylum</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasDisturbance">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasDisturbance">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Loxodonta">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Loxodonta">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
     <rdfs:comment>African elephant</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasPlot_Name">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasPlot_Name">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -3338,12 +3338,12 @@ basic geo vocab&#13;
     <rdfs:comment>A comma-separated representation of a latitude, longitude coordinate.</rdfs:comment>
     <rdfs:label>lat/long</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Plot_Name">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Plot_Name">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <foo:hasPlot_Name>NAME</foo:hasPlot_Name>
     <skos:definition>Name of the 1 Ha plot sampled</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasTemperature">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasTemperature">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
@@ -3363,7 +3363,7 @@ basic geo vocab&#13;
  </rdfs:comment>
     <rdfs:label>location</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasLand_Use">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasLand_Use">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -3373,12 +3373,12 @@ basic geo vocab&#13;
     <rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
     <rdfs:range rdf:nodeID="n8524d2db847c44b1b4c6cb3d7ef46873b1"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Path">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Path">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <foo:hasPath rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">example.com</foo:hasPath>
     <skos:definition>The URI to point at the location of the image in secure cloud</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Soil">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Soil">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
     <rdfs:comment>Soil or dirt, is a mixture of organic matters, minerals, ases, liquids, and organisms that collectively support life.</rdfs:comment>
@@ -3394,13 +3394,13 @@ basic geo vocab&#13;
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Speed">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Speed">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.5</foo:hasSpeed>
     <rdfs:comment>Speed of the elephant at current data collection instant.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasTemp">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasTemp">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
@@ -3409,18 +3409,18 @@ basic geo vocab&#13;
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasTotal_P">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasTotal_P">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Site_name">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Site_name">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <foo:hasSite_name>Sabahmas</foo:hasSite_name>
     <skos:definition>name of the study site</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Soil_identifier">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Soil_identifier">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:hasResult>" "</sosa:hasResult>
@@ -3429,7 +3429,7 @@ basic geo vocab&#13;
   <rdf:Description rdf:about="http://purl.org/dc/terms/rights">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#hasTree_dbh_cm">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#hasTree_dbh_cm">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
@@ -3444,7 +3444,7 @@ Source: https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
     <terms:title>Forest Observatory Ontology (FOO)</terms:title>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#LocalDate">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#LocalDate">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-12T12:05:05</sosa:resultTime>
@@ -3477,7 +3477,7 @@ source:https://study.com/learn/lesson/animalia-kingdom-examples-characteristics-
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.ontology/ns/foo/1.1#Subplot">
+  <rdf:Description rdf:about="http://w3id.org/def/foo#Subplot">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <foo:hasSubplot>subplot</foo:hasSubplot>
     <skos:definition>Number of the subplot sampled within each 1 Ha plot Numeric</skos:definition>
