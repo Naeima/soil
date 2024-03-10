@@ -78,4 +78,4 @@ with open(csv_file, 'r') as file:
 
 # Save the resulting knowledge graph to a file
 output_file = "SoilKG.rdf"
-graph.serialize(destination=output_file, format="ttl")
+graph.serialize(destination=output_file, format="xml")
