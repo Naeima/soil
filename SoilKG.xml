@@ -10,7 +10,7 @@
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
    xmlns:sosa="http://www.w3.org/ns/sosa/"
    xmlns:terms="http://purl.org/dc/terms/"
-   xmlns:wo="https://www.bbc.co.uk/ontologies/wildlife-ontology/"
+   xmlns:wo="https://bbc.co.uk/ontologies/wildlife-ontology#"
 >
   <rdf:Description rdf:about="http://w3id.org/def/foo#C:P">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -336,12 +336,12 @@
     <foo:AI>121.17</foo:AI>
     <foo:Cd>0.01</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/species">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#species">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
-    <rdfs:range rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Species"/>
+    <rdfs:domain rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
+    <rdfs:range rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Species"/>
     <rdfs:comment xml:lang="en-gb">associates a taxon rank with a species</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">species</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
@@ -374,12 +374,12 @@
     <foo:AI>10.31</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/class">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#class">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
-    <rdfs:range rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Class"/>
+    <rdfs:domain rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
+    <rdfs:range rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Class"/>
     <rdfs:comment xml:lang="en-gb">associates a taxon rank with a class</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">class</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
@@ -612,12 +612,12 @@
     <sosa:observedProperty rdf:resource="http://w3id.org/def/foo#Temperature"/>
     <rdfs:comment>A female asian elephant called Bikang2, here, the GPS collar (sensor) is named after her.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/genus">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#genus">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
-    <rdfs:range rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Genus"/>
+    <rdfs:domain rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
+    <rdfs:range rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Genus"/>
     <rdfs:comment xml:lang="en-gb">associates a taxon rank with a genus</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">genus</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
@@ -744,9 +744,9 @@
     <foo:AI>23.71</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonName/Civettictis">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonName/Civettictis">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonName"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonName"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://w3id.org/def/foo#SLF71">
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
@@ -773,8 +773,8 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.schema.org/dgfc/Otter">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Order/Carnivora"/>
-    <rdf:type rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Phylum/Chordata"/>
+    <rdf:type rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Order/Carnivora"/>
+    <rdf:type rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Phylum/Chordata"/>
     <rdfs:comment>Otter is a carnivorous mammal.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Kasih">
@@ -1061,12 +1061,12 @@
     <foo:AI>26.47</foo:AI>
     <foo:Cd>0.02</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Order">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Order">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
     <metadata:prefixIRI>wo:Order</metadata:prefixIRI>
     <rdfs:comment xml:lang="en-gb">An order is a scientific way to categorise related organisms. An order is a smaller grouping than a class, but bigger than a family or genus. Examples of orders are willows, cockroaches and primates.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">Order</rdfs:label>
     <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Order_%28biology%29"/>
     <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/nature/order"/>
@@ -1444,9 +1444,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.schema.org/dgfc/Civets">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Family/Viverridae"/>
-    <rdf:type rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Order/Carnivora"/>
-    <rdf:type rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Phylum/Chordata"/>
+    <rdf:type rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Family/Viverridae"/>
+    <rdf:type rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Order/Carnivora"/>
+    <rdf:type rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Phylum/Chordata"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.schema.org/dgfc/elephant#Merotai">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1521,9 +1521,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.schema.org/dgfc/python">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Class/Reptilia"/>
-    <rdf:type rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Order/Squamata"/>
-    <rdf:type rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Phylum/Chordata"/>
+    <rdf:type rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Class/Reptilia"/>
+    <rdf:type rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Order/Squamata"/>
+    <rdf:type rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Phylum/Chordata"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://w3id.org/def/foo#hasSubplot">
@@ -1600,9 +1600,9 @@
     <foo:AI>22.79</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Phylum/Chordata">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Phylum/Chordata">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Phylum"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Phylum"/>
     <rdfs:comment>A large phylum of animals that includes the vertebrates together with the sea squirts and lancelets. They are distinguished by the possession of a notochord at some stage during their development.&#13;
 Source: google.com</rdfs:comment>
   </rdf:Description>
@@ -1660,12 +1660,12 @@ Source: google.com</rdfs:comment>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
     <rdfs:label xml:lang="en">License Document</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/livesIn">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#livesIn">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
-    <rdfs:range rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Habitat"/>
+    <rdfs:domain rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
+    <rdfs:range rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Habitat"/>
     <rdfs:comment xml:lang="en-gb">associates a taxon rank with a habitat in which it lives. Sub-property of wo:habitat to be used for members of the animal kingdom</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">lives in</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
@@ -1732,12 +1732,12 @@ Source: google.com</rdfs:comment>
     <foo:AI>11.5</foo:AI>
     <foo:Cd>0.02</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Habitat">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Habitat">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <metadata:prefixIRI>wo:Habitat</metadata:prefixIRI>
     <rdfs:comment xml:lang="en-gb">A habitat, or biome, is the type of environment in which plant and animals live. Habitat is dictated by what kinds of plants grow there, the climate and the geography. Rainforest, coral reefs and the tundra are all habitats where particular kinds of plants and animals might be found.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">Habitat</rdfs:label>
     <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Habitat"/>
     <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/nature/habitats"/>
@@ -1969,12 +1969,12 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <foo:AI>10.52</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/MarineHabitat">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#MarineHabitat">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Habitat"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Habitat"/>
     <metadata:prefixIRI>wo:MarineHabitat</metadata:prefixIRI>
     <rdfs:comment>Approximately 71% of the Earth's surface is covered by the oceans, an area of some 223698816km/sq. Although marine life evolved around three billion years before life on land, marine habitats are relatively poorly studied and much of the ocean's depths remains unexplored.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">Marine Habitat</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
@@ -2001,12 +2001,12 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <foo:AI>159.07</foo:AI>
     <foo:Cd>0.05</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <metadata:prefixIRI>wo:TaxonRank</metadata:prefixIRI>
     <rdfs:comment xml:lang="en-gb">Generic concept for a taxonomic rank such as a Genus or Species.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">Taxonomic Rank</rdfs:label>
     <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Taxonomic_rank"/>
     <ns:term_status>testing</ns:term_status>
@@ -2039,9 +2039,9 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
     <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Family/Viverridae">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Family/Viverridae">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Family"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Family"/>
     <rdfs:isDefinedBy>Viverridae is a family of small to medium-sized, feliform mammals. The viverrids comprise 33 species placed in 14 genera. This family was named and first described by John Edward Gray in 1821. Viverrids occur all over Africa, southern Europe, and South and Southeast Asia, across the Wallace Line</rdfs:isDefinedBy>
     <rdfs:isDefinedBy>https://en.wikipedia.org/wiki/Viverridae</rdfs:isDefinedBy>
   </rdf:Description>
@@ -2349,9 +2349,9 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <foo:AI>6.57</foo:AI>
     <foo:Cd>0.02</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Class/Mammalia">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Class/Mammalia">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Class"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Class"/>
     <rdfs:comment>The highest class of the subphylum Vertebrata comprising humans and all other animals that nourish their young with milk secreted by mammary glands.&#13;
 https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
   </rdf:Description>
@@ -2378,12 +2378,12 @@ https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
     <foo:AI>5.92</foo:AI>
     <foo:Cd>0</foo:Cd>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/family">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#family">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
-    <rdfs:range rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Family"/>
+    <rdfs:domain rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
+    <rdfs:range rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Family"/>
     <rdfs:comment xml:lang="en-gb">associates a taxon rank with a family</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">family</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
@@ -2430,12 +2430,12 @@ https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
     <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Phylum">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Phylum">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
     <metadata:prefixIRI>wo:Phylum</metadata:prefixIRI>
     <rdfs:comment xml:lang="en-gb">A phylum - also known as a division when referring to plants - is a scientfic way of grouping together related organisms. All the members of a phylum have a common ancestor and anatomical similarities. For instance, all the arthropods have external skeletons. Phlya are large groups and are further subdivided into classes, orders, families and so on.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">Phylum</rdfs:label>
     <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Phylum"/>
     <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/nature/phylum"/>
@@ -2528,12 +2528,12 @@ https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
     <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-12T13:20:00</sosa:resultTime>
     <rdfs:comment>The current local date in Sabah, Malaysia when the image collects its readings.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/habitat">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#habitat">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
-    <rdfs:range rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Habitat"/>
+    <rdfs:domain rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
+    <rdfs:range rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Habitat"/>
     <rdfs:comment xml:lang="en-gb">associates a taxon rank with a habitat in which it may typically be found</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">habitat</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
@@ -2673,9 +2673,9 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Order/Proboscidea">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Order/Proboscidea">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Order"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Order"/>
     <rdfs:comment>Any of an order (Proboscidea) of large mammals comprising the elephants and extinct related forms.&#13;
 https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
   </rdf:Description>
@@ -2684,12 +2684,12 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Family">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Family">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
     <metadata:prefixIRI>wo:Family</metadata:prefixIRI>
     <rdfs:comment xml:lang="en-gb">A family is a scientific grouping of closely related organisms. It has smaller groups, called genera and species, within it. A family can have a lot of members or only a few. Examples of families include the cats (Felidae), the gulls (Laridae) and the grasses (Poaceae).</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">Family</rdfs:label>
     <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Family_%28biology%29"/>
     <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/nature/family"/>
@@ -2730,12 +2730,12 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
   <rdf:Description rdf:about="http://schema.org/domainIncludes">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/kingdom">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#kingdom">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
-    <rdfs:range rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Kingdom"/>
+    <rdfs:domain rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
+    <rdfs:range rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Kingdom"/>
     <rdfs:comment xml:lang="en-gb">associates a taxon rank with a kingdom</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">kingdom</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
@@ -2801,32 +2801,32 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Genus">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Genus">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
     <metadata:prefixIRI>wo:Genus</metadata:prefixIRI>
     <rdfs:comment xml:lang="en-gb">A genus is a scientific way of showing that species are very closed related to each other. In fact the first word of the species' scientific name is its genus. So for lions (Panthera leo), Panthera is the genus and tells us that they are closely related to tigers (Panthera tigris), because they share the name</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">Genus</rdfs:label>
     <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Genus"/>
     <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/nature/genus"/>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/TerrestrialHabitat">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#TerrestrialHabitat">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Habitat"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Habitat"/>
     <metadata:prefixIRI>wo:TerrestrialHabitat</metadata:prefixIRI>
     <rdfs:comment>Terrestrial habitats include forests, grasslands, deserts and rainforests. They are typically defined by factors such as plant structure (trees and grasses), leaf types (eg broadleaf and needleleaf), plant spacing (forest, woodland, savanna) and climate.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">Terrestrial Habitat</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/FreshwaterHabitat">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#FreshwaterHabitat">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Habitat"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Habitat"/>
     <metadata:prefixIRI>wo:FreshwaterHabitat</metadata:prefixIRI>
     <rdfs:comment>Freshwater habitats include bogs, ponds, lakes, rivers and streams. About 3% of Earth's water is freshwater, but this includes the water locked up in the ice caps and trapped in rocks and soil as groundwater. Only a tiny fraction (0.014%) is surface water in the form of rivers, lakes and swamps.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">Freshwater Habitat</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
@@ -2873,12 +2873,12 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/order">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#order">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
-    <rdfs:range rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Kingdom"/>
+    <rdfs:domain rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
+    <rdfs:range rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Kingdom"/>
     <rdfs:comment xml:lang="en-gb">associates a taxon rank with an order</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">order</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
@@ -2921,12 +2921,12 @@ https://www.merriam-webster.com/dictionary/proboscidean</rdfs:comment>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Species">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Species">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
     <metadata:prefixIRI>wo:Species</metadata:prefixIRI>
     <rdfs:comment xml:lang="en-gb">Generic class defining a biological species</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">species</rdfs:label>
     <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Species"/>
     <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/nature/species"/>
@@ -3079,12 +3079,12 @@ basic geo vocab&#13;
 </rdfs:comment>
     <rdfs:label>geo</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Kingdom">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Kingdom">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
     <metadata:prefixIRI>wo:Kingdom</metadata:prefixIRI>
     <rdfs:comment xml:lang="en-gb">Kingdoms are the major categories into which scientists divide up all living things. The main kingdoms are animals, plants, fungi and bacteria, although there are others. Each kingdom has its own suite of defining characteristics - for instance plants have rigid cell walls, whilst animals do not.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">Kingdom</rdfs:label>
     <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Kingdom_%28biology%29"/>
     <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/nature/kingdom"/>
@@ -3139,13 +3139,13 @@ basic geo vocab&#13;
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonName">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonName">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <owl:disjointWith rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
+    <owl:disjointWith rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
     <metadata:prefixIRI>wo:TaxonName</metadata:prefixIRI>
     <rdfs:comment xml:lang="en-gb">A taxonomic name, describing the structure and provenance of a taxonomic name.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">Taxon Name</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
@@ -3194,13 +3194,13 @@ basic geo vocab&#13;
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Class">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Class">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:equivalentClass rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Family"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
+    <owl:equivalentClass rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Family"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
     <metadata:prefixIRI>wo:Class</metadata:prefixIRI>
     <rdfs:comment xml:lang="en-gb">A class is a scientific way to group related organisms together, some examples of classes being jellyfish, reptiles and sea urchins. Classes are big groups and contain within them smaller groupings called orders, families, genera and species.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">Class</rdfs:label>
     <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Class_%28biology%29"/>
     <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/nature/class"/>
@@ -3233,9 +3233,9 @@ basic geo vocab&#13;
     <foo:hasSoil_pH rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.87</foo:hasSoil_pH>
     <skos:definition>Measured pH of the soil sample</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Order/Carnivora">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Order/Carnivora">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Order"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Order"/>
     <rdfs:comment>Carnivora is a monophyletic order of placental mammals consisting of the most recent common ancestor of all cats and dogs, and all descendants of that ancestor. Members of this group are formally referred to as carnivorans, and have evolved to specialize in eating flesh.</rdfs:comment>
     <rdfs:isDefinedBy>https://en.wikipedia.org/wiki/Carnivora</rdfs:isDefinedBy>
   </rdf:Description>
@@ -3302,12 +3302,12 @@ basic geo vocab&#13;
   <rdf:Description rdf:about="http://schema.org/rangeIncludes">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/phylum">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#phylum">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonRank"/>
-    <rdfs:range rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Phylum"/>
+    <rdfs:domain rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonRank"/>
+    <rdfs:range rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Phylum"/>
     <rdfs:comment xml:lang="en-gb">associates a taxon rank with a phylum</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/"/>
+    <rdfs:isDefinedBy rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#"/>
     <rdfs:label xml:lang="en-gb">phylum</rdfs:label>
     <ns:term_status>testing</ns:term_status>
   </rdf:Description>
@@ -3326,9 +3326,9 @@ basic geo vocab&#13;
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Class/Reptilia">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Class/Reptilia">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Class"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Class"/>
     <rdfs:comment>Reptilia is a vertebrate animal of a class that includes snakes, lizards, crocodiles, turtles, and tortoises. They are distinguished by having a dry scaly skin and typically laying soft-shelled eggs on land.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/description">
@@ -3434,9 +3434,9 @@ basic geo vocab&#13;
     <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Family/Elephantidae">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Family/Elephantidae">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Family"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Family"/>
     <rdfs:comment>ELEPHANTIDAE is a family of bulky mammals (order Proboscidea) comprising the recent elephants and related extinct forms.&#13;
 Source: https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
   </rdf:Description>
@@ -3449,17 +3449,17 @@ Source: https://www.merriam-webster.com/dictionary/Elephantidae</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
     <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-12T12:05:05</sosa:resultTime>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Kingdom/Animalia">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Kingdom/Animalia">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Kingdom"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Kingdom"/>
     <rdfs:comment>Animalia is the scientific grouping that includes all animals. Scientists, historians, and others classify similar things together, using a taxonomy.&#13;
 &#13;
 All members of the kingdom Animalia share three key traits. They are multicellular organisms, and they are all eukaryotic, meaning their cells have membrane-enclosed organelles and a nucleus. All animals are heterotrophic and must feed on other organisms to survive.&#13;
 source:https://study.com/learn/lesson/animalia-kingdom-examples-characteristics-facts.html</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonName/Loxodonta">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonName/Loxodonta">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/TaxonName"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#TaxonName"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/ns/sosa/resultTime">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -3469,9 +3469,9 @@ source:https://study.com/learn/lesson/animalia-kingdom-examples-characteristics-
   <rdf:Description rdf:about="http://data.bioontology.org/metadata/prefixIRI">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.co.uk/ontologies/wildlife-ontology/Order/Squamata">
+  <rdf:Description rdf:about="https://bbc.co.uk/ontologies/wildlife-ontology#Order/Squamata">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="https://www.bbc.co.uk/ontologies/wildlife-ontology/Order"/>
+    <rdfs:subClassOf rdf:resource="https://bbc.co.uk/ontologies/wildlife-ontology#Order"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://web.resource.org/cc/License">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
