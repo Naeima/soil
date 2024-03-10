@@ -10,3 +10,43 @@ We invite you to dive into our repository, contribute to developing the Soil Kno
 
 # Soil Sensor Data
 The data consist of soil characteristics and nutrients for tropical forests in Sabah, Malaysia, both unlogged and logged. Soil properties (ID, Site, LandUse, PlotName, Subplot, Horizon, pH, TotalC, TotalN, TotalP, inorganicP, C-N, Sand, Silt, Clay) extracted from buried ion exchange membranes and soil nutrients (Identifier, Site, LandUse, PlotName, Subplot, NO3N, NH4N, TotalN, Ca, Mg, K, P, Fe, Mn Cu, Zn, B This data is a contribution from the BALI collaboration, which is financed by the UK’s Natural Environment Research Council (NERC). Modelled datasets in this study can be found at (https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/Soil-Data-v1.0.0).
+
+
+
+# Soil Data RDF Conversion
+
+This repository contains a script for converting CSV data related to soil measurements into an RDF graph using the `rdflib` library in Python. The script leverages an ontology for structuring the data within the RDF format, enabling semantic querying and integration with other datasets.
+
+## Requirements
+
+- Python 3.x
+- `rdflib`
+
+Ensure you have Python installed on your system. You can install `rdflib` using pip:
+
+```bash
+pip install rdflib
+Usage
+Prepare Your Data and Ontology Files
+Ensure you have your CSV data file (SoilNu.csv) and the Turtle file (foo.ttl) containing your ontology in the root directory of the project.
+
+Customize the Script
+Review the script to ensure the column mappings and the namespace URIs match your CSV structure and ontology.
+
+Run the Script
+Execute the script with Python. It reads the CSV data, converts it into RDF triples based on the mappings and the ontology provided, and saves the output as an RDF XML file (SoilKG.rdf).
+
+python convert_to_rdf.py
+
+Ensure your CSV file matches the structure expected by the script, or adjust the script to fit your CSV format.
+
+Customizing the Script
+The script contains placeholders for namespaces and ontology terms. You should adjust these to fit your ontology:
+
+namespace and namespace1 are placeholders for the ontology namespaces. Replace them with the actual namespaces used in your ontology.
+The predicates like namespace.Site, namespace.Land_Use, etc., should be replaced with the actual predicates from your ontology that correspond to your data columns.
+Output
+The script generates an RDF XML file (SoilKG.rdf) containing the RDF representation of your CSV data according to the mappings defined in the script and structured by your ontology.
+
+
+This markdown text can be copied directly into a `README.md` file in your GitHub repository. It provides a structured, readable format for explaining the project, its requirements, how to use it, and how to customize it for different CSV structures and ontologies.
