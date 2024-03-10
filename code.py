@@ -77,5 +77,5 @@ with open(csv_file, 'r') as file:
         graph.add((subject_uri, namespace.Cd, Literal(column21)))
 
 # Save the resulting knowledge graph to a file
-output_file = "SoilKG.rdf"
+output_file = "SoilKG.xml"
 graph.serialize(destination=output_file, format="xml")
