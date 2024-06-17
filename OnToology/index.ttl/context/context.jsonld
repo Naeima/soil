@@ -1,0 +1,303 @@
+{
+  "@context" : {
+    "abstract" : {
+      "@id" : "http://purl.org/dc/elements/1.1/abstract"
+    },
+    "affiliation" : {
+      "@id" : "http://xmlns.com/foaf/0.1/affiliation"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "generatedAtTime" : {
+      "@id" : "http://www.w3.org/ns/prov#generatedAtTime"
+    },
+    "example" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#example"
+    },
+    "Direction" : {
+      "@id" : "https://w3id.org/def/foo#Direction",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Longitude" : {
+      "@id" : "https://w3id.org/def/foo#Longitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "Sand" : {
+      "@id" : "https://w3id.org/def/foo#Sand"
+    },
+    "LocalTime" : {
+      "@id" : "https://w3id.org/def/foo#LocalTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#time"
+    },
+    "treeHeight_m" : {
+      "@id" : "https://w3id.org/def/foo#treeHeight_m"
+    },
+    "citation" : {
+      "@id" : "https://schema.org/citation"
+    },
+    "bibliographicCitation" : {
+      "@id" : "http://purl.org/dc/terms/bibliographicCitation"
+    },
+    "model" : {
+      "@id" : "https://w3id.org/def/foo#model"
+    },
+    "Organization" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Organization"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "ImageID" : {
+      "@id" : "https://w3id.org/def/foo#ImageID"
+    },
+    "InorganicP" : {
+      "@id" : "https://w3id.org/def/foo#InorganicP"
+    },
+    "Altitude" : {
+      "@id" : "https://w3id.org/def/foo#Altitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "FeatureOfInterest" : {
+      "@id" : "https://w3id.org/def/foo#FeatureOfInterest"
+    },
+    "wasAttributedTo" : {
+      "@id" : "http://www.w3.org/ns/prov#wasAttributedTo"
+    },
+    "Speed" : {
+      "@id" : "https://w3id.org/def/foo#Speed",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "subplotRadius_m" : {
+      "@id" : "https://w3id.org/def/foo#subplotRadius_m"
+    },
+    "TotalN" : {
+      "@id" : "https://w3id.org/def/foo#TotalN",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "madeBySensor" : {
+      "@id" : "http://www.w3.org/ns/sosa/madeBySensor",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "CNRatio" : {
+      "@id" : "https://w3id.org/def/foo#CNRatio"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox"
+    },
+    "Count" : {
+      "@id" : "https://w3id.org/def/foo#Count",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "LandUse" : {
+      "@id" : "https://w3id.org/def/foo#LandUse",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "SoilSensor" : {
+      "@id" : "https://w3id.org/def/foo#SoilSensor"
+    },
+    "treeNotes" : {
+      "@id" : "https://w3id.org/def/foo#treeNotes"
+    },
+    "Temperature" : {
+      "@id" : "https://w3id.org/def/foo#Temperature",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage"
+    },
+    "Person" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
+    },
+    "resultTime" : {
+      "@id" : "https://w3id.org/def/foo#resultTime"
+    },
+    "Agent" : {
+      "@id" : "http://www.w3.org/ns/prov#Agent"
+    },
+    "LocalDate" : {
+      "@id" : "https://w3id.org/def/foo#LocalDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "GMTDate" : {
+      "@id" : "https://w3id.org/def/foo#GMTDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "treeNLianas" : {
+      "@id" : "https://w3id.org/def/foo#treeNLianas"
+    },
+    "PlotName" : {
+      "@id" : "https://w3id.org/def/foo#PlotName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "wasDerivedFrom" : {
+      "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom"
+    },
+    "sitePlotCode" : {
+      "@id" : "https://w3id.org/def/foo#sitePlotCode"
+    },
+    "make" : {
+      "@id" : "https://w3id.org/def/foo#make"
+    },
+    "GMTTime" : {
+      "@id" : "https://w3id.org/def/foo#GMTTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#time"
+    },
+    "plotNo" : {
+      "@id" : "https://w3id.org/def/foo#plotNo"
+    },
+    "ID" : {
+      "@id" : "https://w3id.org/def/foo#ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Distance" : {
+      "@id" : "https://w3id.org/def/foo#Distance",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "Cov" : {
+      "@id" : "https://w3id.org/def/foo#Cov",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "time" : {
+      "@id" : "https://w3id.org/def/foo#time"
+    },
+    "Subplot" : {
+      "@id" : "https://w3id.org/def/foo#Subplot",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "observes" : {
+      "@id" : "https://w3id.org/def/foo#observes",
+      "@type" : "@id"
+    },
+    "TotalP" : {
+      "@id" : "https://w3id.org/def/foo#TotalP"
+    },
+    "Latitude" : {
+      "@id" : "https://w3id.org/def/foo#Latitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "isObservedBy" : {
+      "@id" : "https://w3id.org/def/foo#isObservedBy",
+      "@type" : "@id"
+    },
+    "TotalC" : {
+      "@id" : "https://w3id.org/def/foo#TotalC",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher"
+    },
+    "hasFeatureOfInterest" : {
+      "@id" : "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+      "@type" : "@id"
+    },
+    "Site" : {
+      "@id" : "https://w3id.org/def/foo#Site",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "observedProperty" : {
+      "@id" : "https://w3id.org/def/foo#observedProperty",
+      "@type" : "@id"
+    },
+    "Horizon" : {
+      "@id" : "https://w3id.org/def/foo#Horizon",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Silt" : {
+      "@id" : "https://w3id.org/def/foo#Silt",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "madeObservation" : {
+      "@id" : "https://w3id.org/def/foo#madeObservation",
+      "@type" : "@id"
+    },
+    "lianaDBH_cm" : {
+      "@id" : "https://w3id.org/def/foo#lianaDBH_cm"
+    },
+    "treeIndividualNo" : {
+      "@id" : "https://w3id.org/def/foo#treeIndividualNo"
+    },
+    "date" : {
+      "@id" : "https://w3id.org/def/foo#date"
+    },
+    "HDOP" : {
+      "@id" : "https://w3id.org/def/foo#HDOP",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "Entity" : {
+      "@id" : "http://www.w3.org/ns/prov#Entity"
+    },
+    "hasObservation" : {
+      "@id" : "https://w3id.org/def/foo#hasObservation"
+    },
+    "Clay" : {
+      "@id" : "https://w3id.org/def/foo#Clay",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "treeDBH_cm" : {
+      "@id" : "https://w3id.org/def/foo#treeDBH_cm"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "SoilPH" : {
+      "@id" : "https://w3id.org/def/foo#SoilPH",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "ObservableProperty" : {
+      "@id" : "https://w3id.org/def/foo#ObservableProperty"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "siteName" : {
+      "@id" : "https://w3id.org/def/foo#siteName"
+    },
+    "Identifier" : {
+      "@id" : "https://w3id.org/def/foo#Identifier"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "treeID" : {
+      "@id" : "https://w3id.org/def/foo#treeID"
+    },
+    "Observation" : {
+      "@id" : "https://w3id.org/def/foo#Observation"
+    },
+    "Sensor" : {
+      "@id" : "https://w3id.org/def/foo#Sensor"
+    },
+    "isFeatureOfInterestOf" : {
+      "@id" : "https://w3id.org/def/foo#isFeatureOfInterestOf",
+      "@type" : "@id"
+    }
+  }
+}
