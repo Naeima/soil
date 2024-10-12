@@ -1,7 +1,7 @@
 @prefix foo: <https://w3id.org/def/foo#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-foo:DV122 a foo:Observation ;
+foo:DV122 a foo:SoilObservation ;
     foo:CNRatio 1.52e+01,
         1.819e+01 ;
     foo:Clay 4.474e+01,
@@ -29,7 +29,7 @@ foo:DV122 a foo:Observation ;
         6.0351e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:DV124 a foo:Observation ;
+foo:DV124 a foo:SoilObservation ;
     foo:CNRatio 1.392e+01,
         1.994e+01 ;
     foo:Clay 5.395e+01,
@@ -57,7 +57,7 @@ foo:DV124 a foo:Observation ;
         4.3268e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:DV16 a foo:Observation ;
+foo:DV16 a foo:SoilObservation ;
     foo:CNRatio 1.221e+01,
         1.848e+01 ;
     foo:Clay 4.366e+01,
@@ -85,7 +85,7 @@ foo:DV16 a foo:Observation ;
         5.656e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:DV17 a foo:Observation ;
+foo:DV17 a foo:SoilObservation ;
     foo:CNRatio 1.346e+01,
         2.14e+01 ;
     foo:Clay 4.31e+01,
@@ -113,7 +113,7 @@ foo:DV17 a foo:Observation ;
         5.6816e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:DV19 a foo:Observation ;
+foo:DV19 a foo:SoilObservation ;
     foo:CNRatio 2.081e+01,
         2.258e+01 ;
     foo:Clay 4.789e+01,
@@ -141,7 +141,7 @@ foo:DV19 a foo:Observation ;
         4.6579e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:DV21 a foo:Observation ;
+foo:DV21 a foo:SoilObservation ;
     foo:CNRatio 1.292e+01,
         1.77e+01 ;
     foo:Clay 4.902e+01,
@@ -169,7 +169,7 @@ foo:DV21 a foo:Observation ;
         3.1938e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:DV220 a foo:Observation ;
+foo:DV220 a foo:SoilObservation ;
     foo:CNRatio 1.324e+01,
         1.818e+01 ;
     foo:Clay 4.604e+01,
@@ -197,7 +197,7 @@ foo:DV220 a foo:Observation ;
         2.2919e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:DV223 a foo:Observation ;
+foo:DV223 a foo:SoilObservation ;
     foo:CNRatio 1.529e+01,
         1.833e+01 ;
     foo:Clay 5.095e+01,
@@ -225,7 +225,7 @@ foo:DV223 a foo:Observation ;
         2.5096e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:DV224 a foo:Observation ;
+foo:DV224 a foo:SoilObservation ;
     foo:CNRatio 1.234e+01,
         1.778e+01 ;
     foo:Clay 4.909e+01,
@@ -253,7 +253,7 @@ foo:DV224 a foo:Observation ;
         2.1255e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:DV28 a foo:Observation ;
+foo:DV28 a foo:SoilObservation ;
     foo:CNRatio 1.585e+01,
         2.063e+01 ;
     foo:Clay 4.664e+01,
@@ -281,7 +281,7 @@ foo:DV28 a foo:Observation ;
         2.9137e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:MB18 a foo:Observation ;
+foo:MB18 a foo:SoilObservation ;
     foo:CNRatio 1.278e+01,
         1.416e+01 ;
     foo:Clay 5.773e+01,
@@ -309,7 +309,7 @@ foo:MB18 a foo:Observation ;
         2.6221e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:MB22 a foo:Observation ;
+foo:MB22 a foo:SoilObservation ;
     foo:CNRatio 1.325e+01,
         1.477e+01 ;
     foo:Clay 6.153e+01,
@@ -337,7 +337,7 @@ foo:MB22 a foo:Observation ;
         2.3519e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:MB4 a foo:Observation ;
+foo:MB4 a foo:SoilObservation ;
     foo:CNRatio 1.362e+01,
         1.424e+01 ;
     foo:Clay 6.26e+01,
@@ -365,7 +365,7 @@ foo:MB4 a foo:Observation ;
         2.6374e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:MB7 a foo:Observation ;
+foo:MB7 a foo:SoilObservation ;
     foo:CNRatio 1.209e+01,
         1.262e+01 ;
     foo:Clay 6.576e+01,
@@ -393,7 +393,7 @@ foo:MB7 a foo:Observation ;
         2.6668e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:MB9 a foo:Observation ;
+foo:MB9 a foo:SoilObservation ;
     foo:CNRatio 1.18e+01,
         1.44e+01 ;
     foo:Clay 5.139e+01,
@@ -421,7 +421,7 @@ foo:MB9 a foo:Observation ;
         2.1711e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:MS14 a foo:Observation ;
+foo:MS14 a foo:SoilObservation ;
     foo:CNRatio 1.183e+01,
         1.326e+01 ;
     foo:Clay 5.31e+01,
@@ -449,7 +449,7 @@ foo:MS14 a foo:Observation ;
         2.3389e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:MS15 a foo:Observation ;
+foo:MS15 a foo:SoilObservation ;
     foo:CNRatio 1.223e+01,
         1.419e+01 ;
     foo:Clay 5.042e+01,
@@ -476,7 +476,7 @@ foo:MS15 a foo:Observation ;
         2.148e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:MS18 a foo:Observation ;
+foo:MS18 a foo:SoilObservation ;
     foo:CNRatio 1.184e+01,
         1.439e+01 ;
     foo:Clay 5.434e+01,
@@ -504,7 +504,7 @@ foo:MS18 a foo:Observation ;
         2.3599e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:MS25 a foo:Observation ;
+foo:MS25 a foo:SoilObservation ;
     foo:CNRatio 1.241e+01,
         1.51e+01 ;
     foo:Clay 5.761e+01,
@@ -532,7 +532,7 @@ foo:MS25 a foo:Observation ;
         1.9008e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:MS3 a foo:Observation ;
+foo:MS3 a foo:SoilObservation ;
     foo:CNRatio 1.126e+01,
         1.177e+01 ;
     foo:Clay 5.89e+01,
@@ -560,7 +560,7 @@ foo:MS3 a foo:Observation ;
         2.9309e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SBN12 a foo:Observation ;
+foo:SBN12 a foo:SoilObservation ;
     foo:CNRatio 1.228e+01,
         2.537e+01 ;
     foo:Clay 5.927e+01,
@@ -588,7 +588,7 @@ foo:SBN12 a foo:Observation ;
         1.7779e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SBN18 a foo:Observation ;
+foo:SBN18 a foo:SoilObservation ;
     foo:CNRatio 1.46e+01,
         2.171e+01 ;
     foo:Clay 5.611e+01,
@@ -616,7 +616,7 @@ foo:SBN18 a foo:Observation ;
         2.0357e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SBN22 a foo:Observation ;
+foo:SBN22 a foo:SoilObservation ;
     foo:CNRatio 1.522e+01,
         2.388e+01 ;
     foo:Clay 5.982e+01,
@@ -644,7 +644,7 @@ foo:SBN22 a foo:Observation ;
         1.8613e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SBN24 a foo:Observation ;
+foo:SBN24 a foo:SoilObservation ;
     foo:CNRatio 1.32e+01,
         1.909e+01 ;
     foo:Clay 4.949e+01,
@@ -672,7 +672,7 @@ foo:SBN24 a foo:Observation ;
         2.5525e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SBN25 a foo:Observation ;
+foo:SBN25 a foo:SoilObservation ;
     foo:CNRatio 1.413e+01,
         1.97e+01 ;
     foo:Clay 4.505e+01,
@@ -700,7 +700,7 @@ foo:SBN25 a foo:Observation ;
         2.1482e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SBS1 a foo:Observation ;
+foo:SBS1 a foo:SoilObservation ;
     foo:CNRatio 1.079e+01,
         1.274e+01 ;
     foo:Clay 5.404e+01,
@@ -728,7 +728,7 @@ foo:SBS1 a foo:Observation ;
         2.7942e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SBS15 a foo:Observation ;
+foo:SBS15 a foo:SoilObservation ;
     foo:CNRatio 1.396e+01,
         1.867e+01 ;
     foo:Clay 5.924e+01,
@@ -756,7 +756,7 @@ foo:SBS15 a foo:Observation ;
         3.1331e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SBS18 a foo:Observation ;
+foo:SBS18 a foo:SoilObservation ;
     foo:CNRatio 1.302e+01,
         2.558e+01 ;
     foo:Clay 5.621e+01,
@@ -784,7 +784,7 @@ foo:SBS18 a foo:Observation ;
         3.3799e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SBS19 a foo:Observation ;
+foo:SBS19 a foo:SoilObservation ;
     foo:CNRatio 1.237e+01,
         1.847e+01 ;
     foo:Clay 3.951e+01,
@@ -812,7 +812,7 @@ foo:SBS19 a foo:Observation ;
         2.4914e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SBS6 a foo:Observation ;
+foo:SBS6 a foo:SoilObservation ;
     foo:CNRatio 9.17e+00,
         1.187e+01 ;
     foo:Clay 4.87e+01,
@@ -840,7 +840,7 @@ foo:SBS6 a foo:Observation ;
         3.3169e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SE12 a foo:Observation ;
+foo:SE12 a foo:SoilObservation ;
     foo:CNRatio 1.218e+01,
         2.374e+01 ;
     foo:Clay 7.16e+01,
@@ -868,7 +868,7 @@ foo:SE12 a foo:Observation ;
         1.81e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SE20 a foo:Observation ;
+foo:SE20 a foo:SoilObservation ;
     foo:CNRatio 1.601e+01,
         2.75e+01 ;
     foo:Clay 7.39e+01,
@@ -896,7 +896,7 @@ foo:SE20 a foo:Observation ;
         1.4335e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SE24 a foo:Observation ;
+foo:SE24 a foo:SoilObservation ;
     foo:CNRatio 1.489e+01,
         1.836e+01 ;
     foo:Clay 7.18e+01,
@@ -924,7 +924,7 @@ foo:SE24 a foo:Observation ;
         1.3415e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SE3 a foo:Observation ;
+foo:SE3 a foo:SoilObservation ;
     foo:CNRatio 1.391e+01,
         2.26e+01 ;
     foo:Clay 7.125e+01,
@@ -952,7 +952,7 @@ foo:SE3 a foo:Observation ;
         1.7222e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SE6 a foo:Observation ;
+foo:SE6 a foo:SoilObservation ;
     foo:CNRatio 1.242e+01,
         2.148e+01 ;
     foo:Clay 6.98e+01,
@@ -980,7 +980,7 @@ foo:SE6 a foo:Observation ;
         1.8962e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SLF12 a foo:Observation ;
+foo:SLF12 a foo:SoilObservation ;
     foo:CNRatio 1.773e+01,
         2.686e+01 ;
     foo:Clay 5.959e+01,
@@ -1008,7 +1008,7 @@ foo:SLF12 a foo:Observation ;
         1.8159e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SLF13 a foo:Observation ;
+foo:SLF13 a foo:SoilObservation ;
     foo:CNRatio 1.929e+01,
         3.113e+01 ;
     foo:Clay 6.001e+01,
@@ -1036,7 +1036,7 @@ foo:SLF13 a foo:Observation ;
         2.9585e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SLF24 a foo:Observation ;
+foo:SLF24 a foo:SoilObservation ;
     foo:CNRatio 1.725e+01,
         2.846e+01 ;
     foo:Clay 5.83e+01,
@@ -1064,7 +1064,7 @@ foo:SLF24 a foo:Observation ;
         1.9775e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SLF4 a foo:Observation ;
+foo:SLF4 a foo:SoilObservation ;
     foo:CNRatio 1.816e+01,
         3.68e+01 ;
     foo:Clay 6.769e+01,
@@ -1092,7 +1092,7 @@ foo:SLF4 a foo:Observation ;
         2.3612e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SLF7 a foo:Observation ;
+foo:SLF7 a foo:SoilObservation ;
     foo:CNRatio 1.93e+01,
         3.095e+01 ;
     foo:Clay 6.458e+01,
@@ -1120,7 +1120,7 @@ foo:SLF7 a foo:Observation ;
         2.8372e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SOP1 a foo:Observation ;
+foo:SOP1 a foo:SoilObservation ;
     foo:CNRatio 9.69e+00,
         1.315e+01 ;
     foo:Clay 3.426e+01,
@@ -1148,7 +1148,7 @@ foo:SOP1 a foo:Observation ;
         6.67e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SOP2 a foo:Observation ;
+foo:SOP2 a foo:SoilObservation ;
     foo:CNRatio 1.237e+01,
         1.477e+01 ;
     foo:Clay 2.977e+01,
@@ -1176,7 +1176,7 @@ foo:SOP2 a foo:Observation ;
         2.03402e+03 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SOP6 a foo:Observation ;
+foo:SOP6 a foo:SoilObservation ;
     foo:CNRatio 1.087e+01,
         1.387e+01 ;
     foo:Clay 2.953e+01,
@@ -1204,7 +1204,7 @@ foo:SOP6 a foo:Observation ;
         2.44086e+03 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SOP8 a foo:Observation ;
+foo:SOP8 a foo:SoilObservation ;
     foo:CNRatio 1.218e+01,
         1.25e+01 ;
     foo:Clay 2.667e+01,
@@ -1232,7 +1232,7 @@ foo:SOP8 a foo:Observation ;
         9.6006e+02 ;
     foo:madeBySensor foo:SoilSensor .
 
-foo:SOP9 a foo:Observation ;
+foo:SOP9 a foo:SoilObservation ;
     foo:CNRatio 1.501e+01,
         1.927e+01 ;
     foo:Clay 2.682e+01,
