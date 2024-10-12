@@ -68,9 +68,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # https://w3id.org/def/foo#Observation
 <https://w3id.org/def/foo#Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# https://w3id.org/def/foo#SoilSensor
-<https://w3id.org/def/foo#SoilSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
 # 
 # 
 # #################################################################
@@ -83,7 +80,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # https://w3id.org/def/foo#DV122
 <https://w3id.org/def/foo#DV122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#DV122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#DV122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#DV122> <https://w3id.org/def/foo#CNRatio> "15.2"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV122> <https://w3id.org/def/foo#CNRatio> "18.19"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV122> <https://w3id.org/def/foo#Clay> "44.74"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -109,12 +105,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#DV122> <https://w3id.org/def/foo#TotalN> "0.49"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV122> <https://w3id.org/def/foo#TotalP> "414.68"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV122> <https://w3id.org/def/foo#TotalP> "603.51"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#DV122> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#DV122> .
+<https://w3id.org/def/foo#DV122> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#DV124
 <https://w3id.org/def/foo#DV124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#DV124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#DV124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#DV124> <https://w3id.org/def/foo#CNRatio> "13.92"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV124> <https://w3id.org/def/foo#CNRatio> "19.94"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV124> <https://w3id.org/def/foo#Clay> "53.95"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -140,12 +135,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#DV124> <https://w3id.org/def/foo#TotalN> "0.27"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV124> <https://w3id.org/def/foo#TotalP> "306.13"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV124> <https://w3id.org/def/foo#TotalP> "432.68"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#DV124> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#DV124> .
+<https://w3id.org/def/foo#DV124> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#DV16
 <https://w3id.org/def/foo#DV16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#DV16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#DV16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#DV16> <https://w3id.org/def/foo#CNRatio> "12.21"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV16> <https://w3id.org/def/foo#CNRatio> "18.48"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV16> <https://w3id.org/def/foo#Clay> "43.66"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -171,12 +165,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#DV16> <https://w3id.org/def/foo#TotalN> "0.35"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV16> <https://w3id.org/def/foo#TotalP> "434.31"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV16> <https://w3id.org/def/foo#TotalP> "565.6"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#DV16> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#DV16> .
+<https://w3id.org/def/foo#DV16> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#DV17
 <https://w3id.org/def/foo#DV17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#DV17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#DV17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#DV17> <https://w3id.org/def/foo#CNRatio> "13.46"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV17> <https://w3id.org/def/foo#CNRatio> "21.4"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV17> <https://w3id.org/def/foo#Clay> "43.1"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -202,12 +195,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#DV17> <https://w3id.org/def/foo#TotalN> "0.3"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV17> <https://w3id.org/def/foo#TotalP> "491.11"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV17> <https://w3id.org/def/foo#TotalP> "568.16"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#DV17> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#DV17> .
+<https://w3id.org/def/foo#DV17> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#DV19
 <https://w3id.org/def/foo#DV19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#DV19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#DV19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#DV19> <https://w3id.org/def/foo#CNRatio> "20.81"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV19> <https://w3id.org/def/foo#CNRatio> "22.58"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV19> <https://w3id.org/def/foo#Clay> "47.89"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -233,12 +225,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#DV19> <https://w3id.org/def/foo#TotalN> "0.11"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV19> <https://w3id.org/def/foo#TotalP> "398.07"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV19> <https://w3id.org/def/foo#TotalP> "465.79"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#DV19> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#DV19> .
+<https://w3id.org/def/foo#DV19> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#DV21
 <https://w3id.org/def/foo#DV21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#DV21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#DV21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#DV21> <https://w3id.org/def/foo#CNRatio> "12.92"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV21> <https://w3id.org/def/foo#CNRatio> "17.7"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV21> <https://w3id.org/def/foo#Clay> "49.02"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -264,12 +255,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#DV21> <https://w3id.org/def/foo#TotalN> "0.35"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV21> <https://w3id.org/def/foo#TotalP> "183.88"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV21> <https://w3id.org/def/foo#TotalP> "319.38"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#DV21> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#DV21> .
+<https://w3id.org/def/foo#DV21> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#DV220
 <https://w3id.org/def/foo#DV220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#DV220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#DV220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#DV220> <https://w3id.org/def/foo#CNRatio> "13.24"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV220> <https://w3id.org/def/foo#CNRatio> "18.18"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV220> <https://w3id.org/def/foo#Clay> "46.04"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -295,12 +285,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#DV220> <https://w3id.org/def/foo#TotalN> "0.23"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV220> <https://w3id.org/def/foo#TotalP> "160.84"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV220> <https://w3id.org/def/foo#TotalP> "229.19"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#DV220> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#DV220> .
+<https://w3id.org/def/foo#DV220> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#DV223
 <https://w3id.org/def/foo#DV223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#DV223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#DV223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#DV223> <https://w3id.org/def/foo#CNRatio> "15.29"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV223> <https://w3id.org/def/foo#CNRatio> "18.33"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV223> <https://w3id.org/def/foo#Clay> "50.95"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -326,12 +315,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#DV223> <https://w3id.org/def/foo#TotalN> "0.25"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV223> <https://w3id.org/def/foo#TotalP> "134.43"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV223> <https://w3id.org/def/foo#TotalP> "250.96"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#DV223> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#DV223> .
+<https://w3id.org/def/foo#DV223> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#DV224
 <https://w3id.org/def/foo#DV224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#DV224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#DV224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#DV224> <https://w3id.org/def/foo#CNRatio> "12.34"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV224> <https://w3id.org/def/foo#CNRatio> "17.78"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV224> <https://w3id.org/def/foo#Clay> "49.09"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -357,12 +345,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#DV224> <https://w3id.org/def/foo#TotalN> "0.23"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV224> <https://w3id.org/def/foo#TotalP> "149.36"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV224> <https://w3id.org/def/foo#TotalP> "212.55"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#DV224> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#DV224> .
+<https://w3id.org/def/foo#DV224> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#DV28
 <https://w3id.org/def/foo#DV28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#DV28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#DV28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#DV28> <https://w3id.org/def/foo#CNRatio> "15.85"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV28> <https://w3id.org/def/foo#CNRatio> "20.63"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV28> <https://w3id.org/def/foo#Clay> "46.64"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -388,12 +375,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#DV28> <https://w3id.org/def/foo#TotalN> "0.3"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV28> <https://w3id.org/def/foo#TotalP> "171.72"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV28> <https://w3id.org/def/foo#TotalP> "291.37"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#DV28> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#DV28> .
+<https://w3id.org/def/foo#DV28> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#MB18
 <https://w3id.org/def/foo#MB18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#MB18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#MB18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#MB18> <https://w3id.org/def/foo#CNRatio> "12.78"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB18> <https://w3id.org/def/foo#CNRatio> "14.16"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB18> <https://w3id.org/def/foo#Clay> "57.73"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -419,12 +405,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#MB18> <https://w3id.org/def/foo#TotalN> "0.37"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB18> <https://w3id.org/def/foo#TotalP> "128.8"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB18> <https://w3id.org/def/foo#TotalP> "262.21"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#MB18> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#MB18> .
+<https://w3id.org/def/foo#MB18> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#MB22
 <https://w3id.org/def/foo#MB22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#MB22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#MB22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#MB22> <https://w3id.org/def/foo#CNRatio> "13.25"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB22> <https://w3id.org/def/foo#CNRatio> "14.77"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB22> <https://w3id.org/def/foo#Clay> "61.53"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -450,12 +435,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#MB22> <https://w3id.org/def/foo#TotalN> "0.34"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB22> <https://w3id.org/def/foo#TotalP> "136.8"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB22> <https://w3id.org/def/foo#TotalP> "235.19"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#MB22> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#MB22> .
+<https://w3id.org/def/foo#MB22> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#MB4
 <https://w3id.org/def/foo#MB4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#MB4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#MB4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#MB4> <https://w3id.org/def/foo#CNRatio> "13.62"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB4> <https://w3id.org/def/foo#CNRatio> "14.24"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB4> <https://w3id.org/def/foo#Clay> "62.6"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -481,12 +465,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#MB4> <https://w3id.org/def/foo#TotalN> "0.38"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB4> <https://w3id.org/def/foo#TotalP> "171.28"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB4> <https://w3id.org/def/foo#TotalP> "263.74"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#MB4> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#MB4> .
+<https://w3id.org/def/foo#MB4> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#MB7
 <https://w3id.org/def/foo#MB7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#MB7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#MB7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#MB7> <https://w3id.org/def/foo#CNRatio> "12.09"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB7> <https://w3id.org/def/foo#CNRatio> "12.62"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB7> <https://w3id.org/def/foo#Clay> "65.76"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -512,12 +495,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#MB7> <https://w3id.org/def/foo#TotalN> "0.3"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB7> <https://w3id.org/def/foo#TotalP> "188.89"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB7> <https://w3id.org/def/foo#TotalP> "266.68"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#MB7> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#MB7> .
+<https://w3id.org/def/foo#MB7> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#MB9
 <https://w3id.org/def/foo#MB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#MB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#MB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#MB9> <https://w3id.org/def/foo#CNRatio> "11.8"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB9> <https://w3id.org/def/foo#CNRatio> "14.4"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB9> <https://w3id.org/def/foo#Clay> "51.39"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -543,12 +525,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#MB9> <https://w3id.org/def/foo#TotalN> "0.31"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB9> <https://w3id.org/def/foo#TotalP> "144.82"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB9> <https://w3id.org/def/foo#TotalP> "217.11"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#MB9> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#MB9> .
+<https://w3id.org/def/foo#MB9> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#MS14
 <https://w3id.org/def/foo#MS14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#MS14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#MS14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#MS14> <https://w3id.org/def/foo#CNRatio> "11.83"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS14> <https://w3id.org/def/foo#CNRatio> "13.26"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS14> <https://w3id.org/def/foo#Clay> "53.1"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -574,12 +555,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#MS14> <https://w3id.org/def/foo#TotalN> "0.35"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS14> <https://w3id.org/def/foo#TotalP> "150.97"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS14> <https://w3id.org/def/foo#TotalP> "233.89"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#MS14> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#MS14> .
+<https://w3id.org/def/foo#MS14> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#MS15
 <https://w3id.org/def/foo#MS15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#MS15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#MS15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#MS15> <https://w3id.org/def/foo#CNRatio> "12.23"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS15> <https://w3id.org/def/foo#CNRatio> "14.19"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS15> <https://w3id.org/def/foo#Clay> "50.42"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -604,12 +584,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#MS15> <https://w3id.org/def/foo#TotalN> "0.3"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS15> <https://w3id.org/def/foo#TotalP> "127.95"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS15> <https://w3id.org/def/foo#TotalP> "214.8"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#MS15> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#MS15> .
+<https://w3id.org/def/foo#MS15> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#MS18
 <https://w3id.org/def/foo#MS18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#MS18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#MS18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#MS18> <https://w3id.org/def/foo#CNRatio> "11.84"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS18> <https://w3id.org/def/foo#CNRatio> "14.39"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS18> <https://w3id.org/def/foo#Clay> "54.34"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -635,12 +614,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#MS18> <https://w3id.org/def/foo#TotalN> "0.31"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS18> <https://w3id.org/def/foo#TotalP> "146.93"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS18> <https://w3id.org/def/foo#TotalP> "235.99"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#MS18> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#MS18> .
+<https://w3id.org/def/foo#MS18> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#MS25
 <https://w3id.org/def/foo#MS25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#MS25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#MS25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#MS25> <https://w3id.org/def/foo#CNRatio> "12.41"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS25> <https://w3id.org/def/foo#CNRatio> "15.1"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS25> <https://w3id.org/def/foo#Clay> "57.61"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -666,12 +644,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#MS25> <https://w3id.org/def/foo#TotalN> "0.29"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS25> <https://w3id.org/def/foo#TotalP> "142.68"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS25> <https://w3id.org/def/foo#TotalP> "190.08"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#MS25> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#MS25> .
+<https://w3id.org/def/foo#MS25> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#MS3
 <https://w3id.org/def/foo#MS3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#MS3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#MS3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#MS3> <https://w3id.org/def/foo#CNRatio> "11.26"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS3> <https://w3id.org/def/foo#CNRatio> "11.77"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS3> <https://w3id.org/def/foo#Clay> "58.9"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -697,12 +674,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#MS3> <https://w3id.org/def/foo#TotalN> "0.28"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS3> <https://w3id.org/def/foo#TotalP> "191.45"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS3> <https://w3id.org/def/foo#TotalP> "293.09"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#MS3> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#MS3> .
+<https://w3id.org/def/foo#MS3> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SBN12
 <https://w3id.org/def/foo#SBN12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SBN12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SBN12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SBN12> <https://w3id.org/def/foo#CNRatio> "12.28"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN12> <https://w3id.org/def/foo#CNRatio> "25.37"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN12> <https://w3id.org/def/foo#Clay> "59.27"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -728,12 +704,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SBN12> <https://w3id.org/def/foo#TotalN> "0.41"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN12> <https://w3id.org/def/foo#TotalP> "112.55"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN12> <https://w3id.org/def/foo#TotalP> "177.79"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SBN12> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SBN12> .
+<https://w3id.org/def/foo#SBN12> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SBN18
 <https://w3id.org/def/foo#SBN18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SBN18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SBN18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SBN18> <https://w3id.org/def/foo#CNRatio> "14.6"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN18> <https://w3id.org/def/foo#CNRatio> "21.71"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN18> <https://w3id.org/def/foo#Clay> "56.11"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -759,12 +734,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SBN18> <https://w3id.org/def/foo#TotalN> "0.33"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN18> <https://w3id.org/def/foo#TotalP> "131.36"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN18> <https://w3id.org/def/foo#TotalP> "203.57"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SBN18> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SBN18> .
+<https://w3id.org/def/foo#SBN18> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SBN22
 <https://w3id.org/def/foo#SBN22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SBN22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SBN22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SBN22> <https://w3id.org/def/foo#CNRatio> "15.22"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN22> <https://w3id.org/def/foo#CNRatio> "23.88"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN22> <https://w3id.org/def/foo#Clay> "59.82"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -790,12 +764,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SBN22> <https://w3id.org/def/foo#TotalN> "0.27"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN22> <https://w3id.org/def/foo#TotalP> "124.71"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN22> <https://w3id.org/def/foo#TotalP> "186.13"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SBN22> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SBN22> .
+<https://w3id.org/def/foo#SBN22> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SBN24
 <https://w3id.org/def/foo#SBN24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SBN24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SBN24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SBN24> <https://w3id.org/def/foo#CNRatio> "13.2"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN24> <https://w3id.org/def/foo#CNRatio> "19.09"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN24> <https://w3id.org/def/foo#Clay> "49.49"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -821,12 +794,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SBN24> <https://w3id.org/def/foo#TotalN> "0.34"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN24> <https://w3id.org/def/foo#TotalP> "193.91"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN24> <https://w3id.org/def/foo#TotalP> "255.25"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SBN24> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SBN24> .
+<https://w3id.org/def/foo#SBN24> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SBN25
 <https://w3id.org/def/foo#SBN25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SBN25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SBN25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SBN25> <https://w3id.org/def/foo#CNRatio> "14.13"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN25> <https://w3id.org/def/foo#CNRatio> "19.7"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN25> <https://w3id.org/def/foo#Clay> "45.05"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -852,12 +824,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SBN25> <https://w3id.org/def/foo#TotalN> "0.3"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN25> <https://w3id.org/def/foo#TotalP> "148.75"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN25> <https://w3id.org/def/foo#TotalP> "214.82"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SBN25> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SBN25> .
+<https://w3id.org/def/foo#SBN25> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SBS1
 <https://w3id.org/def/foo#SBS1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SBS1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SBS1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SBS1> <https://w3id.org/def/foo#CNRatio> "10.79"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS1> <https://w3id.org/def/foo#CNRatio> "12.74"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS1> <https://w3id.org/def/foo#Clay> "54.04"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -883,12 +854,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SBS1> <https://w3id.org/def/foo#TotalN> "0.35"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS1> <https://w3id.org/def/foo#TotalP> "236.89"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS1> <https://w3id.org/def/foo#TotalP> "279.42"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SBS1> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SBS1> .
+<https://w3id.org/def/foo#SBS1> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SBS15
 <https://w3id.org/def/foo#SBS15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SBS15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SBS15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SBS15> <https://w3id.org/def/foo#CNRatio> "13.96"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS15> <https://w3id.org/def/foo#CNRatio> "18.67"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS15> <https://w3id.org/def/foo#Clay> "59.24"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -914,12 +884,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SBS15> <https://w3id.org/def/foo#TotalN> "0.55"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS15> <https://w3id.org/def/foo#TotalP> "224.65"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS15> <https://w3id.org/def/foo#TotalP> "313.31"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SBS15> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SBS15> .
+<https://w3id.org/def/foo#SBS15> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SBS18
 <https://w3id.org/def/foo#SBS18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SBS18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SBS18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SBS18> <https://w3id.org/def/foo#CNRatio> "13.02"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS18> <https://w3id.org/def/foo#CNRatio> "25.58"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS18> <https://w3id.org/def/foo#Clay> "56.21"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -945,12 +914,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SBS18> <https://w3id.org/def/foo#TotalN> "0.34"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS18> <https://w3id.org/def/foo#TotalP> "177.81"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS18> <https://w3id.org/def/foo#TotalP> "337.99"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SBS18> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SBS18> .
+<https://w3id.org/def/foo#SBS18> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SBS19
 <https://w3id.org/def/foo#SBS19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SBS19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SBS19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SBS19> <https://w3id.org/def/foo#CNRatio> "12.37"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS19> <https://w3id.org/def/foo#CNRatio> "18.47"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS19> <https://w3id.org/def/foo#Clay> "39.51"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -976,12 +944,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SBS19> <https://w3id.org/def/foo#TotalN> "0.37"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS19> <https://w3id.org/def/foo#TotalP> "156.53"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS19> <https://w3id.org/def/foo#TotalP> "249.14"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SBS19> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SBS19> .
+<https://w3id.org/def/foo#SBS19> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SBS6
 <https://w3id.org/def/foo#SBS6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SBS6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SBS6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SBS6> <https://w3id.org/def/foo#CNRatio> "11.87"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS6> <https://w3id.org/def/foo#CNRatio> "9.17"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS6> <https://w3id.org/def/foo#Clay> "48.7"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1007,12 +974,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SBS6> <https://w3id.org/def/foo#TotalN> "0.39"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS6> <https://w3id.org/def/foo#TotalP> "200.14"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS6> <https://w3id.org/def/foo#TotalP> "331.69"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SBS6> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SBS6> .
+<https://w3id.org/def/foo#SBS6> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SE12
 <https://w3id.org/def/foo#SE12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SE12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SE12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SE12> <https://w3id.org/def/foo#CNRatio> "12.18"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE12> <https://w3id.org/def/foo#CNRatio> "23.74"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE12> <https://w3id.org/def/foo#Clay> "71.6"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1038,12 +1004,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SE12> <https://w3id.org/def/foo#TotalN> "0.31"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE12> <https://w3id.org/def/foo#TotalP> "126.02"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE12> <https://w3id.org/def/foo#TotalP> "181.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SE12> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SE12> .
+<https://w3id.org/def/foo#SE12> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SE20
 <https://w3id.org/def/foo#SE20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SE20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SE20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SE20> <https://w3id.org/def/foo#CNRatio> "16.01"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE20> <https://w3id.org/def/foo#CNRatio> "27.5"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE20> <https://w3id.org/def/foo#Clay> "73.9"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1069,12 +1034,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SE20> <https://w3id.org/def/foo#TotalN> "0.25"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE20> <https://w3id.org/def/foo#TotalP> "143.35"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE20> <https://w3id.org/def/foo#TotalP> "98.69"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SE20> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SE20> .
+<https://w3id.org/def/foo#SE20> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SE24
 <https://w3id.org/def/foo#SE24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SE24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SE24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SE24> <https://w3id.org/def/foo#CNRatio> "14.89"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE24> <https://w3id.org/def/foo#CNRatio> "18.36"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE24> <https://w3id.org/def/foo#Clay> "71.8"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1100,12 +1064,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SE24> <https://w3id.org/def/foo#TotalN> "0.25"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE24> <https://w3id.org/def/foo#TotalP> "100.74"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE24> <https://w3id.org/def/foo#TotalP> "134.15"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SE24> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SE24> .
+<https://w3id.org/def/foo#SE24> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SE3
 <https://w3id.org/def/foo#SE3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SE3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SE3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SE3> <https://w3id.org/def/foo#CNRatio> "13.91"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE3> <https://w3id.org/def/foo#CNRatio> "22.6"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE3> <https://w3id.org/def/foo#Clay> "71.25"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1131,12 +1094,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SE3> <https://w3id.org/def/foo#TotalN> "0.27"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE3> <https://w3id.org/def/foo#TotalP> "136.64"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE3> <https://w3id.org/def/foo#TotalP> "172.22"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SE3> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SE3> .
+<https://w3id.org/def/foo#SE3> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SE6
 <https://w3id.org/def/foo#SE6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SE6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SE6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SE6> <https://w3id.org/def/foo#CNRatio> "12.42"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE6> <https://w3id.org/def/foo#CNRatio> "21.48"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE6> <https://w3id.org/def/foo#Clay> "69.8"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1162,12 +1124,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SE6> <https://w3id.org/def/foo#TotalN> "0.26"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE6> <https://w3id.org/def/foo#TotalP> "147.19"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE6> <https://w3id.org/def/foo#TotalP> "189.62"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SE6> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SE6> .
+<https://w3id.org/def/foo#SE6> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SLF12
 <https://w3id.org/def/foo#SLF12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SLF12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SLF12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SLF12> <https://w3id.org/def/foo#CNRatio> "17.73"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF12> <https://w3id.org/def/foo#CNRatio> "26.86"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF12> <https://w3id.org/def/foo#Clay> "59.59"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1193,12 +1154,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SLF12> <https://w3id.org/def/foo#TotalN> "0.45"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF12> <https://w3id.org/def/foo#TotalP> "181.59"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF12> <https://w3id.org/def/foo#TotalP> "85.47"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SLF12> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SLF12> .
+<https://w3id.org/def/foo#SLF12> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SLF13
 <https://w3id.org/def/foo#SLF13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SLF13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SLF13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SLF13> <https://w3id.org/def/foo#CNRatio> "19.29"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF13> <https://w3id.org/def/foo#CNRatio> "31.13"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF13> <https://w3id.org/def/foo#Clay> "60.01"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1224,12 +1184,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SLF13> <https://w3id.org/def/foo#TotalN> "0.64"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF13> <https://w3id.org/def/foo#TotalP> "295.85"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF13> <https://w3id.org/def/foo#TotalP> "95.7"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SLF13> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SLF13> .
+<https://w3id.org/def/foo#SLF13> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SLF24
 <https://w3id.org/def/foo#SLF24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SLF24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SLF24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SLF24> <https://w3id.org/def/foo#CNRatio> "17.25"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF24> <https://w3id.org/def/foo#CNRatio> "28.46"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF24> <https://w3id.org/def/foo#Clay> "58.3"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1255,12 +1214,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SLF24> <https://w3id.org/def/foo#TotalN> "0.31"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF24> <https://w3id.org/def/foo#TotalP> "126.09"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF24> <https://w3id.org/def/foo#TotalP> "197.75"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SLF24> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SLF24> .
+<https://w3id.org/def/foo#SLF24> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SLF4
 <https://w3id.org/def/foo#SLF4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SLF4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SLF4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SLF4> <https://w3id.org/def/foo#CNRatio> "18.16"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF4> <https://w3id.org/def/foo#CNRatio> "36.8"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF4> <https://w3id.org/def/foo#Clay> "67.69"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1286,12 +1244,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SLF4> <https://w3id.org/def/foo#TotalN> "0.55"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF4> <https://w3id.org/def/foo#TotalP> "236.12"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF4> <https://w3id.org/def/foo#TotalP> "71.88"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SLF4> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SLF4> .
+<https://w3id.org/def/foo#SLF4> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SLF7
 <https://w3id.org/def/foo#SLF7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SLF7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SLF7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SLF7> <https://w3id.org/def/foo#CNRatio> "19.3"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF7> <https://w3id.org/def/foo#CNRatio> "30.95"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF7> <https://w3id.org/def/foo#Clay> "64.58"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1317,12 +1274,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SLF7> <https://w3id.org/def/foo#TotalN> "0.7"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF7> <https://w3id.org/def/foo#TotalP> "283.72"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF7> <https://w3id.org/def/foo#TotalP> "52.62"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SLF7> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SLF7> .
+<https://w3id.org/def/foo#SLF7> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SOP1
 <https://w3id.org/def/foo#SOP1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SOP1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SOP1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SOP1> <https://w3id.org/def/foo#CNRatio> "13.15"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP1> <https://w3id.org/def/foo#CNRatio> "9.69"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP1> <https://w3id.org/def/foo#Clay> "34.26"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1348,12 +1304,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SOP1> <https://w3id.org/def/foo#TotalN> "0.2"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP1> <https://w3id.org/def/foo#TotalP> "262.66"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP1> <https://w3id.org/def/foo#TotalP> "667.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SOP1> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SOP1> .
+<https://w3id.org/def/foo#SOP1> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SOP2
 <https://w3id.org/def/foo#SOP2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SOP2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SOP2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SOP2> <https://w3id.org/def/foo#CNRatio> "12.37"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP2> <https://w3id.org/def/foo#CNRatio> "14.77"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP2> <https://w3id.org/def/foo#Clay> "29.77"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1379,12 +1334,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SOP2> <https://w3id.org/def/foo#TotalN> "0.31"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP2> <https://w3id.org/def/foo#TotalP> "2034.02"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP2> <https://w3id.org/def/foo#TotalP> "516.02"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SOP2> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SOP2> .
+<https://w3id.org/def/foo#SOP2> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SOP6
 <https://w3id.org/def/foo#SOP6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SOP6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SOP6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SOP6> <https://w3id.org/def/foo#CNRatio> "10.87"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP6> <https://w3id.org/def/foo#CNRatio> "13.87"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP6> <https://w3id.org/def/foo#Clay> "29.53"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1410,12 +1364,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SOP6> <https://w3id.org/def/foo#TotalN> "0.31"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP6> <https://w3id.org/def/foo#TotalP> "2440.86"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP6> <https://w3id.org/def/foo#TotalP> "547.63"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SOP6> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SOP6> .
+<https://w3id.org/def/foo#SOP6> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SOP8
 <https://w3id.org/def/foo#SOP8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SOP8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SOP8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SOP8> <https://w3id.org/def/foo#CNRatio> "12.18"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP8> <https://w3id.org/def/foo#CNRatio> "12.5"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP8> <https://w3id.org/def/foo#Clay> "26.67"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1441,12 +1394,11 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SOP8> <https://w3id.org/def/foo#TotalN> "0.31"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP8> <https://w3id.org/def/foo#TotalP> "215.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP8> <https://w3id.org/def/foo#TotalP> "960.06"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SOP8> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SOP8> .
+<https://w3id.org/def/foo#SOP8> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # https://w3id.org/def/foo#SOP9
 <https://w3id.org/def/foo#SOP9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/foo#SOP9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
-<https://w3id.org/def/foo#SOP9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilSensor> .
 <https://w3id.org/def/foo#SOP9> <https://w3id.org/def/foo#CNRatio> "15.01"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP9> <https://w3id.org/def/foo#CNRatio> "19.27"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP9> <https://w3id.org/def/foo#Clay> "26.82"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1472,6 +1424,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/foo#SOP9> <https://w3id.org/def/foo#TotalN> "0.36"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP9> <https://w3id.org/def/foo#TotalP> "2100.38"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP9> <https://w3id.org/def/foo#TotalP> "713.9"^^<http://www.w3.org/2001/XMLSchema#double> .
-<https://w3id.org/def/foo#SOP9> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SOP9> .
+<https://w3id.org/def/foo#SOP9> <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
