@@ -18,9 +18,6 @@
     "LandUse" : {
       "@id" : "https://w3id.org/def/foo#LandUse"
     },
-    "SoilSensor" : {
-      "@id" : "https://w3id.org/def/foo#SoilSensor"
-    },
     "PlotName" : {
       "@id" : "https://w3id.org/def/foo#PlotName"
     },
