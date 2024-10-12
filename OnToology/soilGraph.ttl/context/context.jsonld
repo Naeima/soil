@@ -1,5 +1,8 @@
 {
   "@context" : {
+    "SoilObservation" : {
+      "@id" : "https://w3id.org/def/foo#SoilObservation"
+    },
     "Sand" : {
       "@id" : "https://w3id.org/def/foo#Sand"
     },
@@ -47,9 +50,6 @@
     },
     "SoilPH" : {
       "@id" : "https://w3id.org/def/foo#SoilPH"
-    },
-    "Observation" : {
-      "@id" : "https://w3id.org/def/foo#Observation"
     }
   }
 }

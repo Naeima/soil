@@ -11,7 +11,7 @@
   "@id" : "https://w3id.org/def/foo#DV122",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -103,7 +103,7 @@
   "@id" : "https://w3id.org/def/foo#DV124",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -195,7 +195,7 @@
   "@id" : "https://w3id.org/def/foo#DV16",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -287,7 +287,7 @@
   "@id" : "https://w3id.org/def/foo#DV17",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -379,7 +379,7 @@
   "@id" : "https://w3id.org/def/foo#DV19",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -471,7 +471,7 @@
   "@id" : "https://w3id.org/def/foo#DV21",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -563,7 +563,7 @@
   "@id" : "https://w3id.org/def/foo#DV220",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -655,7 +655,7 @@
   "@id" : "https://w3id.org/def/foo#DV223",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -747,7 +747,7 @@
   "@id" : "https://w3id.org/def/foo#DV224",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -839,7 +839,7 @@
   "@id" : "https://w3id.org/def/foo#DV28",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -943,7 +943,7 @@
   "@id" : "https://w3id.org/def/foo#MB18",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -1035,7 +1035,7 @@
   "@id" : "https://w3id.org/def/foo#MB22",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -1127,7 +1127,7 @@
   "@id" : "https://w3id.org/def/foo#MB4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -1219,7 +1219,7 @@
   "@id" : "https://w3id.org/def/foo#MB7",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -1311,7 +1311,7 @@
   "@id" : "https://w3id.org/def/foo#MB9",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -1403,7 +1403,7 @@
   "@id" : "https://w3id.org/def/foo#MS14",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -1495,7 +1495,7 @@
   "@id" : "https://w3id.org/def/foo#MS15",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -1584,7 +1584,7 @@
   "@id" : "https://w3id.org/def/foo#MS18",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -1676,7 +1676,7 @@
   "@id" : "https://w3id.org/def/foo#MS25",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -1768,7 +1768,7 @@
   "@id" : "https://w3id.org/def/foo#MS3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -1857,16 +1857,13 @@
     "@id" : "https://w3id.org/def/foo#SoilSensor"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/foo#Observation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
   "@id" : "https://w3id.org/def/foo#PlotName",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "https://w3id.org/def/foo#SBN12",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -1958,7 +1955,7 @@
   "@id" : "https://w3id.org/def/foo#SBN18",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -2050,7 +2047,7 @@
   "@id" : "https://w3id.org/def/foo#SBN22",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -2142,7 +2139,7 @@
   "@id" : "https://w3id.org/def/foo#SBN24",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -2234,7 +2231,7 @@
   "@id" : "https://w3id.org/def/foo#SBN25",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -2326,7 +2323,7 @@
   "@id" : "https://w3id.org/def/foo#SBS1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -2418,7 +2415,7 @@
   "@id" : "https://w3id.org/def/foo#SBS15",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -2510,7 +2507,7 @@
   "@id" : "https://w3id.org/def/foo#SBS18",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -2602,7 +2599,7 @@
   "@id" : "https://w3id.org/def/foo#SBS19",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -2694,7 +2691,7 @@
   "@id" : "https://w3id.org/def/foo#SBS6",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -2786,7 +2783,7 @@
   "@id" : "https://w3id.org/def/foo#SE12",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -2878,7 +2875,7 @@
   "@id" : "https://w3id.org/def/foo#SE20",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -2970,7 +2967,7 @@
   "@id" : "https://w3id.org/def/foo#SE24",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -3062,7 +3059,7 @@
   "@id" : "https://w3id.org/def/foo#SE3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -3154,7 +3151,7 @@
   "@id" : "https://w3id.org/def/foo#SE6",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -3246,7 +3243,7 @@
   "@id" : "https://w3id.org/def/foo#SLF12",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -3338,7 +3335,7 @@
   "@id" : "https://w3id.org/def/foo#SLF13",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -3430,7 +3427,7 @@
   "@id" : "https://w3id.org/def/foo#SLF24",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -3522,7 +3519,7 @@
   "@id" : "https://w3id.org/def/foo#SLF4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -3614,7 +3611,7 @@
   "@id" : "https://w3id.org/def/foo#SLF7",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -3706,7 +3703,7 @@
   "@id" : "https://w3id.org/def/foo#SOP1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -3798,7 +3795,7 @@
   "@id" : "https://w3id.org/def/foo#SOP2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -3890,7 +3887,7 @@
   "@id" : "https://w3id.org/def/foo#SOP6",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -3982,7 +3979,7 @@
   "@id" : "https://w3id.org/def/foo#SOP8",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -4074,7 +4071,7 @@
   "@id" : "https://w3id.org/def/foo#SOP9",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/def/foo#Observation"
+    "@id" : "https://w3id.org/def/foo#SoilObservation"
   } ],
   "https://w3id.org/def/foo#CNRatio" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
@@ -4171,6 +4168,9 @@
 }, {
   "@id" : "https://w3id.org/def/foo#Site",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/foo#SoilObservation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "https://w3id.org/def/foo#SoilPH",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]

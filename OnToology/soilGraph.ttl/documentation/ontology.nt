@@ -65,8 +65,8 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # #################################################################
 # 
 # 
-# https://w3id.org/def/foo#Observation
-<https://w3id.org/def/foo#Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://w3id.org/def/foo#SoilObservation
+<https://w3id.org/def/foo#SoilObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # 
 # 
@@ -79,7 +79,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#DV122
 <https://w3id.org/def/foo#DV122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#DV122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#DV122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#DV122> <https://w3id.org/def/foo#CNRatio> "15.2"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV122> <https://w3id.org/def/foo#CNRatio> "18.19"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV122> <https://w3id.org/def/foo#Clay> "44.74"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -109,7 +109,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#DV124
 <https://w3id.org/def/foo#DV124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#DV124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#DV124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#DV124> <https://w3id.org/def/foo#CNRatio> "13.92"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV124> <https://w3id.org/def/foo#CNRatio> "19.94"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV124> <https://w3id.org/def/foo#Clay> "53.95"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -139,7 +139,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#DV16
 <https://w3id.org/def/foo#DV16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#DV16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#DV16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#DV16> <https://w3id.org/def/foo#CNRatio> "12.21"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV16> <https://w3id.org/def/foo#CNRatio> "18.48"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV16> <https://w3id.org/def/foo#Clay> "43.66"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -169,7 +169,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#DV17
 <https://w3id.org/def/foo#DV17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#DV17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#DV17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#DV17> <https://w3id.org/def/foo#CNRatio> "13.46"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV17> <https://w3id.org/def/foo#CNRatio> "21.4"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV17> <https://w3id.org/def/foo#Clay> "43.1"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -199,7 +199,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#DV19
 <https://w3id.org/def/foo#DV19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#DV19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#DV19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#DV19> <https://w3id.org/def/foo#CNRatio> "20.81"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV19> <https://w3id.org/def/foo#CNRatio> "22.58"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV19> <https://w3id.org/def/foo#Clay> "47.89"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -229,7 +229,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#DV21
 <https://w3id.org/def/foo#DV21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#DV21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#DV21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#DV21> <https://w3id.org/def/foo#CNRatio> "12.92"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV21> <https://w3id.org/def/foo#CNRatio> "17.7"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV21> <https://w3id.org/def/foo#Clay> "49.02"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -259,7 +259,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#DV220
 <https://w3id.org/def/foo#DV220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#DV220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#DV220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#DV220> <https://w3id.org/def/foo#CNRatio> "13.24"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV220> <https://w3id.org/def/foo#CNRatio> "18.18"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV220> <https://w3id.org/def/foo#Clay> "46.04"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -289,7 +289,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#DV223
 <https://w3id.org/def/foo#DV223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#DV223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#DV223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#DV223> <https://w3id.org/def/foo#CNRatio> "15.29"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV223> <https://w3id.org/def/foo#CNRatio> "18.33"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV223> <https://w3id.org/def/foo#Clay> "50.95"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -319,7 +319,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#DV224
 <https://w3id.org/def/foo#DV224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#DV224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#DV224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#DV224> <https://w3id.org/def/foo#CNRatio> "12.34"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV224> <https://w3id.org/def/foo#CNRatio> "17.78"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV224> <https://w3id.org/def/foo#Clay> "49.09"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -349,7 +349,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#DV28
 <https://w3id.org/def/foo#DV28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#DV28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#DV28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#DV28> <https://w3id.org/def/foo#CNRatio> "15.85"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV28> <https://w3id.org/def/foo#CNRatio> "20.63"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#DV28> <https://w3id.org/def/foo#Clay> "46.64"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -379,7 +379,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#MB18
 <https://w3id.org/def/foo#MB18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#MB18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#MB18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#MB18> <https://w3id.org/def/foo#CNRatio> "12.78"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB18> <https://w3id.org/def/foo#CNRatio> "14.16"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB18> <https://w3id.org/def/foo#Clay> "57.73"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -409,7 +409,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#MB22
 <https://w3id.org/def/foo#MB22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#MB22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#MB22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#MB22> <https://w3id.org/def/foo#CNRatio> "13.25"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB22> <https://w3id.org/def/foo#CNRatio> "14.77"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB22> <https://w3id.org/def/foo#Clay> "61.53"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -439,7 +439,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#MB4
 <https://w3id.org/def/foo#MB4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#MB4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#MB4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#MB4> <https://w3id.org/def/foo#CNRatio> "13.62"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB4> <https://w3id.org/def/foo#CNRatio> "14.24"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB4> <https://w3id.org/def/foo#Clay> "62.6"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -469,7 +469,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#MB7
 <https://w3id.org/def/foo#MB7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#MB7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#MB7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#MB7> <https://w3id.org/def/foo#CNRatio> "12.09"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB7> <https://w3id.org/def/foo#CNRatio> "12.62"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB7> <https://w3id.org/def/foo#Clay> "65.76"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -499,7 +499,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#MB9
 <https://w3id.org/def/foo#MB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#MB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#MB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#MB9> <https://w3id.org/def/foo#CNRatio> "11.8"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB9> <https://w3id.org/def/foo#CNRatio> "14.4"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MB9> <https://w3id.org/def/foo#Clay> "51.39"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -529,7 +529,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#MS14
 <https://w3id.org/def/foo#MS14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#MS14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#MS14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#MS14> <https://w3id.org/def/foo#CNRatio> "11.83"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS14> <https://w3id.org/def/foo#CNRatio> "13.26"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS14> <https://w3id.org/def/foo#Clay> "53.1"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -559,7 +559,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#MS15
 <https://w3id.org/def/foo#MS15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#MS15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#MS15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#MS15> <https://w3id.org/def/foo#CNRatio> "12.23"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS15> <https://w3id.org/def/foo#CNRatio> "14.19"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS15> <https://w3id.org/def/foo#Clay> "50.42"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -588,7 +588,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#MS18
 <https://w3id.org/def/foo#MS18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#MS18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#MS18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#MS18> <https://w3id.org/def/foo#CNRatio> "11.84"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS18> <https://w3id.org/def/foo#CNRatio> "14.39"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS18> <https://w3id.org/def/foo#Clay> "54.34"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -618,7 +618,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#MS25
 <https://w3id.org/def/foo#MS25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#MS25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#MS25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#MS25> <https://w3id.org/def/foo#CNRatio> "12.41"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS25> <https://w3id.org/def/foo#CNRatio> "15.1"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS25> <https://w3id.org/def/foo#Clay> "57.61"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -648,7 +648,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#MS3
 <https://w3id.org/def/foo#MS3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#MS3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#MS3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#MS3> <https://w3id.org/def/foo#CNRatio> "11.26"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS3> <https://w3id.org/def/foo#CNRatio> "11.77"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#MS3> <https://w3id.org/def/foo#Clay> "58.9"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -678,7 +678,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SBN12
 <https://w3id.org/def/foo#SBN12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SBN12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SBN12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SBN12> <https://w3id.org/def/foo#CNRatio> "12.28"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN12> <https://w3id.org/def/foo#CNRatio> "25.37"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN12> <https://w3id.org/def/foo#Clay> "59.27"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -708,7 +708,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SBN18
 <https://w3id.org/def/foo#SBN18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SBN18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SBN18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SBN18> <https://w3id.org/def/foo#CNRatio> "14.6"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN18> <https://w3id.org/def/foo#CNRatio> "21.71"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN18> <https://w3id.org/def/foo#Clay> "56.11"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -738,7 +738,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SBN22
 <https://w3id.org/def/foo#SBN22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SBN22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SBN22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SBN22> <https://w3id.org/def/foo#CNRatio> "15.22"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN22> <https://w3id.org/def/foo#CNRatio> "23.88"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN22> <https://w3id.org/def/foo#Clay> "59.82"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -768,7 +768,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SBN24
 <https://w3id.org/def/foo#SBN24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SBN24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SBN24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SBN24> <https://w3id.org/def/foo#CNRatio> "13.2"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN24> <https://w3id.org/def/foo#CNRatio> "19.09"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN24> <https://w3id.org/def/foo#Clay> "49.49"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -798,7 +798,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SBN25
 <https://w3id.org/def/foo#SBN25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SBN25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SBN25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SBN25> <https://w3id.org/def/foo#CNRatio> "14.13"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN25> <https://w3id.org/def/foo#CNRatio> "19.7"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBN25> <https://w3id.org/def/foo#Clay> "45.05"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -828,7 +828,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SBS1
 <https://w3id.org/def/foo#SBS1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SBS1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SBS1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SBS1> <https://w3id.org/def/foo#CNRatio> "10.79"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS1> <https://w3id.org/def/foo#CNRatio> "12.74"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS1> <https://w3id.org/def/foo#Clay> "54.04"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -858,7 +858,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SBS15
 <https://w3id.org/def/foo#SBS15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SBS15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SBS15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SBS15> <https://w3id.org/def/foo#CNRatio> "13.96"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS15> <https://w3id.org/def/foo#CNRatio> "18.67"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS15> <https://w3id.org/def/foo#Clay> "59.24"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -888,7 +888,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SBS18
 <https://w3id.org/def/foo#SBS18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SBS18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SBS18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SBS18> <https://w3id.org/def/foo#CNRatio> "13.02"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS18> <https://w3id.org/def/foo#CNRatio> "25.58"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS18> <https://w3id.org/def/foo#Clay> "56.21"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -918,7 +918,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SBS19
 <https://w3id.org/def/foo#SBS19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SBS19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SBS19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SBS19> <https://w3id.org/def/foo#CNRatio> "12.37"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS19> <https://w3id.org/def/foo#CNRatio> "18.47"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS19> <https://w3id.org/def/foo#Clay> "39.51"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -948,7 +948,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SBS6
 <https://w3id.org/def/foo#SBS6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SBS6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SBS6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SBS6> <https://w3id.org/def/foo#CNRatio> "11.87"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS6> <https://w3id.org/def/foo#CNRatio> "9.17"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SBS6> <https://w3id.org/def/foo#Clay> "48.7"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -978,7 +978,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SE12
 <https://w3id.org/def/foo#SE12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SE12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SE12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SE12> <https://w3id.org/def/foo#CNRatio> "12.18"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE12> <https://w3id.org/def/foo#CNRatio> "23.74"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE12> <https://w3id.org/def/foo#Clay> "71.6"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1008,7 +1008,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SE20
 <https://w3id.org/def/foo#SE20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SE20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SE20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SE20> <https://w3id.org/def/foo#CNRatio> "16.01"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE20> <https://w3id.org/def/foo#CNRatio> "27.5"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE20> <https://w3id.org/def/foo#Clay> "73.9"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1038,7 +1038,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SE24
 <https://w3id.org/def/foo#SE24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SE24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SE24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SE24> <https://w3id.org/def/foo#CNRatio> "14.89"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE24> <https://w3id.org/def/foo#CNRatio> "18.36"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE24> <https://w3id.org/def/foo#Clay> "71.8"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1068,7 +1068,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SE3
 <https://w3id.org/def/foo#SE3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SE3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SE3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SE3> <https://w3id.org/def/foo#CNRatio> "13.91"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE3> <https://w3id.org/def/foo#CNRatio> "22.6"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE3> <https://w3id.org/def/foo#Clay> "71.25"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1098,7 +1098,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SE6
 <https://w3id.org/def/foo#SE6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SE6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SE6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SE6> <https://w3id.org/def/foo#CNRatio> "12.42"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE6> <https://w3id.org/def/foo#CNRatio> "21.48"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SE6> <https://w3id.org/def/foo#Clay> "69.8"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1128,7 +1128,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SLF12
 <https://w3id.org/def/foo#SLF12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SLF12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SLF12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SLF12> <https://w3id.org/def/foo#CNRatio> "17.73"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF12> <https://w3id.org/def/foo#CNRatio> "26.86"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF12> <https://w3id.org/def/foo#Clay> "59.59"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1158,7 +1158,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SLF13
 <https://w3id.org/def/foo#SLF13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SLF13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SLF13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SLF13> <https://w3id.org/def/foo#CNRatio> "19.29"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF13> <https://w3id.org/def/foo#CNRatio> "31.13"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF13> <https://w3id.org/def/foo#Clay> "60.01"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1188,7 +1188,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SLF24
 <https://w3id.org/def/foo#SLF24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SLF24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SLF24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SLF24> <https://w3id.org/def/foo#CNRatio> "17.25"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF24> <https://w3id.org/def/foo#CNRatio> "28.46"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF24> <https://w3id.org/def/foo#Clay> "58.3"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1218,7 +1218,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SLF4
 <https://w3id.org/def/foo#SLF4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SLF4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SLF4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SLF4> <https://w3id.org/def/foo#CNRatio> "18.16"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF4> <https://w3id.org/def/foo#CNRatio> "36.8"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF4> <https://w3id.org/def/foo#Clay> "67.69"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1248,7 +1248,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SLF7
 <https://w3id.org/def/foo#SLF7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SLF7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SLF7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SLF7> <https://w3id.org/def/foo#CNRatio> "19.3"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF7> <https://w3id.org/def/foo#CNRatio> "30.95"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SLF7> <https://w3id.org/def/foo#Clay> "64.58"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1278,7 +1278,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SOP1
 <https://w3id.org/def/foo#SOP1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SOP1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SOP1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SOP1> <https://w3id.org/def/foo#CNRatio> "13.15"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP1> <https://w3id.org/def/foo#CNRatio> "9.69"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP1> <https://w3id.org/def/foo#Clay> "34.26"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1308,7 +1308,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SOP2
 <https://w3id.org/def/foo#SOP2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SOP2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SOP2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SOP2> <https://w3id.org/def/foo#CNRatio> "12.37"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP2> <https://w3id.org/def/foo#CNRatio> "14.77"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP2> <https://w3id.org/def/foo#Clay> "29.77"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1338,7 +1338,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SOP6
 <https://w3id.org/def/foo#SOP6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SOP6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SOP6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SOP6> <https://w3id.org/def/foo#CNRatio> "10.87"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP6> <https://w3id.org/def/foo#CNRatio> "13.87"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP6> <https://w3id.org/def/foo#Clay> "29.53"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1368,7 +1368,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SOP8
 <https://w3id.org/def/foo#SOP8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SOP8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SOP8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SOP8> <https://w3id.org/def/foo#CNRatio> "12.18"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP8> <https://w3id.org/def/foo#CNRatio> "12.5"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP8> <https://w3id.org/def/foo#Clay> "26.67"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1398,7 +1398,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # https://w3id.org/def/foo#SOP9
 <https://w3id.org/def/foo#SOP9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/def/foo#SOP9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#Observation> .
+<https://w3id.org/def/foo#SOP9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/foo#SoilObservation> .
 <https://w3id.org/def/foo#SOP9> <https://w3id.org/def/foo#CNRatio> "15.01"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP9> <https://w3id.org/def/foo#CNRatio> "19.27"^^<http://www.w3.org/2001/XMLSchema#double> .
 <https://w3id.org/def/foo#SOP9> <https://w3id.org/def/foo#Clay> "26.82"^^<http://www.w3.org/2001/XMLSchema#double> .
