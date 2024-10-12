@@ -1,0 +1,55 @@
+{
+  "@context" : {
+    "Sand" : {
+      "@id" : "https://w3id.org/def/foo#Sand"
+    },
+    "InorganicP" : {
+      "@id" : "https://w3id.org/def/foo#InorganicP"
+    },
+    "TotalN" : {
+      "@id" : "https://w3id.org/def/foo#TotalN"
+    },
+    "madeBySensor" : {
+      "@id" : "https://w3id.org/def/foo#madeBySensor"
+    },
+    "CNRatio" : {
+      "@id" : "https://w3id.org/def/foo#CNRatio"
+    },
+    "LandUse" : {
+      "@id" : "https://w3id.org/def/foo#LandUse"
+    },
+    "PlotName" : {
+      "@id" : "https://w3id.org/def/foo#PlotName"
+    },
+    "ID" : {
+      "@id" : "https://w3id.org/def/foo#ID"
+    },
+    "Subplot" : {
+      "@id" : "https://w3id.org/def/foo#Subplot"
+    },
+    "TotalP" : {
+      "@id" : "https://w3id.org/def/foo#TotalP"
+    },
+    "TotalC" : {
+      "@id" : "https://w3id.org/def/foo#TotalC"
+    },
+    "Site" : {
+      "@id" : "https://w3id.org/def/foo#Site"
+    },
+    "Horizon" : {
+      "@id" : "https://w3id.org/def/foo#Horizon"
+    },
+    "Silt" : {
+      "@id" : "https://w3id.org/def/foo#Silt"
+    },
+    "Clay" : {
+      "@id" : "https://w3id.org/def/foo#Clay"
+    },
+    "SoilPH" : {
+      "@id" : "https://w3id.org/def/foo#SoilPH"
+    },
+    "Observation" : {
+      "@id" : "https://w3id.org/def/foo#Observation"
+    }
+  }
+}
