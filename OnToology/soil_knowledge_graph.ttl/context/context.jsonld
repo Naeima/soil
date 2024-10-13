@@ -7,9 +7,6 @@
     "inorganicP" : {
       "@id" : "https://w3id.org/def/foo#inorganicP"
     },
-    "SoilObservation" : {
-      "@id" : "https://w3id.org/def/foo#SoilObservation"
-    },
     "abstract" : {
       "@id" : "http://purl.org/dc/elements/1.1/abstract"
     },
@@ -34,14 +31,14 @@
     "NasalisLarvatus" : {
       "@id" : "https://w3id.org/def/foo#NasalisLarvatus"
     },
+    "elephasMaximus" : {
+      "@id" : "https://w3id.org/def/foo#elephasMaximus"
+    },
     "generatedAtTime" : {
       "@id" : "http://www.w3.org/ns/prov#generatedAtTime"
     },
     "license" : {
       "@id" : "http://purl.org/dc/terms/license"
-    },
-    "Sand" : {
-      "@id" : "https://w3id.org/def/foo#Sand"
     },
     "Kingdom" : {
       "@id" : "https://www.bbc.co.uk/ontologies/wildlife-ontology#Kingdom"
@@ -73,9 +70,6 @@
       "@id" : "https://w3id.org/def/foo#soilPH",
       "@type" : "http://www.w3.org/2001/XMLSchema#double"
     },
-    "InorganicP" : {
-      "@id" : "https://w3id.org/def/foo#InorganicP"
-    },
     "Malayopython" : {
       "@id" : "https://w3id.org/def/foo#Malayopython"
     },
@@ -98,9 +92,6 @@
       "@id" : "https://w3id.org/def/foo#subplotRadius_m",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
-    "TotalN" : {
-      "@id" : "https://w3id.org/def/foo#TotalN"
-    },
     "madeBySensor" : {
       "@id" : "http://www.w3.org/ns/sosa/madeBySensor",
       "@type" : "@id"
@@ -117,9 +108,6 @@
     },
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
-    },
-    "CNRatio" : {
-      "@id" : "https://w3id.org/def/foo#CNRatio"
     },
     "cameraLocation" : {
       "@id" : "https://w3id.org/def/foo#cameraLocation"
@@ -144,9 +132,6 @@
     "path" : {
       "@id" : "https://w3id.org/def/foo#path",
       "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
-    },
-    "LandUse" : {
-      "@id" : "https://w3id.org/def/foo#LandUse"
     },
     "treeNotes" : {
       "@id" : "https://w3id.org/def/foo#treeNotes"
@@ -205,14 +190,11 @@
       "@id" : "https://w3id.org/def/foo#clay",
       "@type" : "http://www.w3.org/2001/XMLSchema#double"
     },
-    "ManisJavanica" : {
-      "@id" : "https://w3id.org/def/foo#ManisJavanica"
-    },
     "treeNLianas" : {
       "@id" : "https://w3id.org/def/foo#treeNLianas"
     },
-    "PlotName" : {
-      "@id" : "https://w3id.org/def/foo#PlotName"
+    "soilObservation" : {
+      "@id" : "https://w3id.org/def/foo#soilObservation"
     },
     "wasDerivedFrom" : {
       "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom"
@@ -231,9 +213,6 @@
     },
     "Family" : {
       "@id" : "https://www.bbc.co.uk/ontologies/wildlife-ontology#Family"
-    },
-    "ID" : {
-      "@id" : "https://w3id.org/def/foo#ID"
     },
     "status" : {
       "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#status"
@@ -266,9 +245,6 @@
       "@id" : "https://w3id.org/def/foo#gMTDate",
       "@type" : "http://www.w3.org/2001/XMLSchema#date"
     },
-    "Subplot" : {
-      "@id" : "https://w3id.org/def/foo#Subplot"
-    },
     "Pythonidae" : {
       "@id" : "https://w3id.org/def/foo#Pythonidae"
     },
@@ -279,6 +255,9 @@
     "definition" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#definition"
     },
+    "gPSObservation" : {
+      "@id" : "https://w3id.org/def/foo#gPSObservation"
+    },
     "observes" : {
       "@id" : "https://w3id.org/def/foo#observes",
       "@type" : "@id"
@@ -286,9 +265,6 @@
     "localDate" : {
       "@id" : "https://w3id.org/def/foo#localDate",
       "@type" : "http://www.w3.org/2001/XMLSchema#date"
-    },
-    "TotalP" : {
-      "@id" : "https://w3id.org/def/foo#TotalP"
     },
     "Genus" : {
       "@id" : "https://w3id.org/def/foo#Genus"
@@ -307,9 +283,6 @@
       "@id" : "https://w3id.org/def/foo#isObservedBy",
       "@type" : "@id"
     },
-    "TotalC" : {
-      "@id" : "https://w3id.org/def/foo#TotalC"
-    },
     "publisher" : {
       "@id" : "http://purl.org/dc/terms/publisher"
     },
@@ -320,21 +293,12 @@
       "@id" : "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
       "@type" : "@id"
     },
-    "Site" : {
-      "@id" : "https://w3id.org/def/foo#Site"
-    },
     "iD" : {
       "@id" : "https://w3id.org/def/foo#iD"
     },
     "observedProperty" : {
       "@id" : "https://w3id.org/def/foo#observedProperty",
       "@type" : "@id"
-    },
-    "Horizon" : {
-      "@id" : "https://w3id.org/def/foo#Horizon"
-    },
-    "Silt" : {
-      "@id" : "https://w3id.org/def/foo#Silt"
     },
     "madeObservation" : {
       "@id" : "https://w3id.org/def/foo#madeObservation",
@@ -371,21 +335,12 @@
       "@id" : "https://w3id.org/def/foo#cov",
       "@type" : "http://www.w3.org/2001/XMLSchema#double"
     },
-    "ElephasMaximus" : {
-      "@id" : "https://w3id.org/def/foo#ElephasMaximus"
-    },
-    "Clay" : {
-      "@id" : "https://w3id.org/def/foo#Clay"
-    },
     "treeDBH_cm" : {
       "@id" : "https://w3id.org/def/foo#treeDBH_cm",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
-    },
-    "SoilPH" : {
-      "@id" : "https://w3id.org/def/foo#SoilPH"
     },
     "ObservableProperty" : {
       "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
@@ -399,9 +354,6 @@
     },
     "Species" : {
       "@id" : "https://w3id.org/def/foo#Species"
-    },
-    "MalayopythonReticulatus" : {
-      "@id" : "https://w3id.org/def/foo#MalayopythonReticulatus"
     },
     "Squamata" : {
       "@id" : "https://w3id.org/def/foo#Squamata"
@@ -418,9 +370,6 @@
     "horizon" : {
       "@id" : "https://w3id.org/def/foo#horizon",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "GPSObservation" : {
-      "@id" : "https://w3id.org/def/foo#GPSObservation"
     },
     "treeID" : {
       "@id" : "https://w3id.org/def/foo#treeID",
