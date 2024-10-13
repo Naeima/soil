@@ -1,55 +1,55 @@
 {
   "@context" : {
-    "Sand" : {
-      "@id" : "https://w3id.org/def/foo#Sand"
+    "landUse" : {
+      "@id" : "https://w3id.org/def/foo#landUse"
     },
-    "InorganicP" : {
-      "@id" : "https://w3id.org/def/foo#InorganicP"
+    "inorganicP" : {
+      "@id" : "https://w3id.org/def/foo#inorganicP"
     },
-    "TotalN" : {
-      "@id" : "https://w3id.org/def/foo#TotalN"
+    "cNRatio" : {
+      "@id" : "https://w3id.org/def/foo#cNRatio"
+    },
+    "soilPH" : {
+      "@id" : "https://w3id.org/def/foo#soilPH"
     },
     "madeBySensor" : {
       "@id" : "https://w3id.org/def/foo#madeBySensor"
     },
-    "CNRatio" : {
-      "@id" : "https://w3id.org/def/foo#CNRatio"
+    "plotName" : {
+      "@id" : "https://w3id.org/def/foo#plotName"
     },
-    "LandUse" : {
-      "@id" : "https://w3id.org/def/foo#LandUse"
+    "totalP" : {
+      "@id" : "https://w3id.org/def/foo#totalP"
     },
-    "PlotName" : {
-      "@id" : "https://w3id.org/def/foo#PlotName"
+    "id" : {
+      "@id" : "https://w3id.org/def/foo#id"
     },
-    "ID" : {
-      "@id" : "https://w3id.org/def/foo#ID"
+    "totalN" : {
+      "@id" : "https://w3id.org/def/foo#totalN"
     },
-    "Subplot" : {
-      "@id" : "https://w3id.org/def/foo#Subplot"
+    "clay" : {
+      "@id" : "https://w3id.org/def/foo#clay"
     },
-    "TotalP" : {
-      "@id" : "https://w3id.org/def/foo#TotalP"
+    "soilObservation" : {
+      "@id" : "https://w3id.org/def/foo#soilObservation"
     },
-    "TotalC" : {
-      "@id" : "https://w3id.org/def/foo#TotalC"
+    "silt" : {
+      "@id" : "https://w3id.org/def/foo#silt"
     },
-    "Site" : {
-      "@id" : "https://w3id.org/def/foo#Site"
+    "site" : {
+      "@id" : "https://w3id.org/def/foo#site"
     },
-    "Horizon" : {
-      "@id" : "https://w3id.org/def/foo#Horizon"
+    "totalC" : {
+      "@id" : "https://w3id.org/def/foo#totalC"
     },
-    "Silt" : {
-      "@id" : "https://w3id.org/def/foo#Silt"
+    "subplot" : {
+      "@id" : "https://w3id.org/def/foo#subplot"
     },
-    "Clay" : {
-      "@id" : "https://w3id.org/def/foo#Clay"
+    "sand" : {
+      "@id" : "https://w3id.org/def/foo#sand"
     },
-    "SoilPH" : {
-      "@id" : "https://w3id.org/def/foo#SoilPH"
-    },
-    "Observation" : {
-      "@id" : "https://w3id.org/def/foo#Observation"
+    "horizon" : {
+      "@id" : "https://w3id.org/def/foo#horizon"
     }
   }
 }

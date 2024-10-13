@@ -12,76 +12,76 @@
 #    Annotation properties
 #################################################################
 
-###  https://w3id.org/def/foo#CNRatio
-<https://w3id.org/def/foo#CNRatio> rdf:type owl:AnnotationProperty .
+###  https://w3id.org/def/foo#cNRatio
+<https://w3id.org/def/foo#cNRatio> rdf:type owl:AnnotationProperty .
 
 
-###  https://w3id.org/def/foo#Clay
-<https://w3id.org/def/foo#Clay> rdf:type owl:AnnotationProperty .
+###  https://w3id.org/def/foo#clay
+<https://w3id.org/def/foo#clay> rdf:type owl:AnnotationProperty .
 
 
-###  https://w3id.org/def/foo#Horizon
-<https://w3id.org/def/foo#Horizon> rdf:type owl:AnnotationProperty .
+###  https://w3id.org/def/foo#horizon
+<https://w3id.org/def/foo#horizon> rdf:type owl:AnnotationProperty .
 
 
-###  https://w3id.org/def/foo#ID
-<https://w3id.org/def/foo#ID> rdf:type owl:AnnotationProperty .
+###  https://w3id.org/def/foo#id
+<https://w3id.org/def/foo#id> rdf:type owl:AnnotationProperty .
 
 
-###  https://w3id.org/def/foo#InorganicP
-<https://w3id.org/def/foo#InorganicP> rdf:type owl:AnnotationProperty .
+###  https://w3id.org/def/foo#inorganicP
+<https://w3id.org/def/foo#inorganicP> rdf:type owl:AnnotationProperty .
 
 
-###  https://w3id.org/def/foo#LandUse
-<https://w3id.org/def/foo#LandUse> rdf:type owl:AnnotationProperty .
-
-
-###  https://w3id.org/def/foo#PlotName
-<https://w3id.org/def/foo#PlotName> rdf:type owl:AnnotationProperty .
-
-
-###  https://w3id.org/def/foo#Sand
-<https://w3id.org/def/foo#Sand> rdf:type owl:AnnotationProperty .
-
-
-###  https://w3id.org/def/foo#Silt
-<https://w3id.org/def/foo#Silt> rdf:type owl:AnnotationProperty .
-
-
-###  https://w3id.org/def/foo#Site
-<https://w3id.org/def/foo#Site> rdf:type owl:AnnotationProperty .
-
-
-###  https://w3id.org/def/foo#SoilPH
-<https://w3id.org/def/foo#SoilPH> rdf:type owl:AnnotationProperty .
-
-
-###  https://w3id.org/def/foo#Subplot
-<https://w3id.org/def/foo#Subplot> rdf:type owl:AnnotationProperty .
-
-
-###  https://w3id.org/def/foo#TotalC
-<https://w3id.org/def/foo#TotalC> rdf:type owl:AnnotationProperty .
-
-
-###  https://w3id.org/def/foo#TotalN
-<https://w3id.org/def/foo#TotalN> rdf:type owl:AnnotationProperty .
-
-
-###  https://w3id.org/def/foo#TotalP
-<https://w3id.org/def/foo#TotalP> rdf:type owl:AnnotationProperty .
+###  https://w3id.org/def/foo#landUse
+<https://w3id.org/def/foo#landUse> rdf:type owl:AnnotationProperty .
 
 
 ###  https://w3id.org/def/foo#madeBySensor
 <https://w3id.org/def/foo#madeBySensor> rdf:type owl:AnnotationProperty .
 
 
+###  https://w3id.org/def/foo#plotName
+<https://w3id.org/def/foo#plotName> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/def/foo#sand
+<https://w3id.org/def/foo#sand> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/def/foo#silt
+<https://w3id.org/def/foo#silt> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/def/foo#site
+<https://w3id.org/def/foo#site> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/def/foo#soilPH
+<https://w3id.org/def/foo#soilPH> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/def/foo#subplot
+<https://w3id.org/def/foo#subplot> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/def/foo#totalC
+<https://w3id.org/def/foo#totalC> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/def/foo#totalN
+<https://w3id.org/def/foo#totalN> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/def/foo#totalP
+<https://w3id.org/def/foo#totalP> rdf:type owl:AnnotationProperty .
+
+
 #################################################################
 #    Classes
 #################################################################
 
-###  https://w3id.org/def/foo#Observation
-<https://w3id.org/def/foo#Observation> rdf:type owl:Class .
+###  https://w3id.org/def/foo#soilObservation
+<https://w3id.org/def/foo#soilObservation> rdf:type owl:Class .
 
 
 #################################################################
@@ -90,1396 +90,1396 @@
 
 ###  https://w3id.org/def/foo#DV122
 <https://w3id.org/def/foo#DV122> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "15.2"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "15.2"^^xsd:double ,
                                                                     "18.19"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "44.74"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "44.74"^^xsd:double ,
                                                                  "45.19"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "DV122" ;
-                                 <https://w3id.org/def/foo#InorganicP> "2.26"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "DV122" ;
+                                 <https://w3id.org/def/foo#inorganicP> "2.26"^^xsd:double ,
                                                                        "23.29"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                 <https://w3id.org/def/foo#PlotName> "DV1" ;
-                                 <https://w3id.org/def/foo#Sand> "29.65"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "DV1" ;
+                                 <https://w3id.org/def/foo#sand> "29.65"^^xsd:double ,
                                                                  "32.47"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "22.35"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "22.35"^^xsd:double ,
                                                                  "25.6"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "Danum Valley Conservation Area" ;
-                                 <https://w3id.org/def/foo#SoilPH> "5.02"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "Danum Valley Conservation Area" ;
+                                 <https://w3id.org/def/foo#soilPH> "5.02"^^xsd:double ,
                                                                    "6.06"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "22" ;
-                                 <https://w3id.org/def/foo#TotalC> "1.47"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "22" ;
+                                 <https://w3id.org/def/foo#totalC> "1.47"^^xsd:double ,
                                                                    "7.52"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.08"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.08"^^xsd:double ,
                                                                    "0.49"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "414.68"^^xsd:double ,
-                                                                   "603.51"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "414.68"^^xsd:double ,
+                                                                   "603.51"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#DV124
 <https://w3id.org/def/foo#DV124> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "13.92"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "13.92"^^xsd:double ,
                                                                     "19.94"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "53.95"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "53.95"^^xsd:double ,
                                                                  "56.4"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "DV124" ;
-                                 <https://w3id.org/def/foo#InorganicP> "21.32"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "DV124" ;
+                                 <https://w3id.org/def/foo#inorganicP> "21.32"^^xsd:double ,
                                                                        "3.96"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                 <https://w3id.org/def/foo#PlotName> "DV1" ;
-                                 <https://w3id.org/def/foo#Sand> "24.23"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "DV1" ;
+                                 <https://w3id.org/def/foo#sand> "24.23"^^xsd:double ,
                                                                  "27.69"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "18.36"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "18.36"^^xsd:double ,
                                                                  "19.37"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "Danum Valley Conservation Area" ;
-                                 <https://w3id.org/def/foo#SoilPH> "5.64"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "Danum Valley Conservation Area" ;
+                                 <https://w3id.org/def/foo#soilPH> "5.64"^^xsd:double ,
                                                                    "6.1"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "24" ;
-                                 <https://w3id.org/def/foo#TotalC> "1.15"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "24" ;
+                                 <https://w3id.org/def/foo#totalC> "1.15"^^xsd:double ,
                                                                    "3.78"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.06"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.06"^^xsd:double ,
                                                                    "0.27"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "306.13"^^xsd:double ,
-                                                                   "432.68"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "306.13"^^xsd:double ,
+                                                                   "432.68"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#DV16
 <https://w3id.org/def/foo#DV16> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "12.21"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "12.21"^^xsd:double ,
                                                                    "18.48"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "43.66"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "43.66"^^xsd:double ,
                                                                 "44.87"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "DV16" ;
-                                <https://w3id.org/def/foo#InorganicP> "1.48"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "DV16" ;
+                                <https://w3id.org/def/foo#inorganicP> "1.48"^^xsd:double ,
                                                                       "8.82"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                <https://w3id.org/def/foo#PlotName> "DV1" ;
-                                <https://w3id.org/def/foo#Sand> "29.81"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "DV1" ;
+                                <https://w3id.org/def/foo#sand> "29.81"^^xsd:double ,
                                                                 "30.96"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "24.17"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "24.17"^^xsd:double ,
                                                                 "26.54"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "Danum Valley Conservation Area" ;
-                                <https://w3id.org/def/foo#SoilPH> "6.06"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "Danum Valley Conservation Area" ;
+                                <https://w3id.org/def/foo#soilPH> "6.06"^^xsd:double ,
                                                                   "6.15"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "6" ;
-                                <https://w3id.org/def/foo#TotalC> "1.1"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "6" ;
+                                <https://w3id.org/def/foo#totalC> "1.1"^^xsd:double ,
                                                                   "4.32"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.06"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.06"^^xsd:double ,
                                                                   "0.35"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "434.31"^^xsd:double ,
-                                                                  "565.6"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "434.31"^^xsd:double ,
+                                                                  "565.6"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#DV17
 <https://w3id.org/def/foo#DV17> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "13.46"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "13.46"^^xsd:double ,
                                                                    "21.4"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "43.1"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "43.1"^^xsd:double ,
                                                                 "43.94"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "DV17" ;
-                                <https://w3id.org/def/foo#InorganicP> "1.14"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "DV17" ;
+                                <https://w3id.org/def/foo#inorganicP> "1.14"^^xsd:double ,
                                                                       "8.18"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                <https://w3id.org/def/foo#PlotName> "DV1" ;
-                                <https://w3id.org/def/foo#Sand> "28.95"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "DV1" ;
+                                <https://w3id.org/def/foo#sand> "28.95"^^xsd:double ,
                                                                 "32.48"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "24.42"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "24.42"^^xsd:double ,
                                                                 "27.11"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "Danum Valley Conservation Area" ;
-                                <https://w3id.org/def/foo#SoilPH> "6.01"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "Danum Valley Conservation Area" ;
+                                <https://w3id.org/def/foo#soilPH> "6.01"^^xsd:double ,
                                                                   "6.17"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "7" ;
-                                <https://w3id.org/def/foo#TotalC> "0.92"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "7" ;
+                                <https://w3id.org/def/foo#totalC> "0.92"^^xsd:double ,
                                                                   "4.08"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.04"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.04"^^xsd:double ,
                                                                   "0.3"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "491.11"^^xsd:double ,
-                                                                  "568.16"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "491.11"^^xsd:double ,
+                                                                  "568.16"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#DV19
 <https://w3id.org/def/foo#DV19> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "20.81"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "20.81"^^xsd:double ,
                                                                    "22.58"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "47.89"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "47.89"^^xsd:double ,
                                                                 "52.48"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "DV19" ;
-                                <https://w3id.org/def/foo#InorganicP> "1.25"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "DV19" ;
+                                <https://w3id.org/def/foo#inorganicP> "1.25"^^xsd:double ,
                                                                       "3.71"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                <https://w3id.org/def/foo#PlotName> "DV1" ;
-                                <https://w3id.org/def/foo#Sand> "23.13"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "DV1" ;
+                                <https://w3id.org/def/foo#sand> "23.13"^^xsd:double ,
                                                                 "26.97"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "24.38"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "24.38"^^xsd:double ,
                                                                 "25.14"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "Danum Valley Conservation Area" ;
-                                <https://w3id.org/def/foo#SoilPH> "5.65"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "Danum Valley Conservation Area" ;
+                                <https://w3id.org/def/foo#soilPH> "5.65"^^xsd:double ,
                                                                   "6.14"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "9" ;
-                                <https://w3id.org/def/foo#TotalC> "1.1"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "9" ;
+                                <https://w3id.org/def/foo#totalC> "1.1"^^xsd:double ,
                                                                   "2.51"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.05"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.05"^^xsd:double ,
                                                                   "0.11"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "398.07"^^xsd:double ,
-                                                                  "465.79"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "398.07"^^xsd:double ,
+                                                                  "465.79"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#DV21
 <https://w3id.org/def/foo#DV21> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "12.92"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "12.92"^^xsd:double ,
                                                                    "17.7"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "49.02"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "49.02"^^xsd:double ,
                                                                 "51.01"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "DV21" ;
-                                <https://w3id.org/def/foo#InorganicP> "30.83"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "DV21" ;
+                                <https://w3id.org/def/foo#inorganicP> "30.83"^^xsd:double ,
                                                                       "4.16"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                <https://w3id.org/def/foo#PlotName> "DV2" ;
-                                <https://w3id.org/def/foo#Sand> "23.93"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "DV2" ;
+                                <https://w3id.org/def/foo#sand> "23.93"^^xsd:double ,
                                                                 "28.97"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "22.01"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "22.01"^^xsd:double ,
                                                                 "25.06"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "Danum Valley Conservation Area" ;
-                                <https://w3id.org/def/foo#SoilPH> "4.46"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "Danum Valley Conservation Area" ;
+                                <https://w3id.org/def/foo#soilPH> "4.46"^^xsd:double ,
                                                                   "5.31"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "1" ;
-                                <https://w3id.org/def/foo#TotalC> "0.92"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "1" ;
+                                <https://w3id.org/def/foo#totalC> "0.92"^^xsd:double ,
                                                                   "4.5"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.05"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.05"^^xsd:double ,
                                                                   "0.35"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "183.88"^^xsd:double ,
-                                                                  "319.38"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "183.88"^^xsd:double ,
+                                                                  "319.38"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#DV220
 <https://w3id.org/def/foo#DV220> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "13.24"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "13.24"^^xsd:double ,
                                                                     "18.18"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "46.04"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "46.04"^^xsd:double ,
                                                                  "57.01"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "DV220" ;
-                                 <https://w3id.org/def/foo#InorganicP> "11.58"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "DV220" ;
+                                 <https://w3id.org/def/foo#inorganicP> "11.58"^^xsd:double ,
                                                                        "2.65"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                 <https://w3id.org/def/foo#PlotName> "DV2" ;
-                                 <https://w3id.org/def/foo#Sand> "17.24"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "DV2" ;
+                                 <https://w3id.org/def/foo#sand> "17.24"^^xsd:double ,
                                                                  "26.61"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "25.75"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "25.75"^^xsd:double ,
                                                                  "27.35"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "Danum Valley Conservation Area" ;
-                                 <https://w3id.org/def/foo#SoilPH> "4.84"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "Danum Valley Conservation Area" ;
+                                 <https://w3id.org/def/foo#soilPH> "4.84"^^xsd:double ,
                                                                    "5.52"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "20" ;
-                                 <https://w3id.org/def/foo#TotalC> "1.02"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "20" ;
+                                 <https://w3id.org/def/foo#totalC> "1.02"^^xsd:double ,
                                                                    "3.0"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.06"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.06"^^xsd:double ,
                                                                    "0.23"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "160.84"^^xsd:double ,
-                                                                   "229.19"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "160.84"^^xsd:double ,
+                                                                   "229.19"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#DV223
 <https://w3id.org/def/foo#DV223> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "15.29"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "15.29"^^xsd:double ,
                                                                     "18.33"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "50.95"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "50.95"^^xsd:double ,
                                                                  "58.4"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "DV223" ;
-                                 <https://w3id.org/def/foo#InorganicP> "17.85"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "DV223" ;
+                                 <https://w3id.org/def/foo#inorganicP> "17.85"^^xsd:double ,
                                                                        "4.04"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                 <https://w3id.org/def/foo#PlotName> "DV2" ;
-                                 <https://w3id.org/def/foo#Sand> "21.38"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "DV2" ;
+                                 <https://w3id.org/def/foo#sand> "21.38"^^xsd:double ,
                                                                  "26.22"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "20.22"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "20.22"^^xsd:double ,
                                                                  "22.84"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "Danum Valley Conservation Area" ;
-                                 <https://w3id.org/def/foo#SoilPH> "5.0"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "Danum Valley Conservation Area" ;
+                                 <https://w3id.org/def/foo#soilPH> "5.0"^^xsd:double ,
                                                                    "5.53"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "23" ;
-                                 <https://w3id.org/def/foo#TotalC> "0.98"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "23" ;
+                                 <https://w3id.org/def/foo#totalC> "0.98"^^xsd:double ,
                                                                    "3.89"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.05"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.05"^^xsd:double ,
                                                                    "0.25"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "134.43"^^xsd:double ,
-                                                                   "250.96"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "134.43"^^xsd:double ,
+                                                                   "250.96"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#DV224
 <https://w3id.org/def/foo#DV224> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "12.34"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "12.34"^^xsd:double ,
                                                                     "17.78"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "49.09"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "49.09"^^xsd:double ,
                                                                  "54.59"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "DV224" ;
-                                 <https://w3id.org/def/foo#InorganicP> "16.5"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "DV224" ;
+                                 <https://w3id.org/def/foo#inorganicP> "16.5"^^xsd:double ,
                                                                        "3.46"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                 <https://w3id.org/def/foo#PlotName> "DV2" ;
-                                 <https://w3id.org/def/foo#Sand> "20.58"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "DV2" ;
+                                 <https://w3id.org/def/foo#sand> "20.58"^^xsd:double ,
                                                                  "26.51"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "24.4"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "24.4"^^xsd:double ,
                                                                  "24.83"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "Danum Valley Conservation Area" ;
-                                 <https://w3id.org/def/foo#SoilPH> "4.54"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "Danum Valley Conservation Area" ;
+                                 <https://w3id.org/def/foo#soilPH> "4.54"^^xsd:double ,
                                                                    "5.25"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "24" ;
-                                 <https://w3id.org/def/foo#TotalC> "0.83"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "24" ;
+                                 <https://w3id.org/def/foo#totalC> "0.83"^^xsd:double ,
                                                                    "2.8"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.05"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.05"^^xsd:double ,
                                                                    "0.23"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "149.36"^^xsd:double ,
-                                                                   "212.55"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "149.36"^^xsd:double ,
+                                                                   "212.55"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#DV28
 <https://w3id.org/def/foo#DV28> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "15.85"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "15.85"^^xsd:double ,
                                                                    "20.63"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "46.64"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "46.64"^^xsd:double ,
                                                                 "54.45"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "DV28" ;
-                                <https://w3id.org/def/foo#InorganicP> "2.83"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "DV28" ;
+                                <https://w3id.org/def/foo#inorganicP> "2.83"^^xsd:double ,
                                                                       "20.53"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                <https://w3id.org/def/foo#PlotName> "DV2" ;
-                                <https://w3id.org/def/foo#Sand> "23.5"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "DV2" ;
+                                <https://w3id.org/def/foo#sand> "23.5"^^xsd:double ,
                                                                 "25.31"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "22.05"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "22.05"^^xsd:double ,
                                                                 "28.05"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "Danum Valley Conservation Area" ;
-                                <https://w3id.org/def/foo#SoilPH> "4.97"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "Danum Valley Conservation Area" ;
+                                <https://w3id.org/def/foo#soilPH> "4.97"^^xsd:double ,
                                                                   "5.45"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "8" ;
-                                <https://w3id.org/def/foo#TotalC> "1.11"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "8" ;
+                                <https://w3id.org/def/foo#totalC> "1.11"^^xsd:double ,
                                                                   "4.79"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.05"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.05"^^xsd:double ,
                                                                   "0.3"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "171.72"^^xsd:double ,
-                                                                  "291.37"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "171.72"^^xsd:double ,
+                                                                  "291.37"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#MB18
 <https://w3id.org/def/foo#MB18> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "12.78"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "12.78"^^xsd:double ,
                                                                    "14.16"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "57.73"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "57.73"^^xsd:double ,
                                                                 "63.55"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "MB18" ;
-                                <https://w3id.org/def/foo#InorganicP> "28.59"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "MB18" ;
+                                <https://w3id.org/def/foo#inorganicP> "28.59"^^xsd:double ,
                                                                       "5.86"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                <https://w3id.org/def/foo#PlotName> "Belian" ;
-                                <https://w3id.org/def/foo#Sand> "21.67"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "Belian" ;
+                                <https://w3id.org/def/foo#sand> "21.67"^^xsd:double ,
                                                                 "23.1"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "13.34"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "13.34"^^xsd:double ,
                                                                 "20.6"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "Maliau Basin Conservation Area" ;
-                                <https://w3id.org/def/foo#SoilPH> "4.1"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "Maliau Basin Conservation Area" ;
+                                <https://w3id.org/def/foo#soilPH> "4.1"^^xsd:double ,
                                                                   "4.64"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "18" ;
-                                <https://w3id.org/def/foo#TotalC> "1.17"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "18" ;
+                                <https://w3id.org/def/foo#totalC> "1.17"^^xsd:double ,
                                                                   "4.77"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.08"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.08"^^xsd:double ,
                                                                   "0.37"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "128.8"^^xsd:double ,
-                                                                  "262.21"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "128.8"^^xsd:double ,
+                                                                  "262.21"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#MB22
 <https://w3id.org/def/foo#MB22> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "13.25"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "13.25"^^xsd:double ,
                                                                    "14.77"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "61.53"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "61.53"^^xsd:double ,
                                                                 "62.75"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "MB22" ;
-                                <https://w3id.org/def/foo#InorganicP> "22.61"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "MB22" ;
+                                <https://w3id.org/def/foo#inorganicP> "22.61"^^xsd:double ,
                                                                       "7.15"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                <https://w3id.org/def/foo#PlotName> "Belian" ;
-                                <https://w3id.org/def/foo#Sand> "20.39"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "Belian" ;
+                                <https://w3id.org/def/foo#sand> "20.39"^^xsd:double ,
                                                                 "21.67"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "15.57"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "15.57"^^xsd:double ,
                                                                 "18.08"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "Maliau Basin Conservation Area" ;
-                                <https://w3id.org/def/foo#SoilPH> "3.86"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "Maliau Basin Conservation Area" ;
+                                <https://w3id.org/def/foo#soilPH> "3.86"^^xsd:double ,
                                                                   "4.0"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "22" ;
-                                <https://w3id.org/def/foo#TotalC> "1.26"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "22" ;
+                                <https://w3id.org/def/foo#totalC> "1.26"^^xsd:double ,
                                                                   "4.51"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.09"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.09"^^xsd:double ,
                                                                   "0.34"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "136.8"^^xsd:double ,
-                                                                  "235.19"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "136.8"^^xsd:double ,
+                                                                  "235.19"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#MB4
 <https://w3id.org/def/foo#MB4> rdf:type owl:NamedIndividual ,
-                                        <https://w3id.org/def/foo#Observation> ;
-                               <https://w3id.org/def/foo#CNRatio> "13.62"^^xsd:double ,
+                                        <https://w3id.org/def/foo#soilObservation> ;
+                               <https://w3id.org/def/foo#cNRatio> "13.62"^^xsd:double ,
                                                                   "14.24"^^xsd:double ;
-                               <https://w3id.org/def/foo#Clay> "62.6"^^xsd:double ,
+                               <https://w3id.org/def/foo#clay> "62.6"^^xsd:double ,
                                                                "62.88"^^xsd:double ;
-                               <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                               <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                   "Organic" ;
-                               <https://w3id.org/def/foo#ID> "MB4" ;
-                               <https://w3id.org/def/foo#InorganicP> "25.03"^^xsd:double ,
+                               <https://w3id.org/def/foo#id> "MB4" ;
+                               <https://w3id.org/def/foo#inorganicP> "25.03"^^xsd:double ,
                                                                      "5.32"^^xsd:double ;
-                               <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                               <https://w3id.org/def/foo#PlotName> "Belian" ;
-                               <https://w3id.org/def/foo#Sand> "20.66"^^xsd:double ,
+                               <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                               <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                               <https://w3id.org/def/foo#plotName> "Belian" ;
+                               <https://w3id.org/def/foo#sand> "20.66"^^xsd:double ,
                                                                "21.76"^^xsd:double ;
-                               <https://w3id.org/def/foo#Silt> "15.64"^^xsd:double ,
+                               <https://w3id.org/def/foo#silt> "15.64"^^xsd:double ,
                                                                "16.46"^^xsd:double ;
-                               <https://w3id.org/def/foo#Site> "Maliau Basin Conservation Area" ;
-                               <https://w3id.org/def/foo#SoilPH> "4.06"^^xsd:double ,
+                               <https://w3id.org/def/foo#site> "Maliau Basin Conservation Area" ;
+                               <https://w3id.org/def/foo#soilPH> "4.06"^^xsd:double ,
                                                                  "4.69"^^xsd:double ;
-                               <https://w3id.org/def/foo#Subplot> "4" ;
-                               <https://w3id.org/def/foo#TotalC> "1.15"^^xsd:double ,
+                               <https://w3id.org/def/foo#subplot> "4" ;
+                               <https://w3id.org/def/foo#totalC> "1.15"^^xsd:double ,
                                                                  "5.45"^^xsd:double ;
-                               <https://w3id.org/def/foo#TotalN> "0.08"^^xsd:double ,
+                               <https://w3id.org/def/foo#totalN> "0.08"^^xsd:double ,
                                                                  "0.38"^^xsd:double ;
-                               <https://w3id.org/def/foo#TotalP> "171.28"^^xsd:double ,
-                                                                 "263.74"^^xsd:double ;
-                               <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                               <https://w3id.org/def/foo#totalP> "171.28"^^xsd:double ,
+                                                                 "263.74"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#MB7
 <https://w3id.org/def/foo#MB7> rdf:type owl:NamedIndividual ,
-                                        <https://w3id.org/def/foo#Observation> ;
-                               <https://w3id.org/def/foo#CNRatio> "12.09"^^xsd:double ,
+                                        <https://w3id.org/def/foo#soilObservation> ;
+                               <https://w3id.org/def/foo#cNRatio> "12.09"^^xsd:double ,
                                                                   "12.62"^^xsd:double ;
-                               <https://w3id.org/def/foo#Clay> "65.76"^^xsd:double ,
+                               <https://w3id.org/def/foo#clay> "65.76"^^xsd:double ,
                                                                "66.61"^^xsd:double ;
-                               <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                               <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                   "Organic" ;
-                               <https://w3id.org/def/foo#ID> "MB7" ;
-                               <https://w3id.org/def/foo#InorganicP> "15.94"^^xsd:double ,
+                               <https://w3id.org/def/foo#id> "MB7" ;
+                               <https://w3id.org/def/foo#inorganicP> "15.94"^^xsd:double ,
                                                                      "5.02"^^xsd:double ;
-                               <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                               <https://w3id.org/def/foo#PlotName> "Belian" ;
-                               <https://w3id.org/def/foo#Sand> "20.06"^^xsd:double ,
+                               <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                               <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                               <https://w3id.org/def/foo#plotName> "Belian" ;
+                               <https://w3id.org/def/foo#sand> "20.06"^^xsd:double ,
                                                                "20.59"^^xsd:double ;
-                               <https://w3id.org/def/foo#Silt> "12.8"^^xsd:double ,
+                               <https://w3id.org/def/foo#silt> "12.8"^^xsd:double ,
                                                                "14.18"^^xsd:double ;
-                               <https://w3id.org/def/foo#Site> "Maliau Basin Conservation Area" ;
-                               <https://w3id.org/def/foo#SoilPH> "4.18"^^xsd:double ,
+                               <https://w3id.org/def/foo#site> "Maliau Basin Conservation Area" ;
+                               <https://w3id.org/def/foo#soilPH> "4.18"^^xsd:double ,
                                                                  "4.7"^^xsd:double ;
-                               <https://w3id.org/def/foo#Subplot> "7" ;
-                               <https://w3id.org/def/foo#TotalC> "1.19"^^xsd:double ,
+                               <https://w3id.org/def/foo#subplot> "7" ;
+                               <https://w3id.org/def/foo#totalC> "1.19"^^xsd:double ,
                                                                  "3.58"^^xsd:double ;
-                               <https://w3id.org/def/foo#TotalN> "0.09"^^xsd:double ,
+                               <https://w3id.org/def/foo#totalN> "0.09"^^xsd:double ,
                                                                  "0.3"^^xsd:double ;
-                               <https://w3id.org/def/foo#TotalP> "188.89"^^xsd:double ,
-                                                                 "266.68"^^xsd:double ;
-                               <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                               <https://w3id.org/def/foo#totalP> "188.89"^^xsd:double ,
+                                                                 "266.68"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#MB9
 <https://w3id.org/def/foo#MB9> rdf:type owl:NamedIndividual ,
-                                        <https://w3id.org/def/foo#Observation> ;
-                               <https://w3id.org/def/foo#CNRatio> "11.8"^^xsd:double ,
+                                        <https://w3id.org/def/foo#soilObservation> ;
+                               <https://w3id.org/def/foo#cNRatio> "11.8"^^xsd:double ,
                                                                   "14.4"^^xsd:double ;
-                               <https://w3id.org/def/foo#Clay> "51.39"^^xsd:double ,
+                               <https://w3id.org/def/foo#clay> "51.39"^^xsd:double ,
                                                                "54.06"^^xsd:double ;
-                               <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                               <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                   "Organic" ;
-                               <https://w3id.org/def/foo#ID> "MB9" ;
-                               <https://w3id.org/def/foo#InorganicP> "21.92"^^xsd:double ,
+                               <https://w3id.org/def/foo#id> "MB9" ;
+                               <https://w3id.org/def/foo#inorganicP> "21.92"^^xsd:double ,
                                                                      "7.18"^^xsd:double ;
-                               <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                               <https://w3id.org/def/foo#PlotName> "Belian" ;
-                               <https://w3id.org/def/foo#Sand> "29.34"^^xsd:double ,
+                               <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                               <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                               <https://w3id.org/def/foo#plotName> "Belian" ;
+                               <https://w3id.org/def/foo#sand> "29.34"^^xsd:double ,
                                                                "32.91"^^xsd:double ;
-                               <https://w3id.org/def/foo#Silt> "15.7"^^xsd:double ,
+                               <https://w3id.org/def/foo#silt> "15.7"^^xsd:double ,
                                                                "16.6"^^xsd:double ;
-                               <https://w3id.org/def/foo#Site> "Maliau Basin Conservation Area" ;
-                               <https://w3id.org/def/foo#SoilPH> "3.71"^^xsd:double ,
+                               <https://w3id.org/def/foo#site> "Maliau Basin Conservation Area" ;
+                               <https://w3id.org/def/foo#soilPH> "3.71"^^xsd:double ,
                                                                  "3.75"^^xsd:double ;
-                               <https://w3id.org/def/foo#Subplot> "9" ;
-                               <https://w3id.org/def/foo#TotalC> "1.46"^^xsd:double ,
+                               <https://w3id.org/def/foo#subplot> "9" ;
+                               <https://w3id.org/def/foo#totalC> "1.46"^^xsd:double ,
                                                                  "3.61"^^xsd:double ;
-                               <https://w3id.org/def/foo#TotalN> "0.1"^^xsd:double ,
+                               <https://w3id.org/def/foo#totalN> "0.1"^^xsd:double ,
                                                                  "0.31"^^xsd:double ;
-                               <https://w3id.org/def/foo#TotalP> "144.82"^^xsd:double ,
-                                                                 "217.11"^^xsd:double ;
-                               <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                               <https://w3id.org/def/foo#totalP> "144.82"^^xsd:double ,
+                                                                 "217.11"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#MS14
 <https://w3id.org/def/foo#MS14> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "11.83"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "11.83"^^xsd:double ,
                                                                    "13.26"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "53.1"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "53.1"^^xsd:double ,
                                                                 "59.82"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "MS14" ;
-                                <https://w3id.org/def/foo#InorganicP> "22.84"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "MS14" ;
+                                <https://w3id.org/def/foo#inorganicP> "22.84"^^xsd:double ,
                                                                       "4.82"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                <https://w3id.org/def/foo#PlotName> "Seraya" ;
-                                <https://w3id.org/def/foo#Sand> "22.63"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "Seraya" ;
+                                <https://w3id.org/def/foo#sand> "22.63"^^xsd:double ,
                                                                 "25.62"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "17.55"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "17.55"^^xsd:double ,
                                                                 "21.28"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "Maliau Basin Conservation Area" ;
-                                <https://w3id.org/def/foo#SoilPH> "3.79"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "Maliau Basin Conservation Area" ;
+                                <https://w3id.org/def/foo#soilPH> "3.79"^^xsd:double ,
                                                                   "3.83"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "14" ;
-                                <https://w3id.org/def/foo#TotalC> "1.07"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "14" ;
+                                <https://w3id.org/def/foo#totalC> "1.07"^^xsd:double ,
                                                                   "4.08"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.08"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.08"^^xsd:double ,
                                                                   "0.35"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "150.97"^^xsd:double ,
-                                                                  "233.89"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "150.97"^^xsd:double ,
+                                                                  "233.89"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#MS15
 <https://w3id.org/def/foo#MS15> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "12.23"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "12.23"^^xsd:double ,
                                                                    "14.19"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "50.42"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "50.42"^^xsd:double ,
                                                                 "54.48"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "MS15" ;
-                                <https://w3id.org/def/foo#InorganicP> "21.46"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "MS15" ;
+                                <https://w3id.org/def/foo#inorganicP> "21.46"^^xsd:double ,
                                                                       "5.65"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                <https://w3id.org/def/foo#PlotName> "Seraya" ;
-                                <https://w3id.org/def/foo#Sand> "24.49"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "Seraya" ;
+                                <https://w3id.org/def/foo#sand> "24.49"^^xsd:double ,
                                                                 "24.64"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "21.04"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "21.04"^^xsd:double ,
                                                                 "24.94"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "Maliau Basin Conservation Area" ;
-                                <https://w3id.org/def/foo#SoilPH> "3.82"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "15" ;
-                                <https://w3id.org/def/foo#TotalC> "1.05"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "Maliau Basin Conservation Area" ;
+                                <https://w3id.org/def/foo#soilPH> "3.82"^^xsd:double ;
+                                <https://w3id.org/def/foo#subplot> "15" ;
+                                <https://w3id.org/def/foo#totalC> "1.05"^^xsd:double ,
                                                                   "3.71"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.07"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.07"^^xsd:double ,
                                                                   "0.3"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "127.95"^^xsd:double ,
-                                                                  "214.8"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "127.95"^^xsd:double ,
+                                                                  "214.8"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#MS18
 <https://w3id.org/def/foo#MS18> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "11.84"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "11.84"^^xsd:double ,
                                                                    "14.39"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "54.34"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "54.34"^^xsd:double ,
                                                                 "54.64"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "MS18" ;
-                                <https://w3id.org/def/foo#InorganicP> "20.52"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "MS18" ;
+                                <https://w3id.org/def/foo#inorganicP> "20.52"^^xsd:double ,
                                                                       "6.57"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                <https://w3id.org/def/foo#PlotName> "Seraya" ;
-                                <https://w3id.org/def/foo#Sand> "25.1"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "Seraya" ;
+                                <https://w3id.org/def/foo#sand> "25.1"^^xsd:double ,
                                                                 "26.82"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "18.84"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "18.84"^^xsd:double ,
                                                                 "20.25"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "Maliau Basin Conservation Area" ;
-                                <https://w3id.org/def/foo#SoilPH> "3.64"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "Maliau Basin Conservation Area" ;
+                                <https://w3id.org/def/foo#soilPH> "3.64"^^xsd:double ,
                                                                   "3.82"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "18" ;
-                                <https://w3id.org/def/foo#TotalC> "1.26"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "18" ;
+                                <https://w3id.org/def/foo#totalC> "1.26"^^xsd:double ,
                                                                   "3.73"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.09"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.09"^^xsd:double ,
                                                                   "0.31"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "146.93"^^xsd:double ,
-                                                                  "235.99"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "146.93"^^xsd:double ,
+                                                                  "235.99"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#MS25
 <https://w3id.org/def/foo#MS25> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "12.41"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "12.41"^^xsd:double ,
                                                                    "15.1"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "57.61"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "57.61"^^xsd:double ,
                                                                 "62.27"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "MS25" ;
-                                <https://w3id.org/def/foo#InorganicP> "17.16"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "MS25" ;
+                                <https://w3id.org/def/foo#inorganicP> "17.16"^^xsd:double ,
                                                                       "6.64"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                                <https://w3id.org/def/foo#PlotName> "Seraya" ;
-                                <https://w3id.org/def/foo#Sand> "20.69"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "Seraya" ;
+                                <https://w3id.org/def/foo#sand> "20.69"^^xsd:double ,
                                                                 "24.65"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "17.04"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "17.04"^^xsd:double ,
                                                                 "17.74"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "Maliau Basin Conservation Area" ;
-                                <https://w3id.org/def/foo#SoilPH> "3.78"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "Maliau Basin Conservation Area" ;
+                                <https://w3id.org/def/foo#soilPH> "3.78"^^xsd:double ,
                                                                   "3.92"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "25" ;
-                                <https://w3id.org/def/foo#TotalC> "1.34"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "25" ;
+                                <https://w3id.org/def/foo#totalC> "1.34"^^xsd:double ,
                                                                   "3.6"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.09"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.09"^^xsd:double ,
                                                                   "0.29"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "142.68"^^xsd:double ,
-                                                                  "190.08"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "142.68"^^xsd:double ,
+                                                                  "190.08"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#MS3
 <https://w3id.org/def/foo#MS3> rdf:type owl:NamedIndividual ,
-                                        <https://w3id.org/def/foo#Observation> ;
-                               <https://w3id.org/def/foo#CNRatio> "11.26"^^xsd:double ,
+                                        <https://w3id.org/def/foo#soilObservation> ;
+                               <https://w3id.org/def/foo#cNRatio> "11.26"^^xsd:double ,
                                                                   "11.77"^^xsd:double ;
-                               <https://w3id.org/def/foo#Clay> "58.9"^^xsd:double ,
+                               <https://w3id.org/def/foo#clay> "58.9"^^xsd:double ,
                                                                "58.96"^^xsd:double ;
-                               <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                               <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                   "Organic" ;
-                               <https://w3id.org/def/foo#ID> "MS3" ;
-                               <https://w3id.org/def/foo#InorganicP> "15.88"^^xsd:double ,
+                               <https://w3id.org/def/foo#id> "MS3" ;
+                               <https://w3id.org/def/foo#inorganicP> "15.88"^^xsd:double ,
                                                                      "5.44"^^xsd:double ;
-                               <https://w3id.org/def/foo#LandUse> "Unlogged" ;
-                               <https://w3id.org/def/foo#PlotName> "Seraya" ;
-                               <https://w3id.org/def/foo#Sand> "23.87"^^xsd:double ,
+                               <https://w3id.org/def/foo#landUse> "Unlogged" ;
+                               <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                               <https://w3id.org/def/foo#plotName> "Seraya" ;
+                               <https://w3id.org/def/foo#sand> "23.87"^^xsd:double ,
                                                                "25.71"^^xsd:double ;
-                               <https://w3id.org/def/foo#Silt> "15.39"^^xsd:double ,
+                               <https://w3id.org/def/foo#silt> "15.39"^^xsd:double ,
                                                                "17.17"^^xsd:double ;
-                               <https://w3id.org/def/foo#Site> "Maliau Basin Conservation Area" ;
-                               <https://w3id.org/def/foo#SoilPH> "4.36"^^xsd:double ,
+                               <https://w3id.org/def/foo#site> "Maliau Basin Conservation Area" ;
+                               <https://w3id.org/def/foo#soilPH> "4.36"^^xsd:double ,
                                                                  "5.47"^^xsd:double ;
-                               <https://w3id.org/def/foo#Subplot> "3" ;
-                               <https://w3id.org/def/foo#TotalC> "1.06"^^xsd:double ,
+                               <https://w3id.org/def/foo#subplot> "3" ;
+                               <https://w3id.org/def/foo#totalC> "1.06"^^xsd:double ,
                                                                  "3.31"^^xsd:double ;
-                               <https://w3id.org/def/foo#TotalN> "0.09"^^xsd:double ,
+                               <https://w3id.org/def/foo#totalN> "0.09"^^xsd:double ,
                                                                  "0.28"^^xsd:double ;
-                               <https://w3id.org/def/foo#TotalP> "191.45"^^xsd:double ,
-                                                                 "293.09"^^xsd:double ;
-                               <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                               <https://w3id.org/def/foo#totalP> "191.45"^^xsd:double ,
+                                                                 "293.09"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SBN12
 <https://w3id.org/def/foo#SBN12> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "12.28"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "12.28"^^xsd:double ,
                                                                     "25.37"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "59.27"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "59.27"^^xsd:double ,
                                                                  "62.73"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "SBN12" ;
-                                 <https://w3id.org/def/foo#InorganicP> "15.82"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "SBN12" ;
+                                 <https://w3id.org/def/foo#inorganicP> "15.82"^^xsd:double ,
                                                                        "7.78"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                 <https://w3id.org/def/foo#PlotName> "B North" ;
-                                 <https://w3id.org/def/foo#Sand> "25.83"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Logged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "B North" ;
+                                 <https://w3id.org/def/foo#sand> "25.83"^^xsd:double ,
                                                                  "28.65"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "11.45"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "11.45"^^xsd:double ,
                                                                  "12.08"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                 <https://w3id.org/def/foo#SoilPH> "3.68"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                 <https://w3id.org/def/foo#soilPH> "3.68"^^xsd:double ,
                                                                    "3.87"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "12" ;
-                                 <https://w3id.org/def/foo#TotalC> "1.51"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "12" ;
+                                 <https://w3id.org/def/foo#totalC> "1.51"^^xsd:double ,
                                                                    "5.01"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.06"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.06"^^xsd:double ,
                                                                    "0.41"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "112.55"^^xsd:double ,
-                                                                   "177.79"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "112.55"^^xsd:double ,
+                                                                   "177.79"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SBN18
 <https://w3id.org/def/foo#SBN18> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "14.6"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "14.6"^^xsd:double ,
                                                                     "21.71"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "56.11"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "56.11"^^xsd:double ,
                                                                  "57.13"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "SBN18" ;
-                                 <https://w3id.org/def/foo#InorganicP> "15.42"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "SBN18" ;
+                                 <https://w3id.org/def/foo#inorganicP> "15.42"^^xsd:double ,
                                                                        "6.36"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                 <https://w3id.org/def/foo#PlotName> "B North" ;
-                                 <https://w3id.org/def/foo#Sand> "26.45"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Logged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "B North" ;
+                                 <https://w3id.org/def/foo#sand> "26.45"^^xsd:double ,
                                                                  "27.54"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "16.34"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "16.34"^^xsd:double ,
                                                                  "16.43"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                 <https://w3id.org/def/foo#SoilPH> "3.85"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                 <https://w3id.org/def/foo#soilPH> "3.85"^^xsd:double ,
                                                                    "3.92"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "18" ;
-                                 <https://w3id.org/def/foo#TotalC> "1.43"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "18" ;
+                                 <https://w3id.org/def/foo#totalC> "1.43"^^xsd:double ,
                                                                    "4.87"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.07"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.07"^^xsd:double ,
                                                                    "0.33"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "131.36"^^xsd:double ,
-                                                                   "203.57"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "131.36"^^xsd:double ,
+                                                                   "203.57"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SBN22
 <https://w3id.org/def/foo#SBN22> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "15.22"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "15.22"^^xsd:double ,
                                                                     "23.88"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "59.82"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "59.82"^^xsd:double ,
                                                                  "62.92"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "SBN22" ;
-                                 <https://w3id.org/def/foo#InorganicP> "15.42"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "SBN22" ;
+                                 <https://w3id.org/def/foo#inorganicP> "15.42"^^xsd:double ,
                                                                        "6.23"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                 <https://w3id.org/def/foo#PlotName> "B North" ;
-                                 <https://w3id.org/def/foo#Sand> "22.39"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Logged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "B North" ;
+                                 <https://w3id.org/def/foo#sand> "22.39"^^xsd:double ,
                                                                  "23.39"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "14.69"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "14.69"^^xsd:double ,
                                                                  "16.79"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                 <https://w3id.org/def/foo#SoilPH> "4.28"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                 <https://w3id.org/def/foo#soilPH> "4.28"^^xsd:double ,
                                                                    "5.08"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "22" ;
-                                 <https://w3id.org/def/foo#TotalC> "1.11"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "22" ;
+                                 <https://w3id.org/def/foo#totalC> "1.11"^^xsd:double ,
                                                                    "4.16"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.05"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.05"^^xsd:double ,
                                                                    "0.27"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "124.71"^^xsd:double ,
-                                                                   "186.13"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "124.71"^^xsd:double ,
+                                                                   "186.13"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SBN24
 <https://w3id.org/def/foo#SBN24> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "13.2"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "13.2"^^xsd:double ,
                                                                     "19.09"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "49.49"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "49.49"^^xsd:double ,
                                                                  "51.62"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "SBN24" ;
-                                 <https://w3id.org/def/foo#InorganicP> "14.06"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "SBN24" ;
+                                 <https://w3id.org/def/foo#inorganicP> "14.06"^^xsd:double ,
                                                                        "7.73"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                 <https://w3id.org/def/foo#PlotName> "B North" ;
-                                 <https://w3id.org/def/foo#Sand> "31.29"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Logged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "B North" ;
+                                 <https://w3id.org/def/foo#sand> "31.29"^^xsd:double ,
                                                                  "32.45"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "17.09"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "17.09"^^xsd:double ,
                                                                  "18.06"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                 <https://w3id.org/def/foo#SoilPH> "4.03"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                 <https://w3id.org/def/foo#soilPH> "4.03"^^xsd:double ,
                                                                    "4.51"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "24" ;
-                                 <https://w3id.org/def/foo#TotalC> "1.82"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "24" ;
+                                 <https://w3id.org/def/foo#totalC> "1.82"^^xsd:double ,
                                                                    "4.43"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.1"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.1"^^xsd:double ,
                                                                    "0.34"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "193.91"^^xsd:double ,
-                                                                   "255.25"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "193.91"^^xsd:double ,
+                                                                   "255.25"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SBN25
 <https://w3id.org/def/foo#SBN25> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "14.13"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "14.13"^^xsd:double ,
                                                                     "19.7"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "45.05"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "45.05"^^xsd:double ,
                                                                  "49.13"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "SBN25" ;
-                                 <https://w3id.org/def/foo#InorganicP> "3.71"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "SBN25" ;
+                                 <https://w3id.org/def/foo#inorganicP> "3.71"^^xsd:double ,
                                                                        "9.07"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                 <https://w3id.org/def/foo#PlotName> "B North" ;
-                                 <https://w3id.org/def/foo#Sand> "32.37"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Logged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "B North" ;
+                                 <https://w3id.org/def/foo#sand> "32.37"^^xsd:double ,
                                                                  "34.2"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "18.5"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "18.5"^^xsd:double ,
                                                                  "20.75"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                 <https://w3id.org/def/foo#SoilPH> "4.02"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                 <https://w3id.org/def/foo#soilPH> "4.02"^^xsd:double ,
                                                                    "4.16"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "25" ;
-                                 <https://w3id.org/def/foo#TotalC> "1.51"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "25" ;
+                                 <https://w3id.org/def/foo#totalC> "1.51"^^xsd:double ,
                                                                    "4.18"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.08"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.08"^^xsd:double ,
                                                                    "0.3"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "148.75"^^xsd:double ,
-                                                                   "214.82"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "148.75"^^xsd:double ,
+                                                                   "214.82"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SBS1
 <https://w3id.org/def/foo#SBS1> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "10.79"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "10.79"^^xsd:double ,
                                                                    "12.74"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "54.04"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "54.04"^^xsd:double ,
                                                                 "56.56"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "SBS1" ;
-                                <https://w3id.org/def/foo#InorganicP> "23.12"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "SBS1" ;
+                                <https://w3id.org/def/foo#inorganicP> "23.12"^^xsd:double ,
                                                                       "7.65"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                <https://w3id.org/def/foo#PlotName> "B South" ;
-                                <https://w3id.org/def/foo#Sand> "24.43"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Logged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "B South" ;
+                                <https://w3id.org/def/foo#sand> "24.43"^^xsd:double ,
                                                                 "24.5"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "19.0"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "19.0"^^xsd:double ,
                                                                 "21.45"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                <https://w3id.org/def/foo#SoilPH> "4.0"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                <https://w3id.org/def/foo#soilPH> "4.0"^^xsd:double ,
                                                                   "5.06"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "1" ;
-                                <https://w3id.org/def/foo#TotalC> "2.0"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "1" ;
+                                <https://w3id.org/def/foo#totalC> "2.0"^^xsd:double ,
                                                                   "4.51"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.19"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.19"^^xsd:double ,
                                                                   "0.35"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "236.89"^^xsd:double ,
-                                                                  "279.42"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "236.89"^^xsd:double ,
+                                                                  "279.42"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SBS15
 <https://w3id.org/def/foo#SBS15> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "13.96"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "13.96"^^xsd:double ,
                                                                     "18.67"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "59.24"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "59.24"^^xsd:double ,
                                                                  "60.86"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "SBS15" ;
-                                 <https://w3id.org/def/foo#InorganicP> "12.86"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "SBS15" ;
+                                 <https://w3id.org/def/foo#inorganicP> "12.86"^^xsd:double ,
                                                                        "4.38"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                 <https://w3id.org/def/foo#PlotName> "B South" ;
-                                 <https://w3id.org/def/foo#Sand> "26.13"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Logged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "B South" ;
+                                 <https://w3id.org/def/foo#sand> "26.13"^^xsd:double ,
                                                                  "26.96"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "13.01"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "13.01"^^xsd:double ,
                                                                  "13.8"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                 <https://w3id.org/def/foo#SoilPH> "4.29"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                 <https://w3id.org/def/foo#soilPH> "4.29"^^xsd:double ,
                                                                    "5.54"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "15" ;
-                                 <https://w3id.org/def/foo#TotalC> "2.01"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "15" ;
+                                 <https://w3id.org/def/foo#totalC> "2.01"^^xsd:double ,
                                                                    "7.62"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.11"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.11"^^xsd:double ,
                                                                    "0.55"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "224.65"^^xsd:double ,
-                                                                   "313.31"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "224.65"^^xsd:double ,
+                                                                   "313.31"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SBS18
 <https://w3id.org/def/foo#SBS18> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "13.02"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "13.02"^^xsd:double ,
                                                                     "25.58"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "56.21"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "56.21"^^xsd:double ,
                                                                  "56.66"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "SBS18" ;
-                                 <https://w3id.org/def/foo#InorganicP> "32.83"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "SBS18" ;
+                                 <https://w3id.org/def/foo#inorganicP> "32.83"^^xsd:double ,
                                                                        "9.61"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                 <https://w3id.org/def/foo#PlotName> "B South" ;
-                                 <https://w3id.org/def/foo#Sand> "25.01"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Logged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "B South" ;
+                                 <https://w3id.org/def/foo#sand> "25.01"^^xsd:double ,
                                                                  "29.02"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "14.77"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "14.77"^^xsd:double ,
                                                                  "18.33"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                 <https://w3id.org/def/foo#SoilPH> "4.91"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                 <https://w3id.org/def/foo#soilPH> "4.91"^^xsd:double ,
                                                                    "5.98"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "18" ;
-                                 <https://w3id.org/def/foo#TotalC> "1.49"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "18" ;
+                                 <https://w3id.org/def/foo#totalC> "1.49"^^xsd:double ,
                                                                    "4.42"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.06"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.06"^^xsd:double ,
                                                                    "0.34"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "177.81"^^xsd:double ,
-                                                                   "337.99"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "177.81"^^xsd:double ,
+                                                                   "337.99"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SBS19
 <https://w3id.org/def/foo#SBS19> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "12.37"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "12.37"^^xsd:double ,
                                                                     "18.47"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "39.51"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "39.51"^^xsd:double ,
                                                                  "45.26"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "SBS19" ;
-                                 <https://w3id.org/def/foo#InorganicP> "21.68"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "SBS19" ;
+                                 <https://w3id.org/def/foo#inorganicP> "21.68"^^xsd:double ,
                                                                        "7.08"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                 <https://w3id.org/def/foo#PlotName> "B South" ;
-                                 <https://w3id.org/def/foo#Sand> "28.04"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Logged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "B South" ;
+                                 <https://w3id.org/def/foo#sand> "28.04"^^xsd:double ,
                                                                  "34.78"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "25.71"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "25.71"^^xsd:double ,
                                                                  "26.7"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                 <https://w3id.org/def/foo#SoilPH> "3.99"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                 <https://w3id.org/def/foo#soilPH> "3.99"^^xsd:double ,
                                                                    "4.7"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "19" ;
-                                 <https://w3id.org/def/foo#TotalC> "1.54"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "19" ;
+                                 <https://w3id.org/def/foo#totalC> "1.54"^^xsd:double ,
                                                                    "4.59"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.08"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.08"^^xsd:double ,
                                                                    "0.37"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "156.53"^^xsd:double ,
-                                                                   "249.14"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "156.53"^^xsd:double ,
+                                                                   "249.14"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SBS6
 <https://w3id.org/def/foo#SBS6> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "11.87"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "11.87"^^xsd:double ,
                                                                    "9.17"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "48.7"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "48.7"^^xsd:double ,
                                                                 "56.5"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "SBS6" ;
-                                <https://w3id.org/def/foo#InorganicP> "24.69"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "SBS6" ;
+                                <https://w3id.org/def/foo#inorganicP> "24.69"^^xsd:double ,
                                                                       "8.88"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                <https://w3id.org/def/foo#PlotName> "B South" ;
-                                <https://w3id.org/def/foo#Sand> "27.8"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Logged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "B South" ;
+                                <https://w3id.org/def/foo#sand> "27.8"^^xsd:double ,
                                                                 "35.03"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "15.7"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "15.7"^^xsd:double ,
                                                                 "16.27"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                <https://w3id.org/def/foo#SoilPH> "3.85"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                <https://w3id.org/def/foo#soilPH> "3.85"^^xsd:double ,
                                                                   "5.88"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "6" ;
-                                <https://w3id.org/def/foo#TotalC> "1.74"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "6" ;
+                                <https://w3id.org/def/foo#totalC> "1.74"^^xsd:double ,
                                                                   "4.63"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.19"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.19"^^xsd:double ,
                                                                   "0.39"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "200.14"^^xsd:double ,
-                                                                  "331.69"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "200.14"^^xsd:double ,
+                                                                  "331.69"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SE12
 <https://w3id.org/def/foo#SE12> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "12.18"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "12.18"^^xsd:double ,
                                                                    "23.74"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "71.6"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "71.6"^^xsd:double ,
                                                                 "75.56"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "SE12" ;
-                                <https://w3id.org/def/foo#InorganicP> "23.48"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "SE12" ;
+                                <https://w3id.org/def/foo#inorganicP> "23.48"^^xsd:double ,
                                                                       "9.32"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                <https://w3id.org/def/foo#PlotName> "E" ;
-                                <https://w3id.org/def/foo#Sand> "16.15"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Logged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "E" ;
+                                <https://w3id.org/def/foo#sand> "16.15"^^xsd:double ,
                                                                 "20.14"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "8.26"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "8.26"^^xsd:double ,
                                                                 "8.28"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                <https://w3id.org/def/foo#SoilPH> "3.58"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                <https://w3id.org/def/foo#soilPH> "3.58"^^xsd:double ,
                                                                   "3.63"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "12" ;
-                                <https://w3id.org/def/foo#TotalC> "1.45"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "12" ;
+                                <https://w3id.org/def/foo#totalC> "1.45"^^xsd:double ,
                                                                   "3.79"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.06"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.06"^^xsd:double ,
                                                                   "0.31"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "126.02"^^xsd:double ,
-                                                                  "181.0"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "126.02"^^xsd:double ,
+                                                                  "181.0"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SE20
 <https://w3id.org/def/foo#SE20> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "16.01"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "16.01"^^xsd:double ,
                                                                    "27.5"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "73.9"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "73.9"^^xsd:double ,
                                                                 "76.47"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "SE20" ;
-                                <https://w3id.org/def/foo#InorganicP> "10.5"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "SE20" ;
+                                <https://w3id.org/def/foo#inorganicP> "10.5"^^xsd:double ,
                                                                       "19.66"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                <https://w3id.org/def/foo#PlotName> "E" ;
-                                <https://w3id.org/def/foo#Sand> "16.78"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Logged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "E" ;
+                                <https://w3id.org/def/foo#sand> "16.78"^^xsd:double ,
                                                                 "18.01"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "6.75"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "6.75"^^xsd:double ,
                                                                 "8.09"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                <https://w3id.org/def/foo#SoilPH> "3.51"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                <https://w3id.org/def/foo#soilPH> "3.51"^^xsd:double ,
                                                                   "3.68"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "20" ;
-                                <https://w3id.org/def/foo#TotalC> "1.7"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "20" ;
+                                <https://w3id.org/def/foo#totalC> "1.7"^^xsd:double ,
                                                                   "3.93"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.06"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.06"^^xsd:double ,
                                                                   "0.25"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "143.35"^^xsd:double ,
-                                                                  "98.69"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "143.35"^^xsd:double ,
+                                                                  "98.69"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SE24
 <https://w3id.org/def/foo#SE24> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "14.89"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "14.89"^^xsd:double ,
                                                                    "18.36"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "71.8"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "71.8"^^xsd:double ,
                                                                 "72.4"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "SE24" ;
-                                <https://w3id.org/def/foo#InorganicP> "15.54"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "SE24" ;
+                                <https://w3id.org/def/foo#inorganicP> "15.54"^^xsd:double ,
                                                                       "8.94"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                <https://w3id.org/def/foo#PlotName> "E" ;
-                                <https://w3id.org/def/foo#Sand> "19.43"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Logged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "E" ;
+                                <https://w3id.org/def/foo#sand> "19.43"^^xsd:double ,
                                                                 "20.7"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "6.9"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "6.9"^^xsd:double ,
                                                                 "8.77"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                <https://w3id.org/def/foo#SoilPH> "3.63"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                <https://w3id.org/def/foo#soilPH> "3.63"^^xsd:double ,
                                                                   "3.7"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "24" ;
-                                <https://w3id.org/def/foo#TotalC> "1.32"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "24" ;
+                                <https://w3id.org/def/foo#totalC> "1.32"^^xsd:double ,
                                                                   "3.65"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.07"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.07"^^xsd:double ,
                                                                   "0.25"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "100.74"^^xsd:double ,
-                                                                  "134.15"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "100.74"^^xsd:double ,
+                                                                  "134.15"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SE3
 <https://w3id.org/def/foo#SE3> rdf:type owl:NamedIndividual ,
-                                        <https://w3id.org/def/foo#Observation> ;
-                               <https://w3id.org/def/foo#CNRatio> "13.91"^^xsd:double ,
+                                        <https://w3id.org/def/foo#soilObservation> ;
+                               <https://w3id.org/def/foo#cNRatio> "13.91"^^xsd:double ,
                                                                   "22.6"^^xsd:double ;
-                               <https://w3id.org/def/foo#Clay> "71.25"^^xsd:double ,
+                               <https://w3id.org/def/foo#clay> "71.25"^^xsd:double ,
                                                                "71.45"^^xsd:double ;
-                               <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                               <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                   "Organic" ;
-                               <https://w3id.org/def/foo#ID> "SE3" ;
-                               <https://w3id.org/def/foo#InorganicP> "10.86"^^xsd:double ,
+                               <https://w3id.org/def/foo#id> "SE3" ;
+                               <https://w3id.org/def/foo#inorganicP> "10.86"^^xsd:double ,
                                                                      "22.63"^^xsd:double ;
-                               <https://w3id.org/def/foo#LandUse> "Logged" ;
-                               <https://w3id.org/def/foo#PlotName> "E" ;
-                               <https://w3id.org/def/foo#Sand> "18.07"^^xsd:double ,
+                               <https://w3id.org/def/foo#landUse> "Logged" ;
+                               <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                               <https://w3id.org/def/foo#plotName> "E" ;
+                               <https://w3id.org/def/foo#sand> "18.07"^^xsd:double ,
                                                                "20.25"^^xsd:double ;
-                               <https://w3id.org/def/foo#Silt> "10.68"^^xsd:double ,
+                               <https://w3id.org/def/foo#silt> "10.68"^^xsd:double ,
                                                                "8.3"^^xsd:double ;
-                               <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                               <https://w3id.org/def/foo#SoilPH> "3.75"^^xsd:double ,
+                               <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                               <https://w3id.org/def/foo#soilPH> "3.75"^^xsd:double ,
                                                                  "3.87"^^xsd:double ;
-                               <https://w3id.org/def/foo#Subplot> "3" ;
-                               <https://w3id.org/def/foo#TotalC> "1.36"^^xsd:double ,
+                               <https://w3id.org/def/foo#subplot> "3" ;
+                               <https://w3id.org/def/foo#totalC> "1.36"^^xsd:double ,
                                                                  "3.81"^^xsd:double ;
-                               <https://w3id.org/def/foo#TotalN> "0.06"^^xsd:double ,
+                               <https://w3id.org/def/foo#totalN> "0.06"^^xsd:double ,
                                                                  "0.27"^^xsd:double ;
-                               <https://w3id.org/def/foo#TotalP> "136.64"^^xsd:double ,
-                                                                 "172.22"^^xsd:double ;
-                               <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                               <https://w3id.org/def/foo#totalP> "136.64"^^xsd:double ,
+                                                                 "172.22"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SE6
 <https://w3id.org/def/foo#SE6> rdf:type owl:NamedIndividual ,
-                                        <https://w3id.org/def/foo#Observation> ;
-                               <https://w3id.org/def/foo#CNRatio> "12.42"^^xsd:double ,
+                                        <https://w3id.org/def/foo#soilObservation> ;
+                               <https://w3id.org/def/foo#cNRatio> "12.42"^^xsd:double ,
                                                                   "21.48"^^xsd:double ;
-                               <https://w3id.org/def/foo#Clay> "69.8"^^xsd:double ,
+                               <https://w3id.org/def/foo#clay> "69.8"^^xsd:double ,
                                                                "71.04"^^xsd:double ;
-                               <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                               <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                   "Organic" ;
-                               <https://w3id.org/def/foo#ID> "SE6" ;
-                               <https://w3id.org/def/foo#InorganicP> "23.52"^^xsd:double ,
+                               <https://w3id.org/def/foo#id> "SE6" ;
+                               <https://w3id.org/def/foo#inorganicP> "23.52"^^xsd:double ,
                                                                      "9.94"^^xsd:double ;
-                               <https://w3id.org/def/foo#LandUse> "Logged" ;
-                               <https://w3id.org/def/foo#PlotName> "E" ;
-                               <https://w3id.org/def/foo#Sand> "18.54"^^xsd:double ,
+                               <https://w3id.org/def/foo#landUse> "Logged" ;
+                               <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                               <https://w3id.org/def/foo#plotName> "E" ;
+                               <https://w3id.org/def/foo#sand> "18.54"^^xsd:double ,
                                                                "19.27"^^xsd:double ;
-                               <https://w3id.org/def/foo#Silt> "11.66"^^xsd:double ,
+                               <https://w3id.org/def/foo#silt> "11.66"^^xsd:double ,
                                                                "9.69"^^xsd:double ;
-                               <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                               <https://w3id.org/def/foo#SoilPH> "3.68"^^xsd:double ,
+                               <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                               <https://w3id.org/def/foo#soilPH> "3.68"^^xsd:double ,
                                                                  "3.85"^^xsd:double ;
-                               <https://w3id.org/def/foo#Subplot> "6" ;
-                               <https://w3id.org/def/foo#TotalC> "1.63"^^xsd:double ,
+                               <https://w3id.org/def/foo#subplot> "6" ;
+                               <https://w3id.org/def/foo#totalC> "1.63"^^xsd:double ,
                                                                  "3.22"^^xsd:double ;
-                               <https://w3id.org/def/foo#TotalN> "0.08"^^xsd:double ,
+                               <https://w3id.org/def/foo#totalN> "0.08"^^xsd:double ,
                                                                  "0.26"^^xsd:double ;
-                               <https://w3id.org/def/foo#TotalP> "147.19"^^xsd:double ,
-                                                                 "189.62"^^xsd:double ;
-                               <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                               <https://w3id.org/def/foo#totalP> "147.19"^^xsd:double ,
+                                                                 "189.62"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SLF12
 <https://w3id.org/def/foo#SLF12> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "17.73"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "17.73"^^xsd:double ,
                                                                     "26.86"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "59.59"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "59.59"^^xsd:double ,
                                                                  "61.81"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "SLF12" ;
-                                 <https://w3id.org/def/foo#InorganicP> "14.02"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "SLF12" ;
+                                 <https://w3id.org/def/foo#inorganicP> "14.02"^^xsd:double ,
                                                                        "44.63"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                 <https://w3id.org/def/foo#PlotName> "LF" ;
-                                 <https://w3id.org/def/foo#Sand> "11.1"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Logged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "LF" ;
+                                 <https://w3id.org/def/foo#sand> "11.1"^^xsd:double ,
                                                                  "13.29"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "27.09"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "27.09"^^xsd:double ,
                                                                  "27.12"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                 <https://w3id.org/def/foo#SoilPH> "3.24"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                 <https://w3id.org/def/foo#soilPH> "3.24"^^xsd:double ,
                                                                    "3.37"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "12" ;
-                                 <https://w3id.org/def/foo#TotalC> "1.55"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "12" ;
+                                 <https://w3id.org/def/foo#totalC> "1.55"^^xsd:double ,
                                                                    "8.03"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.06"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.06"^^xsd:double ,
                                                                    "0.45"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "181.59"^^xsd:double ,
-                                                                   "85.47"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "181.59"^^xsd:double ,
+                                                                   "85.47"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SLF13
 <https://w3id.org/def/foo#SLF13> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "19.29"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "19.29"^^xsd:double ,
                                                                     "31.13"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "60.01"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "60.01"^^xsd:double ,
                                                                  "61.25"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "SLF13" ;
-                                 <https://w3id.org/def/foo#InorganicP> "16.14"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "SLF13" ;
+                                 <https://w3id.org/def/foo#inorganicP> "16.14"^^xsd:double ,
                                                                        "57.86"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                 <https://w3id.org/def/foo#PlotName> "LF" ;
-                                 <https://w3id.org/def/foo#Sand> "11.75"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Logged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "LF" ;
+                                 <https://w3id.org/def/foo#sand> "11.75"^^xsd:double ,
                                                                  "12.61"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "27.0"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "27.0"^^xsd:double ,
                                                                  "27.38"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                 <https://w3id.org/def/foo#SoilPH> "3.14"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                 <https://w3id.org/def/foo#soilPH> "3.14"^^xsd:double ,
                                                                    "3.42"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "13" ;
-                                 <https://w3id.org/def/foo#TotalC> "1.85"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "13" ;
+                                 <https://w3id.org/def/foo#totalC> "1.85"^^xsd:double ,
                                                                    "12.42"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.06"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.06"^^xsd:double ,
                                                                    "0.64"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "295.85"^^xsd:double ,
-                                                                   "95.7"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "295.85"^^xsd:double ,
+                                                                   "95.7"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SLF24
 <https://w3id.org/def/foo#SLF24> rdf:type owl:NamedIndividual ,
-                                          <https://w3id.org/def/foo#Observation> ;
-                                 <https://w3id.org/def/foo#CNRatio> "17.25"^^xsd:double ,
+                                          <https://w3id.org/def/foo#soilObservation> ;
+                                 <https://w3id.org/def/foo#cNRatio> "17.25"^^xsd:double ,
                                                                     "28.46"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Clay> "58.3"^^xsd:double ,
+                                 <https://w3id.org/def/foo#clay> "58.3"^^xsd:double ,
                                                                  "64.37"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                 <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                     "Organic" ;
-                                 <https://w3id.org/def/foo#ID> "SLF24" ;
-                                 <https://w3id.org/def/foo#InorganicP> "21.89"^^xsd:double ,
+                                 <https://w3id.org/def/foo#id> "SLF24" ;
+                                 <https://w3id.org/def/foo#inorganicP> "21.89"^^xsd:double ,
                                                                        "7.81"^^xsd:double ;
-                                 <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                 <https://w3id.org/def/foo#PlotName> "LF" ;
-                                 <https://w3id.org/def/foo#Sand> "17.39"^^xsd:double ,
+                                 <https://w3id.org/def/foo#landUse> "Logged" ;
+                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                 <https://w3id.org/def/foo#plotName> "LF" ;
+                                 <https://w3id.org/def/foo#sand> "17.39"^^xsd:double ,
                                                                  "23.8"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Silt> "17.9"^^xsd:double ,
+                                 <https://w3id.org/def/foo#silt> "17.9"^^xsd:double ,
                                                                  "18.24"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                 <https://w3id.org/def/foo#SoilPH> "3.44"^^xsd:double ,
+                                 <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                 <https://w3id.org/def/foo#soilPH> "3.44"^^xsd:double ,
                                                                    "3.71"^^xsd:double ;
-                                 <https://w3id.org/def/foo#Subplot> "24" ;
-                                 <https://w3id.org/def/foo#TotalC> "1.89"^^xsd:double ,
+                                 <https://w3id.org/def/foo#subplot> "24" ;
+                                 <https://w3id.org/def/foo#totalC> "1.89"^^xsd:double ,
                                                                    "5.39"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalN> "0.07"^^xsd:double ,
+                                 <https://w3id.org/def/foo#totalN> "0.07"^^xsd:double ,
                                                                    "0.31"^^xsd:double ;
-                                 <https://w3id.org/def/foo#TotalP> "126.09"^^xsd:double ,
-                                                                   "197.75"^^xsd:double ;
-                                 <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                 <https://w3id.org/def/foo#totalP> "126.09"^^xsd:double ,
+                                                                   "197.75"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SLF4
 <https://w3id.org/def/foo#SLF4> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "18.16"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "18.16"^^xsd:double ,
                                                                    "36.8"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "67.69"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "67.69"^^xsd:double ,
                                                                 "75.24"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "SLF4" ;
-                                <https://w3id.org/def/foo#InorganicP> "16.97"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "SLF4" ;
+                                <https://w3id.org/def/foo#inorganicP> "16.97"^^xsd:double ,
                                                                       "76.44"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                <https://w3id.org/def/foo#PlotName> "LF" ;
-                                <https://w3id.org/def/foo#Sand> "12.82"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Logged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "LF" ;
+                                <https://w3id.org/def/foo#sand> "12.82"^^xsd:double ,
                                                                 "7.55"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "17.21"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "17.21"^^xsd:double ,
                                                                 "19.49"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                <https://w3id.org/def/foo#SoilPH> "3.27"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                <https://w3id.org/def/foo#soilPH> "3.27"^^xsd:double ,
                                                                   "3.73"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "4" ;
-                                <https://w3id.org/def/foo#TotalC> "2.4"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "4" ;
+                                <https://w3id.org/def/foo#totalC> "2.4"^^xsd:double ,
                                                                   "9.92"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.07"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.07"^^xsd:double ,
                                                                   "0.55"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "236.12"^^xsd:double ,
-                                                                  "71.88"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "236.12"^^xsd:double ,
+                                                                  "71.88"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SLF7
 <https://w3id.org/def/foo#SLF7> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "19.3"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "19.3"^^xsd:double ,
                                                                    "30.95"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "64.58"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "64.58"^^xsd:double ,
                                                                 "74.49"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "SLF7" ;
-                                <https://w3id.org/def/foo#InorganicP> "12.7"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "SLF7" ;
+                                <https://w3id.org/def/foo#inorganicP> "12.7"^^xsd:double ,
                                                                       "65.13"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Logged" ;
-                                <https://w3id.org/def/foo#PlotName> "LF" ;
-                                <https://w3id.org/def/foo#Sand> "8.5"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Logged" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "LF" ;
+                                <https://w3id.org/def/foo#sand> "8.5"^^xsd:double ,
                                                                 "9.64"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "17.0"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "17.0"^^xsd:double ,
                                                                 "25.78"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                <https://w3id.org/def/foo#SoilPH> "3.47"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                <https://w3id.org/def/foo#soilPH> "3.47"^^xsd:double ,
                                                                   "4.23"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "7" ;
-                                <https://w3id.org/def/foo#TotalC> "1.77"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "7" ;
+                                <https://w3id.org/def/foo#totalC> "1.77"^^xsd:double ,
                                                                   "13.6"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.06"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.06"^^xsd:double ,
                                                                   "0.7"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "283.72"^^xsd:double ,
-                                                                  "52.62"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "283.72"^^xsd:double ,
+                                                                  "52.62"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SOP1
 <https://w3id.org/def/foo#SOP1> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "13.15"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "13.15"^^xsd:double ,
                                                                    "9.69"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "34.26"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "34.26"^^xsd:double ,
                                                                 "41.84"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "SOP1" ;
-                                <https://w3id.org/def/foo#InorganicP> "211.61"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "SOP1" ;
+                                <https://w3id.org/def/foo#inorganicP> "211.61"^^xsd:double ,
                                                                       "23.94"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Oil Palm" ;
-                                <https://w3id.org/def/foo#PlotName> "OP" ;
-                                <https://w3id.org/def/foo#Sand> "30.95"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Oil Palm" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "OP" ;
+                                <https://w3id.org/def/foo#sand> "30.95"^^xsd:double ,
                                                                 "31.97"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "27.21"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "27.21"^^xsd:double ,
                                                                 "33.78"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                <https://w3id.org/def/foo#SoilPH> "4.21"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                <https://w3id.org/def/foo#soilPH> "4.21"^^xsd:double ,
                                                                   "4.46"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "1" ;
-                                <https://w3id.org/def/foo#TotalC> "0.69"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "1" ;
+                                <https://w3id.org/def/foo#totalC> "0.69"^^xsd:double ,
                                                                   "1.98"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.05"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.05"^^xsd:double ,
                                                                   "0.2"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "262.66"^^xsd:double ,
-                                                                  "667.0"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "262.66"^^xsd:double ,
+                                                                  "667.0"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SOP2
 <https://w3id.org/def/foo#SOP2> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "12.37"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "12.37"^^xsd:double ,
                                                                    "14.77"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "29.77"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "29.77"^^xsd:double ,
                                                                 "30.9"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "SOP2" ;
-                                <https://w3id.org/def/foo#InorganicP> "107.33"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "SOP2" ;
+                                <https://w3id.org/def/foo#inorganicP> "107.33"^^xsd:double ,
                                                                       "737.97"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Oil Palm" ;
-                                <https://w3id.org/def/foo#PlotName> "OP" ;
-                                <https://w3id.org/def/foo#Sand> "29.19"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Oil Palm" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "OP" ;
+                                <https://w3id.org/def/foo#sand> "29.19"^^xsd:double ,
                                                                 "32.54"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "36.56"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "36.56"^^xsd:double ,
                                                                 "41.04"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                <https://w3id.org/def/foo#SoilPH> "4.72"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                <https://w3id.org/def/foo#soilPH> "4.72"^^xsd:double ,
                                                                   "5.68"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "2" ;
-                                <https://w3id.org/def/foo#TotalC> "1.07"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "2" ;
+                                <https://w3id.org/def/foo#totalC> "1.07"^^xsd:double ,
                                                                   "3.89"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.07"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.07"^^xsd:double ,
                                                                   "0.31"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "2034.02"^^xsd:double ,
-                                                                  "516.02"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "2034.02"^^xsd:double ,
+                                                                  "516.02"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SOP6
 <https://w3id.org/def/foo#SOP6> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "10.87"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "10.87"^^xsd:double ,
                                                                    "13.87"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "29.53"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "29.53"^^xsd:double ,
                                                                 "32.39"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "SOP6" ;
-                                <https://w3id.org/def/foo#InorganicP> "73.79"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "SOP6" ;
+                                <https://w3id.org/def/foo#inorganicP> "73.79"^^xsd:double ,
                                                                       "780.79"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Oil Palm" ;
-                                <https://w3id.org/def/foo#PlotName> "OP" ;
-                                <https://w3id.org/def/foo#Sand> "34.28"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Oil Palm" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "OP" ;
+                                <https://w3id.org/def/foo#sand> "34.28"^^xsd:double ,
                                                                 "37.97"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "32.5"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "32.5"^^xsd:double ,
                                                                 "33.33"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                <https://w3id.org/def/foo#SoilPH> "4.63"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                <https://w3id.org/def/foo#soilPH> "4.63"^^xsd:double ,
                                                                   "5.43"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "6" ;
-                                <https://w3id.org/def/foo#TotalC> "1.0"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "6" ;
+                                <https://w3id.org/def/foo#totalC> "1.0"^^xsd:double ,
                                                                   "3.37"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.07"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.07"^^xsd:double ,
                                                                   "0.31"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "2440.86"^^xsd:double ,
-                                                                  "547.63"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "2440.86"^^xsd:double ,
+                                                                  "547.63"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SOP8
 <https://w3id.org/def/foo#SOP8> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "12.18"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "12.18"^^xsd:double ,
                                                                    "12.5"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "26.67"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "26.67"^^xsd:double ,
                                                                 "29.37"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "SOP8" ;
-                                <https://w3id.org/def/foo#InorganicP> "172.55"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "SOP8" ;
+                                <https://w3id.org/def/foo#inorganicP> "172.55"^^xsd:double ,
                                                                       "4.5"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Oil Palm" ;
-                                <https://w3id.org/def/foo#PlotName> "OP" ;
-                                <https://w3id.org/def/foo#Sand> "35.87"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Oil Palm" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "OP" ;
+                                <https://w3id.org/def/foo#sand> "35.87"^^xsd:double ,
                                                                 "37.32"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "34.76"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "34.76"^^xsd:double ,
                                                                 "36.01"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                <https://w3id.org/def/foo#SoilPH> "4.45"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                <https://w3id.org/def/foo#soilPH> "4.45"^^xsd:double ,
                                                                   "5.27"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "8" ;
-                                <https://w3id.org/def/foo#TotalC> "0.65"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "8" ;
+                                <https://w3id.org/def/foo#totalC> "0.65"^^xsd:double ,
                                                                   "3.86"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.05"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.05"^^xsd:double ,
                                                                   "0.31"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "215.0"^^xsd:double ,
-                                                                  "960.06"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "215.0"^^xsd:double ,
+                                                                  "960.06"^^xsd:double .
 
 
 ###  https://w3id.org/def/foo#SOP9
 <https://w3id.org/def/foo#SOP9> rdf:type owl:NamedIndividual ,
-                                         <https://w3id.org/def/foo#Observation> ;
-                                <https://w3id.org/def/foo#CNRatio> "15.01"^^xsd:double ,
+                                         <https://w3id.org/def/foo#soilObservation> ;
+                                <https://w3id.org/def/foo#cNRatio> "15.01"^^xsd:double ,
                                                                    "19.27"^^xsd:double ;
-                                <https://w3id.org/def/foo#Clay> "26.82"^^xsd:double ,
+                                <https://w3id.org/def/foo#clay> "26.82"^^xsd:double ,
                                                                 "33.38"^^xsd:double ;
-                                <https://w3id.org/def/foo#Horizon> "Mineral" ,
+                                <https://w3id.org/def/foo#horizon> "Mineral" ,
                                                                    "Organic" ;
-                                <https://w3id.org/def/foo#ID> "SOP9" ;
-                                <https://w3id.org/def/foo#InorganicP> "226.6"^^xsd:double ,
+                                <https://w3id.org/def/foo#id> "SOP9" ;
+                                <https://w3id.org/def/foo#inorganicP> "226.6"^^xsd:double ,
                                                                       "773.31"^^xsd:double ;
-                                <https://w3id.org/def/foo#LandUse> "Oil Palm" ;
-                                <https://w3id.org/def/foo#PlotName> "OP" ;
-                                <https://w3id.org/def/foo#Sand> "32.58"^^xsd:double ,
+                                <https://w3id.org/def/foo#landUse> "Oil Palm" ;
+                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#soilSensor> ;
+                                <https://w3id.org/def/foo#plotName> "OP" ;
+                                <https://w3id.org/def/foo#sand> "32.58"^^xsd:double ,
                                                                 "32.61"^^xsd:double ;
-                                <https://w3id.org/def/foo#Silt> "34.05"^^xsd:double ,
+                                <https://w3id.org/def/foo#silt> "34.05"^^xsd:double ,
                                                                 "40.57"^^xsd:double ;
-                                <https://w3id.org/def/foo#Site> "SAFE Project - Kalabakan Forest Reserve" ;
-                                <https://w3id.org/def/foo#SoilPH> "4.63"^^xsd:double ,
+                                <https://w3id.org/def/foo#site> "SAFE Project - Kalabakan Forest Reserve" ;
+                                <https://w3id.org/def/foo#soilPH> "4.63"^^xsd:double ,
                                                                   "5.72"^^xsd:double ;
-                                <https://w3id.org/def/foo#Subplot> "9" ;
-                                <https://w3id.org/def/foo#TotalC> "0.9"^^xsd:double ,
+                                <https://w3id.org/def/foo#subplot> "9" ;
+                                <https://w3id.org/def/foo#totalC> "0.9"^^xsd:double ,
                                                                   "5.33"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalN> "0.05"^^xsd:double ,
+                                <https://w3id.org/def/foo#totalN> "0.05"^^xsd:double ,
                                                                   "0.36"^^xsd:double ;
-                                <https://w3id.org/def/foo#TotalP> "2100.38"^^xsd:double ,
-                                                                  "713.9"^^xsd:double ;
-                                <https://w3id.org/def/foo#madeBySensor> <https://w3id.org/def/foo#SoilSensor> .
+                                <https://w3id.org/def/foo#totalP> "2100.38"^^xsd:double ,
+                                                                  "713.9"^^xsd:double .
 
 
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
